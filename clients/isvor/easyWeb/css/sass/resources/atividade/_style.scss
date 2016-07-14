@@ -1,0 +1,124 @@
+.resource .atividade .alternativa_atividade ul {
+  margin: 0px;
+  list-style: none;
+   font-weight: normal;
+
+   li{
+   	// padding:0;
+   }
+}
+
+
+.resource .atividade .enviaResposta strong {
+display: block;
+padding: 9px;
+text-align: center;
+font-size: 14px;
+font-weight: bold;
+}
+
+
+.enviaResposta{
+	width: 199px;
+	position: absolute;
+  bottom: 0;
+  right: 0;
+	height: 34px;
+	background: #962414;
+	cursor:pointer;
+
+
+}
+
+.caixaResposta{
+	
+	background: #fff;
+	  max-width: 500px;
+	width:100%;
+
+	box-shadow:0px 0px 0px 5000px rgba(0,0,0,.5);
+
+	z-index:9999;
+	
+	h2{
+		display: block;
+		text-align: left;
+		  font-size: 24px;
+		    margin-bottom: 20px;
+	}
+
+	.contentFeed{
+		margin-left: 150px;
+ 		margin-top: 70px;
+  		margin-right: 40px;
+  	  	  margin-bottom: 120px;
+  	  	color: #444;
+	}
+
+	.textoFeed{
+		  font-size: 16px;
+	}
+
+}
+
+.caixaResposta.respostaErrada{
+
+	&:before{
+		  background: url(assets/images/ISVOR01_errrado.png);
+		  content: '';
+		  height: 111px;
+		  width: 94px;
+		  position: absolute;
+		  left: 30px;
+		    top: 85px;
+	}
+	
+
+}
+
+
+
+.caixaResposta.respostaCerta{
+
+	&:before{
+		  background: url(assets/images/ISVOR01_certo.png);
+		  content: '';
+		  height: 111px;
+		  width: 94px;
+		  position: absolute;
+		  left: 30px;
+		  top: 106px;
+	}
+	
+
+}
+
+.btnFechar{
+	background: #962414;
+	cursor: pointer;
+
+	  height: 38px;
+  width: 30px;
+		&:before{
+				  content: "X";
+			  position: relative;
+			  left: 6px;
+			  font-size: 28px;
+			  color: #ffffff;
+			  font-family: Helvetica;
+			}
+		&:hover{
+				background: #a13a2c;
+			}
+}
+
+.serverMsg{
+	padding-top: 40px;
+	color: $corSecundaria;
+}
+
+.checkOnDiv{
+	// display:block;
+	// padding: 15px 30px 15px 70px;
+ //  	cursor: pointer;
+}

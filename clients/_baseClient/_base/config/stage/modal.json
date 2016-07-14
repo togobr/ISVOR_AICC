@@ -1,0 +1,241 @@
+{
+	"resources": [{
+			"active": true,
+			"template": "texto",
+			"label": "Caixa de Texto",
+			"icon": "H"
+		},
+
+		{
+			"active": true,
+			"template": "caixaDestaque",
+			"label": "Caixa Destaque",
+			"icon": "I"
+		},
+
+		{
+			"active": false,
+			"template": "gaveta",
+			"label": "Gaveta de Conteúdo",
+			"icon": "e"
+		},
+
+		{
+			"active": false,
+			"template": "personagem",
+			"label": "Personagem",
+			"icon": "h"
+		},
+
+		{
+			"active": true,
+			"template": "imagem",
+			"label": "Imagem",
+			"icon": "J"
+		},
+
+		{
+			"active": true,
+			"template": "video",
+			"label": "Video",
+			"icon": "K"
+		},
+
+		{
+			"active": true,
+			"template": "multimedia",
+			"label": "Multimedia",
+			"icon": "M"
+		},
+
+		{
+			"active": true,
+			"template": "audio",
+			"label": "Audio",
+			"icon": "L"
+		},
+
+		{
+			"active": true,
+			"template": "atividade",
+			"label": "Atividade",
+			"icon": "_"
+		}
+	],
+
+	"slideTools": {
+		"buttons": {
+			"Pointer": {
+				"title": "Selecionar",
+				"icon": "O",
+				"active": true,
+				"selected": true
+			},
+
+			"Pan": {
+				"title": "Arrastar",
+				"icon": "P",
+				"active": false,
+				"hidden": true
+			},
+
+			"Undo": {
+				"title": "Voltar",
+				"icon": "Q",
+				"active": true
+			},
+
+			"Redo": {
+				"title": "Avançar",
+				"icon": "R",
+				"active": true
+			},
+
+			"Timeline": {
+				"title": "Timeline",
+				"icon": "S",
+				"active": true,
+				"selected": true
+			},
+
+			"Grid": {
+				"title": "Grid ON/OFF",
+				"icon": "T",
+				"active": true,
+				"selected": true
+			},
+
+			"Pattern": {
+				"title": "Padrão ON/OFF",
+				"icon": "U",
+				"active": false,
+				"hidden": true
+			},
+
+			"Preview": {
+				"title": "Visualizar",
+				"icon": "V",
+				"active": true
+			},
+
+			"BgSlide": {
+				"title": "Alterar Fundo",
+				"icon": "W",
+				"active": false,
+				"hidden": true
+			},
+
+			"SaveTemplate": {
+				"title": "Salvar template",
+				"icon": "X",
+				"active": false,
+				"hidden": true
+			}
+		}
+
+	},
+
+	"canvas": {
+		"ppPequeno": {
+			"dimensions": {
+				"width": 536,
+				"height": 265
+			},
+			"grid": [{
+				"orientation": "v",
+				"position": 0
+			}, {
+				"orientation": "v",
+				"position": 20
+			}, {
+				"orientation": "v",
+				"position": 260
+			}, {
+				"orientation": "v",
+				"position": 276
+			}, {
+				"orientation": "v",
+				"position": 516
+			}, {
+				"orientation": "v",
+				"position": 536
+			}, {
+				"orientation": "h",
+				"position": 20
+			}, {
+				"orientation": "h",
+				"position": 245
+			}]
+		},
+
+		"ppMedio": {
+			"dimensions": {
+				"width": 740,
+				"height": 365
+			},
+			"grid": [{
+				"orientation": "v",
+				"position": 0
+			}, {
+				"orientation": "v",
+				"position": 20
+			}, {
+				"orientation": "v",
+				"position": 390
+			}, {
+				"orientation": "v",
+				"position": 406
+			}, {
+				"orientation": "v",
+				"position": 720
+			}, {
+				"orientation": "v",
+				"position": 740
+			}, {
+				"orientation": "h",
+				"position": 20
+			}, {
+				"orientation": "h",
+				"position": 345
+			}]
+		},
+
+		"ppGrande": {
+			"dimensions": {
+				"width": 885,
+				"height": 440
+			},
+			"grid": [{
+				"orientation": "v",
+				"position": 0
+			}, {
+				"orientation": "v",
+				"position": 20
+			}, {
+				"orientation": "v",
+				"position": 291
+			}, {
+				"orientation": "v",
+				"position": 307
+			}, {
+				"orientation": "v",
+				"position": 578
+			}, {
+				"orientation": "v",
+				"position": 594
+			}, {
+				"orientation": "v",
+				"position": 865
+			}, {
+				"orientation": "v",
+				"position": 885
+			}, {
+				"orientation": "h",
+				"position": 20
+			}, {
+				"orientation": "h",
+				"position": 420
+			}]
+		},
+	}
+}

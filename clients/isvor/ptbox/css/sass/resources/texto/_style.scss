@@ -1,0 +1,95 @@
+$caixa_largura: 582px; // 582px para duas colunas. 302px para uma coluna.
+
+.resource .texto{
+	@include border-radius(0px);
+	@include box-shadow($x1:0px, $x2:0px, $x3:2px, $intensidade: 0.2);
+	border: 1px solid #E0E0DF;
+	width: $caixa_largura;
+	color: #272727;
+}
+
+//------------------------ NORMAL ------------------------
+
+.normal{
+
+}
+
+.normal.comFundo{
+	background: #ffffff;
+}
+
+.normal.semFundo{
+	background: none;
+	border: none;
+	box-shadow: none;
+	padding: 0;
+}
+
+//------------------------ TÍTULO ------------------------
+
+.titulo{
+	background: none;
+    border: none;
+    box-shadow: none;
+	//Conteúdo encontra-se no base.css
+}
+
+.titulo.primario{
+	//Conteúdo encontra-se no base.css
+}
+
+.titulo.secundario{
+	//Conteúdo encontra-se no base.css
+}
+
+
+//------------------------ BALAO ------------------------
+
+.balao{
+	background: #ffffff;
+	$balao_pontaAltura: 20%;
+	&:after{
+		content: '';
+		position: absolute;
+		border-style: solid;
+		border-color: transparent #FFFFFF;
+		display: block;
+		width: 0;
+		z-index: 1;
+		bottom: $balao_pontaAltura;
+	}
+	&:before{
+		content: '';
+		position: absolute;
+		border-style: solid;
+		border-color: transparent #CACACA;
+		display: block;
+		width: 0;
+		z-index: 0;
+		bottom: $balao_pontaAltura;
+	}
+}
+
+.balao.right{
+	@extend .balao;
+	&:after{
+		border-width: 12px 0 12px 11px;
+		right: -10px;
+	}
+	&:before{
+		border-width: 12px 0 12px 11px;
+		right: -11px;
+	}
+}
+
+.balao.left{
+	@extend .balao;
+	&:after{
+		border-width: 12px 11px 12px 0;
+		left: -11px;
+	}
+	&:before{
+		border-width: 12px 11px 12px 0;
+		left: -12px;
+	}
+}

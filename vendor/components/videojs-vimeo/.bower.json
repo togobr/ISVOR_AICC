@@ -1,0 +1,13 @@
+{
+  "name": "videojs-vimeo",
+  "homepage": "https://github.com/eXon/videojs-vimeo",
+  "_release": "22ae327598",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "22ae327598671b7122d8055b924c4e4091bcd7d7"
+  },
+  "_source": "https://github.com/eXon/videojs-vimeo.git",
+  "_target": "*",
+  "_originalSource": "https://github.com/eXon/videojs-vimeo.git"
+}

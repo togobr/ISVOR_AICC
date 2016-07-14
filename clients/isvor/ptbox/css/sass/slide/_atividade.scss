@@ -1,0 +1,238 @@
+@import "../_estiloPadrao.scss"; 
+
+$atividade_largura: 581px;
+
+.atividade{
+	@include box-shadow($x1:0px, $x2:0px, $x3:2px, $intensidade: 0.2);
+	border: 1px solid #E0E0DF;
+	position: absolute;
+	top: 12%;
+	left: 20%;
+	width: $atividade_largura;
+	background: #f3f3f0;
+}
+
+.pergunta_atividade{
+	padding: 20px 30px 20px 30px;
+	background: $baseColor;
+	color: #FFFFFF;
+	border-bottom: 4px solid $auxColor; 
+	.tagP{
+		font-size: 14px;
+		margin: 0px;
+	}
+}
+
+.alternativa_atividade{
+	padding: 0px;
+	ul{
+		margin-top: 0px;
+		padding-left: 0px;
+		li{
+			list-style-type: none;
+			border-bottom: 1px solid #e1e1df;
+			.checkOnDiv{
+				position: relative;
+				cursor: pointer;
+				display:block;
+				height: 100%;
+				padding: 10px 20px 10px 20px;
+				.tagP{
+					display: inline;
+					cursor: pointer;
+				}
+				input[type='checkbox'] {
+					width: 25px;
+					height: 25px;
+					color: $baseColor;
+					&:after{
+						content: "";
+						position: absolute;
+						height: 25px;
+						width: 25px;
+						@include border-radius(3px);
+						border: 2px solid $baseColor;
+					}
+					&:checked:after + .chkOrRadio{
+						width: 50px;
+						height: 50px;
+					}
+				}
+				input[type='radio'] {
+					width: 25px;
+					height: 25px;
+					margin: 3px 5px 0;
+					&:after{
+						content: "";
+						position: absolute;
+						height: 25px;
+						width: 25px;
+						@include border-radius(50%);
+						border: 2px solid $baseColor;
+					}
+					&:checked:before{
+						content: "";
+						position: absolute;
+						top: 19px;
+						left: 31px;
+						background: #461e6e;
+						height: 13px;
+						width: 13px;
+						@include border-radius(50%);
+						border: none
+					}
+				}
+			}
+			.checkOnDiv.selected{
+				background: $auxColor;
+			}
+		}
+		li.certo{
+			.checkOnDiv{
+				&:after{
+					content: "";
+					position: absolute;
+					left: 0px;
+					top: 0px;
+					height: 100%;
+					width: 5px;
+					background: #1e6e31;
+					z-index: 10;
+				}
+			}
+			
+		}
+		li.errado{
+			@extend li.certo;
+			.checkOnDiv{
+				&:after{
+					background: #b71616;
+				}
+			}
+		}
+	}
+}
+
+.enviaResposta{
+	@include box-shadow($x1:0px, $x2:0px, $x3:2px, $intensidade: 0.2);
+	position: relative;
+	width: 215px;
+	left: 50%;
+	margin-left: -107.5px;
+	background: $baseColorLighten2;
+	color: #ffffff;
+	border-top: 4px solid $auxColor;
+	height: 44px;
+	cursor: pointer;
+	margin:{
+		right: 10px;
+		bottom: 10px;
+	}
+	&:hover{
+		background: $baseColorLighten2;
+	}
+	&:active{
+		background: $baseColorDarken;
+	}
+}
+
+.enviaResposta.desativado{
+	background: #9b9a9a;
+	border-top: 4px solid #707070;
+	cursor:auto;
+	&:hover{
+		background: #9b9a9a;
+	}
+	&:active{
+		background: #9b9a9a;
+	}
+}
+
+//------------- CAIXA RESPOSTA (FEEDBACk) --------------------
+
+.caixaResposta{
+	width: 365px;
+	height: 170px;
+	background: #fffff9;
+	padding-left: 65px;
+	z-index: 10000;
+	margin-left: -30px;
+	h2{
+		font-size: 24px;
+	}
+}
+
+.respostaCerta{
+	border-left: 15px solid #1e6e31;
+	h2{
+		color: #1e6e31;
+		font-weight: normal;
+	}
+	&:after{
+		content: "";
+		position: absolute;
+		top: 54px;
+		left: 40px;
+		height: 57px;
+		width: 59px;
+		z-index: 10;
+		background: $pastaIconPadrao no-repeat 2px 0px;
+	}
+}
+
+.respostaErrada{
+	border-left: 15px solid #a51313;
+	h2{
+		color: #a51313;
+		font-weight: normal;
+	}
+	&:after{
+		content: "";
+		position: absolute;
+		top: 54px;
+		left: 40px;
+		height: 57px;
+		width: 59px;
+		background: $pastaIconPadrao no-repeat 2px -62px;
+		z-index: 10;
+	}
+}
+
+.serverMsg{
+	font-size: 10px;
+	bottom: 10px;
+	left: 10px;
+	display: none;
+	padding: 10px;
+}
+
+
+.btnFechar{
+	@include border-radius(50%);
+	border: 0px;
+	position: absolute;
+	height: 28px;
+	width: 28px;
+	padding: 2px;
+	cursor: pointer;
+	right: 10px;
+	top: 10px;
+	padding: 0px;
+	background: #ffffff;
+	color: $baseColor;
+	z-index: 1;
+	.icon-fechar{
+		position: absolute;
+		left: -1px;
+		top: -1px;
+		font-size: 30px;
+	}
+	&:hover{
+		color: $baseColor;
+		background: $baseColorLighten;
+	}
+	&:active{
+		color: #ffffff;
+		background: $baseColorDarken;
+	}
+}

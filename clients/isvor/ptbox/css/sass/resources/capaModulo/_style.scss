@@ -1,0 +1,58 @@
+
+
+
+.capaModuloBack{
+	background: #5a160c;
+	width: 100%;
+	height: 650px;
+	border-top: 10px solid #4b4c4c;
+
+
+		.imgPrincipalModulo{
+			position: absolute;
+			left: 60px;
+			width: 300px;
+			-webkit-box-shadow: 6px 1px 5px 0px rgba(0,0,0,0.29);
+			-moz-box-shadow: 6px 1px 5px 0px rgba(0,0,0,0.29);
+			box-shadow: 6px 1px 5px 0px rgba(0,0,0,0.29);
+			z-index: 1;
+	}
+
+		.numeroModulo{
+			 position: absolute;
+			  left: 39.9%;
+			  top: 19%;
+			  width: 154px;
+			  height: 194px;
+	}
+
+		.textosCapaTopico{
+			position: absolute;
+			left: 61%;
+			top: 18%;
+			text-transform: uppercase;
+			font-weight: 500;
+			font-family: $fontePadrao;
+
+			.tituloModulo{
+				color: $textTitulosCapa;
+				font-size: 32px;
+				width: 80%;
+				font-family: $fontePadrao;
+				
+			}
+
+			.conteudoModulo{
+				color: $textTitulosCapa;
+				margin-top: 13px;
+				line-height: 20px;
+				position: relative;
+				font-family: $fontePadrao;
+				left: -9px;
+				font-size: 16px;
+				font-weight: normal;
+				
+			}
+		}
+}
+

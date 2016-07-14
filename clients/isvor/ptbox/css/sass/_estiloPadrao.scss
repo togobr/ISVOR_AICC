@@ -1,0 +1,46 @@
+@import "variaveis.scss";
+@import "../../../../_baseClient/_base/css/sass/mixins";
+
+@font-face {
+    font-family: 'VWHeadlineOTBook';
+    src: url('assets/fonts/VWHeadlineOT-Book.eot');
+    src: url('assets/fonts/VWHeadlineOT-Book.eot') format('embedded-opentype'),
+         url('assets/fonts/VWHeadlineOT-Book.ttf') format('truetype'),
+         url('assets/fonts/VWHeadlineOT-Book.svg#VWHeadlineOTBook') format('svg');
+}
+
+@font-face {
+    font-family: 'VWHeadlineOTSemibold';
+    src: url('assets/fonts/VWHeadlineOT-Semibold.eot');
+    src: url('assets/fonts/VWHeadlineOT-Semibold.eot') format('embedded-opentype'),
+         url('assets/fonts/VWHeadlineOT-Semibold.ttf') format('truetype'),
+         url('assets/fonts/VWHeadlineOT-Semibold.svg#VWHeadlineOT-Semibold') format('svg');
+}
+
+@font-face {
+    font-family: 'VWHeadlineOTBlack';
+    src: url('assets/fonts/VWHeadlineOT-Black.eot');
+    src: url('assets/fonts/VWHeadlineOT-Black.eot') format('embedded-opentype'),
+         url('assets/fonts/VWHeadlineOT-Black.ttf') format('truetype'),
+         url('assets/fonts/VWHeadlineOT-Black.svg#VWHeadlineOT-Black') format('svg');
+}
+
+
+$pastaIconPadrao: url('assets/images/sprite.png') no-repeat; // Importante saber
+
+
+$baseColorLighten: change-color($baseColor, $lightness: 60%, $saturation: 57%);
+
+$baseColorDisabled: #ede9f1;
+
+
+$amountDarken: 1%;
+$amountLighten: 10%;
+
+$laranjaVolks: #FF871F;
+$laranjaVolks-lighten: lighten($laranjaVolks, $amountLighten);
+$laranjaVolks-darken: darken($laranjaVolks, $amountDarken);
+
+$azulClaroVolks: #2274AC;
+$azulClaroVolks-lighten: lighten($azulClaroVolks, $amountLighten);
+$azulClaroVolks-darken: darken($azulClaroVolks, $amountDarken);

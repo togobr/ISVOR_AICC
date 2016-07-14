@@ -1,0 +1,31 @@
+<div style="{{style}}" id="{{_id}}" class="{{class}}">	
+		<div class="capturaModal" style="display:none;z-index:-999;">
+			<!-- <div class="fecharCaptura" title="Voltar ao Curso">Fechar</div> -->
+			<div class="barraInferiorCap"></div>
+			<div class="barraLateralCap"></div>
+			<div style="width:920px;height:609px;position:relative;">
+		<!-- <div style="position:absolute; z-index:1;">
+			<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="920" height="609">
+				<param name="movie" value="{{captura}}" />
+				<param name="quality" value="high" />
+				<param name="wmode" value="transparent">
+				<embed src="{{captura}}" quality="high" type="application/x-shockwave-flash" width="920" height="609" wmode="transparent" allowTransparency="true" pluginspage="http://www.macromedia.com/go/getflashplayer" />
+			</object>
+		</div> -->
+
+
+		<iframe  src="{{captura}}" style="height:98%;" frameborder="0"></iframe>
+		<div style="position:relative; z-index:2;">
+		</div>
+	</div>
+		</div>
+		<div class="tituloCaptura" style="{{tituloCapturaStyle}}">{{&title}}</div>
+		<div class="textoCaptura" style="{{textoCapturaStyle}}">{{&content}}</div>
+		<img class="imgCaptura" src="{{&imagem}}">
+		<div class="backgroundColor">
+		<div class="btnCaptura">
+				<div class="imagemBtnCaptura"></div>
+				<div class="textoBtnCaptura">{{&contentBtn}}</div>
+				<img class="checkBtn" src="css/assets/images/ISVOR01_icone_check.png" style="display:none">
+		</div>
+</div>

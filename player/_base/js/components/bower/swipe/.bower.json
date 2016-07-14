@@ -1,0 +1,23 @@
+{
+  "name": "Swipe",
+  "main": [
+    "./swipe.js"
+  ],
+  "author": "Brad Birdsall",
+  "license": "MIT",
+  "ignore": [
+    "**/*.html",
+    "**/*.css",
+    "Gruntfile.js"
+  ],
+  "homepage": "https://github.com/diogoreus/Swipe",
+  "_release": "af0c1ae4ff",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "af0c1ae4ff1ea0fda5e4b73c1913b06069c21acb"
+  },
+  "_source": "https://github.com/diogoreus/Swipe.git",
+  "_target": "*",
+  "_originalSource": "https://github.com/diogoreus/Swipe.git"
+}

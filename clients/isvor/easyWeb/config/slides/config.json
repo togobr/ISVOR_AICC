@@ -1,0 +1,79 @@
+{
+	"defaults": {
+		"name": "Novo slide",
+		"template": "slideSimples"
+	},
+
+	"slides": [
+		{
+			"template": "slideCapa",
+			"name": "Capa",
+			"thumbnail": "https://s3-sa-east-1.amazonaws.com/mobiliza/clients/neogrid/thumbP3/Neogrid_p3TemplateCapa.png",
+			"categories": [
+				"capa",
+				"slide"
+			]
+		},
+
+		{
+			"template": "slideFinal",
+			"name": "Slide Final",
+			"thumbnail": "https://s3-sa-east-1.amazonaws.com/mobiliza/clients/neogrid/thumbP3/Neogrid_p3TemplateFinal.png",
+			"categories": [
+				"final",
+				"slide"
+			]
+		},
+		{
+			"template": "templateVideo",
+			"name": "Template de Vídeo",
+			"thumbnail": "https://s3-sa-east-1.amazonaws.com/mobiliza/clients/neogrid/thumbP3/Neogrid_p3TemplateVideo.png",
+			"categories": [
+				"templates",
+				"template",
+				"templateVideo",
+				"Template de Vídeo",
+				"slide"
+			]
+		},
+
+		{
+			"template": "templateAtividade",
+			"name": "Template de Atividade",
+			"thumbnail": "https://s3-sa-east-1.amazonaws.com/mobiliza/clients/neogrid/thumbP3/Neogrid_p3TemplateAtividade.png",
+			"categories": [
+				"templates",
+				"template",
+				"templateAtividade",
+				"Template de Atividade",
+				"slide"
+			]
+		},
+
+		{
+			"template": "templateTexto",
+			"name": "Template de Texto",
+			"thumbnail": "https://s3-sa-east-1.amazonaws.com/mobiliza/clients/neogrid/thumbP3/Neogrid_p3TemplateTexto.png",
+			"categories": [
+				"templates",
+				"template",
+				"templateTexto",
+				"Template de Texto",
+				"slide"
+			]
+		},
+
+		{
+			"template": "templateAudio",
+			"name": "Template de Áudio",
+			"thumbnail": "https://s3-sa-east-1.amazonaws.com/mobiliza/clients/neogrid/thumbP3/Neogrid_p3TemplateAudio.png",
+			"categories": [
+				"templates",
+				"template",
+				"TemplateAudio",
+				"Template de Áudio",
+				"slide"
+			]
+		}
+	]
+}

@@ -1,0 +1,53 @@
+ .listaOrdenada{
+
+ ol{ 
+ 	counter-reset: item;
+ 
+        li { 
+        	display: block;
+        	font-family: $fontePadrao; 
+            font-weight:normal;
+            line-height: 22px;
+            font-size: 14px;
+            padding-top: 16px;
+			
+			&:before { 
+        	content: counter(item) ". "; 
+        	counter-increment: item;
+            color: #962414; 
+            font-family: $fontePadrao;
+            font-size: 18px;  
+            font-weight: bold; 
+            left: -5px;
+              }
+        }
+     }  
+}
+
+
+.listaCurso{
+
+ ul{ 
+ 	counter-reset: item;
+ 
+        li { 
+        	font-family: $fontePadrao; 
+        	display: block;
+        	line-height: 22px;
+            font-size: 14px;
+            padding-top: 16px;
+			
+			&:before { 
+        		content: '\25A0 ';  
+				counter-increment: item;
+				color: #962414;
+				font-size: 18px;
+				font-weight: bold;
+				position: relative;
+				top: -2px;
+				font-size: 13px;
+                left: -5px;
+              }
+        }
+     }  
+}

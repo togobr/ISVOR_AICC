@@ -1,0 +1,20 @@
+.tituloCaixaDestaque{
+	background: $corPredominante;
+
+	#cdTitle{
+		color: $textTitulosCapa;
+		margin-left: 16px;
+		font-family: $fontePadrao;
+	}
+}
+
+.textoCaixaDestaque{
+	border: 1px solid $corPredominante;
+	font-size: 14px ;
+}
+
+.resource .caixaDestaque .textoCaixaDestaque .tagP {
+	font-size: 14px;
+	font-family: $fontePadrao;
+	font-weight: normal;
+}

@@ -1,0 +1,11 @@
+{
+	"defaults": {
+		"title": "Final de Curso",
+		"content": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.",
+		"notaAluno": " <b>Você acertou <span class='notaFinalUsuario'></span>% das questões.</b> "
+	},
+	"resources": {
+		"allowed": [],
+		"insert": []
+	}
+}

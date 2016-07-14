@@ -1,0 +1,45 @@
+{
+	"defaults": {
+		"template": "video",
+		"styleObj": {
+			"position": "absolute",
+			"width": "455px",
+			"height": "256px",
+			"top": "36px",
+			"left": "37px"
+		},
+		"youtube": {
+			"active": false,
+			"id": "5WqO5u2at-A"
+		},
+		"vimeo": {
+			"active": false,
+			"id": "90602247"
+		},
+		"local": {
+			"active": true,
+			"src": "css/assets/video/big_buck_bunny.mp4",
+			"type": "video/mp4"
+
+		},
+		"web": {
+			"active": false,
+			"src": "",
+			"type": "video/mp4"
+		}
+		
+	},
+
+	"validators": [
+		"_template === video"
+	],
+
+	"editor": {
+		"restrictions": {
+			"width": true,
+			"height": true,
+			"top": true,
+			"left": true
+		}
+	}
+}

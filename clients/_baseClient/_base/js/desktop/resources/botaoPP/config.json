@@ -1,0 +1,40 @@
+{
+	"defaults": {
+		"template": "botaoPP",
+		"type": "btnRetangle",
+		"label": "Seu texto aqui",
+		"styleObj": {
+			"position": "absolute",
+			"top": "36px",
+			"left": "53px"
+		}
+	},
+
+	"modal": {
+		"defaults": {
+			"type": "ppGrande",
+			"name": "Teste Modal",
+			"styleObj": {
+				"height": "150px"
+			}
+		},
+
+		"dynamicContent": {
+			"entity": "slide",
+			"_id": null
+		}
+	},
+
+	"validators": [
+		"_template === botaoPP"
+	],
+
+	"editor": {
+		"restrictions": {
+			"width": false,
+			"height": false,
+			"top": true,
+			"left": true
+		}
+	}
+}

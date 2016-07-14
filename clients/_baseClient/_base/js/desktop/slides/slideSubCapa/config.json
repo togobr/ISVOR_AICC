@@ -1,0 +1,51 @@
+{
+	"resources": {
+		"allowed": [
+
+		],
+
+		"insert": [{
+			"template": "texto",
+			"class": "faixaSubCapa semFundo",
+			"content": "Subcapas são Slides Especiais que Trazem um Subtítulo da Secção de Conteúdo.",
+			"styleObj": {
+				"position": "relative",
+				"width": "inherit",
+				"top": "0px",
+				"left": "0px"
+			},
+			"normal": {
+				"subType": "",
+				"active": true
+			},
+			"balao": {
+				"subType": "left",
+				"active": false
+			},
+			"titulo": {
+				"subType": "primario",
+				"active": false
+			},
+			"order": 0,
+
+			"editor": {
+				"restrictions": {
+					"stateHandlers": {
+						"boundingBox": false,
+						"edition": {
+							"_all": false
+						}
+					},
+					"deletable": false,
+					"copyable": false,
+					"top": false,
+					"left": false,
+					"right": false,
+					"bottom": false,
+					"width": false,
+					"height": false
+				}
+			}
+		}]
+	}
+}

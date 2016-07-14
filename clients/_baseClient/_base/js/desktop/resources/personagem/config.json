@@ -1,0 +1,63 @@
+{
+	"defaults": {
+		"template": "personagem",
+		"src": "",
+		"styleObj": {
+			"position": "absolute",
+			"top": "40px",
+			"left": "50px",
+			"height": "320px",
+			"width": "135px"
+		}
+	},
+
+	"validators": [
+		"_template === personagem"
+	],
+
+	"character": [
+		{
+			"name": "Mario",
+			"position": [
+				"http://vignette2.wikia.nocookie.net/mushroom-kingdom-showdown/images/c/c0/Mario_sad.png/revision/latest?cb=20141017025014",
+				"http://fc08.deviantart.net/fs70/i/2014/121/5/0/mario_makes_a_tribute_to_bob_hoskins_by_super_marcos_96-d7grfhz.png",
+				"http://www.blognerdegeek.com/wordpress/wp-content/uploads/2011/06/super-mario-bros-PNG.png",
+				"http://vignette2.wikia.nocookie.net/fantendo/images/3/38/480px-Mario_%28victory%29_-_Super_Mario_64.png/revision/latest/scale-to-width/384?cb=20140101230337",
+				"http://vignette2.wikia.nocookie.net/mushroom-kingdom-showdown/images/c/c0/Mario_sad.png/revision/latest?cb=20141017025014",
+				"http://fc08.deviantart.net/fs70/i/2014/121/5/0/mario_makes_a_tribute_to_bob_hoskins_by_super_marcos_96-d7grfhz.png",
+				"http://www.blognerdegeek.com/wordpress/wp-content/uploads/2011/06/super-mario-bros-PNG.png",
+				"http://vignette2.wikia.nocookie.net/fantendo/images/3/38/480px-Mario_%28victory%29_-_Super_Mario_64.png/revision/latest/scale-to-width/384?cb=20140101230337",
+				"http://vignette2.wikia.nocookie.net/mushroom-kingdom-showdown/images/c/c0/Mario_sad.png/revision/latest?cb=20141017025014",
+				"http://fc08.deviantart.net/fs70/i/2014/121/5/0/mario_makes_a_tribute_to_bob_hoskins_by_super_marcos_96-d7grfhz.png",
+				"http://www.blognerdegeek.com/wordpress/wp-content/uploads/2011/06/super-mario-bros-PNG.png",
+				"http://vignette2.wikia.nocookie.net/fantendo/images/3/38/480px-Mario_%28victory%29_-_Super_Mario_64.png/revision/latest/scale-to-width/384?cb=20140101230337",
+				"http://vignette2.wikia.nocookie.net/mushroom-kingdom-showdown/images/c/c0/Mario_sad.png/revision/latest?cb=20141017025014",
+				"http://fc08.deviantart.net/fs70/i/2014/121/5/0/mario_makes_a_tribute_to_bob_hoskins_by_super_marcos_96-d7grfhz.png",
+				"http://www.blognerdegeek.com/wordpress/wp-content/uploads/2011/06/super-mario-bros-PNG.png",
+				"http://vignette2.wikia.nocookie.net/fantendo/images/3/38/480px-Mario_%28victory%29_-_Super_Mario_64.png/revision/latest/scale-to-width/384?cb=20140101230337",
+				"http://vignette2.wikia.nocookie.net/mushroom-kingdom-showdown/images/c/c0/Mario_sad.png/revision/latest?cb=20141017025014",
+				"http://fc08.deviantart.net/fs70/i/2014/121/5/0/mario_makes_a_tribute_to_bob_hoskins_by_super_marcos_96-d7grfhz.png",
+				"http://www.blognerdegeek.com/wordpress/wp-content/uploads/2011/06/super-mario-bros-PNG.png",
+				"http://vignette2.wikia.nocookie.net/fantendo/images/3/38/480px-Mario_%28victory%29_-_Super_Mario_64.png/revision/latest/scale-to-width/384?cb=20140101230337"
+			]
+		},
+
+		{
+			"name" : "Popeye",
+			"position" : [
+				"http://www.endofthreefitness.com/wp-content/uploads/2012/09/Popeye33.jpg",
+				"http://www.endofthreefitness.com/wp-content/uploads/2012/09/Popeye33.jpg"
+			]
+		}
+
+	],
+
+	"editor": {
+		"restrictions": {
+			"width": true,
+			"height": true,
+			"top": true,
+			"left": true
+		}
+	}
+}

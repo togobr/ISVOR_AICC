@@ -1,0 +1,395 @@
+{  
+
+   "_course_id":"546b6a16ad4130810c000007",
+   "hasContent":true,
+   "type":"Aula",
+   "name":"CANCELAMENTO DE NOTA FISCAL",
+   "_id":"546b6a2cad4130810c000009",
+   "updatedAt":"2014-11-18T15:47:58.164Z",
+   "courseName":"Sistema de Vendas Diretas",
+   "credito":"Créditos",
+   "titleCredito":"",
+   "contentCredito": "<span style='color: rgb(14, 59, 116);'>Gerência</span><br><b>Alejandro Gonzales</b><br><br><span style='color: rgb(14, 59, 116);'>Supervisão do Currículo</span><br><b>Rogério Machado</b>",
+   "numeroModuloTop": "4.",
+   "tituloMenu": "Menu - Indice",
+   "slides":[  
+
+
+      {  
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"CANCELAMENTO DE NOTA FISCAL",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+            {  
+              
+               "template":"capaModulo",
+               "order":1,
+               "imagemCapaModulo" : "css/assets/images/C14_SVD/C14_SVD_Capa_m04.png",
+               "imagemNumeroModulo": "css/assets/images/ISVOR01_img_modulo_04.png",
+               "tituloModuloCapa": "CANCELAMENTO DE NOTA FISCAL",
+               "content": "<ul><li>ACESSO</li><li>DADOS DOS VEÍCULOS</li><li>DADOS DOS VEÍCULOS</li><li>DADOS DA NOTA FISCAL DE DEVOLUÇÃO</li><li>TROCA DE PÁTIO</li><li>CONFIRMAÇÃO</li><li>ANEXAR UM ARQUIVO</li><li>PENDÊNCIAS</li><li>BUSCA</li></ul>"
+             
+            }
+       
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+     
+
+
+      {  
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Introdução",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+            
+
+
+          {  
+               "_id":"54b535ff6e98656c0d00000a",
+               "template":"multimedia",
+               "order":0,     
+               "styleObj":{  
+                  "left":"0px",
+                  "top":"-59px",
+                  "height":"600px",
+                  "width":"900px",
+                  "position":"absolute"
+               },
+               "src":"css/assets/images/C14_SVD/Capturas/C14_REC03_Cancelamento/index.html",
+               "_course_id":"546b6a16ad4130810c000007",
+               "slide":1,
+               "index":3,
+               "id":"multimedia1",
+               "class":"multimedia",
+               "style":"left:543px;top:225px;height:208px;width:283px;position:absolute;"
+            } 
+
+
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+
+      {  
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"ACESSO",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+             {  
+              
+               "template":"captura",
+               "order":1,
+               "captura": "css/assets/images/C14_SVD/Capturas/C14_M03_Cap01_Acesso.swf",
+               "title": "Acesso",
+               "tituloCapturaStyle": "left:42px; top:-20px; position:absolute;",
+               "textoCapturaStyle": "left:40px; top:120px; width:300px; position:absolute;",
+               "content": "A seguir, veja como acessar o Portal B2B para efetuar o cancelamento de uma nota fiscal.",
+               "imagem": "css/assets/images/C14_SVD/C14_SVD_captura14.png",
+               "contentBtn": "Clique aqui para iniciar a simulação"
+
+            }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+
+      {  
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Dados dos veículos",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+             {  
+              
+               "template":"captura",
+               "order":1,
+               "captura": "css/assets/images/C14_SVD/Capturas/C14_M03_Cap02_Dados_Veiculo.swf",
+               "title": "Dados do Veículo",
+               "tituloCapturaStyle": "left:42px; top:-20px; position:absolute;",
+               "textoCapturaStyle": "left:40px; top:120px; width:273px; position:absolute;",
+               "content": "A seguir, veja como inserir os dados do veículo para realizar a solicitação de cancelamento.",
+               "imagem": "css/assets/images/C14_SVD/C14_SVD_captura15.png",
+               "contentBtn": "Clique aqui para iniciar a simulação"
+
+            }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {  
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Dados da Nota Fiscal de Devolução",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+             {  
+              
+               "template":"captura",
+               "order":1,
+               "captura": "css/assets/images/C14_SVD/Capturas/C14_M03_Cap03_Dados_Devolucao.swf",
+               "title": "Dados da Nota Fiscal<br/>de Devolução",
+               "tituloCapturaStyle": "left:42px; top:-20px; position:absolute;",
+               "textoCapturaStyle": "left:40px; top:120px; width:273px; position:absolute;",
+               "content": "Veja como inserir os principais dados para o preenchimento da nota fiscal de devolução.",
+               "imagem": "css/assets/images/C14_SVD/C14_SVD_captura16.png",
+               "contentBtn": "Clique aqui para iniciar a simulação"
+
+            }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {  
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Refaturamento",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+             {  
+              
+               "template":"captura",
+               "order":1,
+               "captura": "css/assets/images/C14_SVD/Capturas/C14_M03_Cap04_Refaturamento.swf",
+               "title": "Refaturamento",
+               "tituloCapturaStyle": "left:42px; top:-20px; position:absolute;",
+               "textoCapturaStyle": "left:40px; top:120px; width:273px; position:absolute;",
+               "content": "Veja como preencher os dados para refaturamento do veículo.",
+               "imagem": "css/assets/images/C14_SVD/C14_SVD_captura17.png",
+               "contentBtn": "Clique aqui para iniciar a simulação"
+
+            }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {  
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Troca de pátio",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+             {  
+              
+               "template":"captura",
+               "order":1,
+               "captura": "css/assets/images/C14_SVD/Capturas/C14_M03_Cap05_Troca_patio.swf",
+               "title": "Troca de Pátio",
+               "tituloCapturaStyle": "left:42px; top:-20px; position:absolute;",
+               "textoCapturaStyle": "left:40px; top:120px; width:273px; position:absolute;",
+               "content": "Agora veja como preencher os dados de <b>Troca de Pátio.</b>",
+               "imagem": "css/assets/images/C14_SVD/C14_SVD_captura18.png",
+               "contentBtn": "Clique aqui para iniciar a simulação"
+
+            }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {  
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Confirmação",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+             {  
+              
+               "template":"captura",
+               "order":1,
+               "captura": "css/assets/images/C14_SVD/Capturas/.swf",
+               "title": "Confirmação",
+               "tituloCapturaStyle": "left:42px; top:-20px; position:absolute;",
+               "textoCapturaStyle": "left:40px; top:120px; width:273px; position:absolute;",
+               "content": "Se não houver erros, será gerado um número CEVE, e o seu cancelamento foi cadastrado com sucesso.",
+               "imagem": "css/assets/images/C14_SVD/C14_SVD_captura19.png",
+               "contentBtn": "Clique aqui para iniciar a simulação"
+
+            }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {  
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Anexar um arquivo",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+             {  
+              
+               "template":"captura",
+               "order":1,
+               "captura": "css/assets/images/C14_SVD/Capturas/.swf",
+               "title": "Anexar um arquivo",
+               "tituloCapturaStyle": "left:42px; top:-20px; position:absolute;",
+               "textoCapturaStyle": "left:40px; top:120px; width:273px; position:absolute;",
+               "content": "Veja como anexar arquivos ao processo de cancelamento de nota fiscal. ",
+               "imagem": "css/assets/images/C14_SVD/C14_SVD_captura20.png",
+               "contentBtn": "Clique aqui para iniciar a simulação"
+
+            }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {  
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Pendências",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+             {  
+              
+               "template":"captura",
+               "order":1,
+               "captura": "css/assets/images/C14_SVD/Capturas/.swf",
+               "title": "Pendências",
+               "tituloCapturaStyle": "left:42px; top:-20px; position:absolute;",
+               "textoCapturaStyle": "left:40px; top:120px; width:273px; position:absolute;",
+               "content": "Na simulação entenda como acessar e resolver pendências no sistema.",
+               "imagem": "css/assets/images/C14_SVD/C14_SVD_captura21.png",
+               "contentBtn": "Clique aqui para iniciar a simulação"
+
+            }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {  
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Busca",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+             {  
+              
+               "template":"captura",
+               "order":1,
+               "captura": "css/assets/images/C14_SVD/Capturas/.swf",
+               "title": "Busca",
+               "tituloCapturaStyle": "left:42px; top:-20px; position:absolute;",
+               "textoCapturaStyle": "left:40px; top:120px; width:273px; position:absolute;",
+               "content": "Por fim, veja como realizar buscas no sistema com o número CEVE.",
+               "imagem": "css/assets/images/C14_SVD/C14_SVD_captura22.png",
+               "contentBtn": "Clique aqui para iniciar a simulação"
+
+            }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+     
+
+      {  
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "ultimoModulo": true,
+         "name":"Conclusão",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+            {  
+              
+               "template":"telaFinal",
+               "ultimoModulo": true,
+               "imagem": "css/assets/images/icons/ISVOR01_icone_capa_fim.png",
+               "title": "Excelente!",
+               "content": "Você chegou ao final do curso <b>Conhecendo os sistemas de Vendas Diretas.</b><br/>Volte sempre que tiver alguma dúvida de acesso a esse sistema, ou quando quiser rever algum procedimento.<br/><br/><b>Bom trabalho!</b>",
+                "textoBt":"ACESSAR O PRÓXIMO MÓDULO"
+             
+            }
+       
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      }
+
+
+   ],
+
+   "index":null,
+   "id":null,
+   "styleObj":null
+}

@@ -1,0 +1,28 @@
+<!-- <div class="resourceEdition"> -->
+	<div id="recCharPicker" class="editionBlock bottom" data-position="left+10 top|right top">
+		<select class="selectChar">
+			{{#character}}
+				<option value="{{index}}" {{#selected}}selected="selected"{{/selected}}>{{name}}</option>
+			{{/character}}
+		</select>
+	
+		<!-- <div class="scrollPrev"></div> -->
+
+		<div class="mbBalloonOptions mbBalloonSubOptions">
+			{{#character}}
+			<div class="btn-group thumbs-character" id="character-{{index}}">
+				{{#position}}
+				<button value="{{value}}" type="button" class="btn btn-default">
+					<img src="{{.}}"/>
+				</button>
+				{{/position}}
+			</div>
+			{{/character}}
+		</div>
+	
+		<!-- <div class="scrollNext"></div> -->
+	</div>
+	<!-- Ocultado scrollPrev e scrollNext, pois foi inserido um scroll para visualizar as thumb das imagens. 
+		 A funcionalidade no javascript continua implementada caso precisar. -->
+<!-- </div> -->
+

@@ -1,0 +1,13 @@
+{
+  "name": "modal",
+  "homepage": "https://github.com/diogoreus/Modal",
+  "_release": "daed2399b7",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "daed2399b77fb43cc21b0d93f5b2e8ec5a9fc369"
+  },
+  "_source": "https://github.com/diogoreus/Modal.git",
+  "_target": "*",
+  "_originalSource": "https://github.com/diogoreus/Modal.git"
+}

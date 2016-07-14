@@ -1,0 +1,112 @@
+.resource  div.audio{
+	background: #e7e7e7;
+	border: 1px solid #b3b3b3;
+	min-width: 286px;
+	min-height: 33px;
+	.glyphicon{
+		display: none;
+	}
+
+	.video-js.vjs-error{
+		.vjs-control-bar{
+			display: none;
+		}
+	}
+
+	.video-js{
+		.vjs-big-play-button{
+			width: 1em;
+			height: 1em;
+			width: 1em;
+			height: 1em;
+			left: 50%;
+			bottom: 0px;
+			top: auto;
+			margin-left: -15px;
+			&:before{
+				font-size: 15px;
+				top: -1px;
+			}
+		}
+
+		.vjs-control-bar{
+			.vjs-mute-control, .vjs-fullscreen-control, .vjs-quality-button, .vjs-live-controls, .vjs-play-control{
+				width: 3em;
+			}
+		}
+	}	
+	
+	//desabilitando o hide do áudio, quando estiver tocando.
+
+	.vjs-default-skin.vjs-has-started.vjs-user-inactive.vjs-playing .vjs-control-bar {
+	  display: block;
+	  visibility: visible;
+	  opacity: 1;
+	}
+
+	.vjs-default-skin .vjs-control-bar {
+	  display: block;
+	}
+	
+	//desabilitar o play padrao do videojs, para aparecer os controles padrões.
+	.vjs-default-skin .vjs-big-play-button {
+	  display: none;
+	}
+
+}
+
+//para o editor
+.resource.noContent{
+	div.audio{
+		background: #e7e7e7;
+		border: 1px solid #b3b3b3;
+		.glyphicon{
+			display: block;
+			position: absolute;
+			font-size: 20px;
+			margin-left: -10px;
+			left: 50%;
+			top: 4px;
+		}
+		.video-js{
+			display: none;
+		}
+		.video-js,
+		.vjs-poster,
+		.vjs-text-track-display,
+		.vjs-loading-spinner,
+		.vjs-big-play-button,
+		.vjs-control-bar,
+		.vjs-error-display{
+			display: none;
+		}
+	}
+}
+
+//para o player
+.resource{
+	div.audio{
+		&.noContent{
+			.glyphicon{
+				display: block;
+				position: absolute;
+				font-size: 20px;
+				margin-left: -10px;
+				left: 50%;
+				top: 4px;
+			}
+			.video-js{
+				display: none;
+			}
+
+			.vjs-poster,
+			.vjs-text-track-display,
+			.vjs-loading-spinner,
+			.vjs-big-play-button,
+			.vjs-control-bar,
+			.vjs-error-display{
+				display: none;
+			}
+		}
+	}	
+}

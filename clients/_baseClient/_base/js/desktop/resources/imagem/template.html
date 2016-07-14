@@ -1,0 +1,18 @@
+<div class="table {{class}} {{#border}}borda{{/border}} {{#zoom}}zoomImg{{/zoom}}" id="{{_id}}" style="{{style}}">
+	<div class="trow">
+		<div class="tcell">
+			<div id="imageWrapper" class="{{^src}}noContent{{/src}}">
+				<img src="{{#src}} {{src}} {{/src}} {{^src}} https://s3-sa-east-1.amazonaws.com/mobiliza/fix/empty.png {{/src}}"/>
+				<span class="glyphicon glyphicon-picture"></span>
+			</div>
+		</div>
+	</div>
+	{{#legend.active}}
+		<div class="trow bgLegenda">
+			<div class="tcell">
+				<div id="recImglegendaContent"><span class="legendText">{{&legend.content}}</span></div>
+			</div>
+		</div>
+	{{/legend.active}}
+</div>
+

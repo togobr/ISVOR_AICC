@@ -1,0 +1,16 @@
+@import "estiloPadrao.scss";
+
+// main
+@import "main/main"; 
+
+// player css
+@import "../../../../../player/_base/css/sass/global";
+
+//_base
+@import "../../../../_baseClient/_base/css/sass/base";
+
+//resources
+@import "resources";
+
+//animated
+@import "_animated";

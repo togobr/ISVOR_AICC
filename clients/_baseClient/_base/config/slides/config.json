@@ -1,0 +1,60 @@
+{
+	"defaults": {
+		"name": "Novo slide",
+		"template": "slideSimples"
+	},
+
+	"slides": [{
+			"template": "slideCapa",
+			"name": "Capa",
+			"categories": [
+				"capa",
+				"slide"
+			]
+		},
+
+		/*{
+			"template": "slideTextoImagem",
+			"name": "Texto e Imagem",
+			"categories": [
+				"slide"
+			]
+		},*/
+
+		{
+			"template": "slideTextoImagemDir",
+			"name": "Texto e Imagem à direita",
+			"categories": [
+				"slide"
+			]
+		},
+
+		{
+			"template": "slideTextoImagemEsq",
+			"name": "Texto e Imagem à esquerda",
+			"categories": [
+				"slide"
+			]
+		},
+
+		{
+			"template": "slideSubCapa",
+			"name": "Sub Capa",
+			"categories": [
+				"subCapa",
+				"slide"
+			]
+		},
+
+		{
+			"template": "slideFinal",
+			"name": "Slide Final",
+			"categories": [
+				"final",
+				"slide"
+			]
+		}
+
+
+	]
+}

@@ -1,0 +1,675 @@
+@import 'estiloPadrao.scss';
+
+.tagP
+{
+    font-weight: normal !important;
+}
+
+strong,
+b
+{
+    font-weight: bold;
+}
+
+body
+{
+    margin: 0;
+
+    background: $corFundoCurso;
+}
+
+.wrapper
+{
+    position: absolute;
+    top: -87px !important;
+    right: 0;
+    bottom: 0;
+    left: -4px !important;
+
+    width: 900px;
+    height: 480px;
+    margin: auto;
+}
+
+
+.listaCurso
+{
+    font-weight: normal;
+    ul
+    {
+        font-family: helvetica;
+        font-size: 14px;
+
+        position: absolute;
+
+        margin: 0;
+        padding: 0;
+
+        list-style: none;
+        li
+        {
+            padding-left: 1em;
+
+            text-indent: -.7em;
+            &:before
+            {
+                content: '•';
+
+                color: $corPredominante;
+                // -webkit-animation: pulsate 2s ease-out;
+                // -webkit-animation-iteration-count: infinite; 
+                // @-webkit-keyframes pulsate {
+                // 	0% {-webkit-transform: scale(0.8, 0.8);}
+                // 	25% {-webkit-transform: scale(0.9, 0.9);}
+                // 	50% {-webkit-transform: scale(1.2, 1.2);}
+                // 	75% {-webkit-transform: scale(1.0, 1.0);}
+                // 	100%{-webkit-transform: scale(0.8, 0.8);}
+                // }	
+            }
+        }
+    }
+}
+
+
+
+.top
+{
+    position: relative;
+
+    width: 100%;
+    height: 50px;
+
+    background: $corPredominante;
+    .separator
+    {
+        font-family: $fontePadrao;
+        font-size: 18px;
+        font-weight: normal;
+
+        margin: 0;
+        padding: 1px;
+
+        color: #c6c7c8;
+    }
+    h4
+    {
+        font-family: $fontePadrao;
+        font-size: 21px;
+        font-weight: normal;
+
+        margin: 0;
+        padding: 15px 0 0 20px;
+
+        color: #000;
+    }
+    h5
+    {
+        font-size: 11px;
+
+        position: relative;
+        top: 12px;
+        left: 51px;
+
+        display: inline-block;
+
+        margin: 0;
+        padding: 0 5px 0 20px;
+
+        text-transform: uppercase;
+
+        color: $textTitulosCapa;
+
+        @extend .separator;
+    }
+    h6
+    {
+        font-size: 15px;
+        font-weight: bolder;
+
+        position: relative;
+        top: 10px;
+        left: 69px;
+
+        display: inline-block;
+
+        text-transform: uppercase;
+
+        color: $textTitulosCapa;
+
+        @extend .separator;
+    }
+    .numeroModuloTop
+    {
+        font-family: 'Droid Sans', sans-serif;
+        font-size: 46px;
+        font-weight: bolder;
+
+        position: absolute;
+        top: 8px;
+        left: 28px;
+
+        color: #fff;
+    }
+}
+
+
+.corner-top-both-bevel
+{
+    position: absolute;
+    left: 397px;
+
+    width: 24%;
+    height: 0;
+
+    transform: rotateY(36deg);
+
+    border-width: 0 9px 36px 9px;
+    border-style: solid;
+    border-color: transparent transparent red transparent;
+}
+
+.middle
+{
+    position: relative;
+
+    overflow: hidden;
+
+    width: 100%;
+    height: 515px;
+
+    background: #fff;
+}
+
+.bottom
+{
+    position: relative;
+
+    width: 100%;
+    height: 10px;
+
+    background: $corPredominante;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, .3);
+    .logo
+    {
+        position: absolute;
+        top: 18px;
+        left: 30px;
+
+        width: 20%;
+        height: 40px;
+
+        background: $logo;
+        background-size: contain;
+    }
+    .botaoIndice
+    {
+        font-family: $fontePadrao;
+        font-size: 14px;
+
+        position: relative;
+        top: 10px;
+        left: -67px;
+
+        float: right;
+
+        width: 30px;
+        height: 30px;
+        margin-right: 68px;
+        padding: 10px 22px 0 9px;
+
+        cursor: pointer;
+
+        background: $corSecundaria;
+        &:hover
+        {
+            background: $corBtnFundoHover;
+            span
+            {
+                color: $corFonteHover;
+            }
+        }
+    }
+    .botaoAjuda
+    {
+        left: 4px;
+
+        padding: 11px 20px 0 0;
+
+        @extend .botaoIndice;
+    }
+    .btnMenuCreditos
+    {
+        font-family: $fontePadrao;
+        font-size: 20px;
+        font-weight: normal;
+
+        position: relative;
+        top: -6px;
+        left: -1px;
+
+        text-align: center;
+
+        color: $corPredominante;
+    }
+    .btnMenuIndice
+    {
+        top: -7px;
+        left: 8px;
+
+        @extend .btnMenuCreditos;
+    }
+    .menu
+    {
+        position: absolute;
+        right: 40px;
+        bottom: -30px;
+
+        display: block;
+
+        width: 140px;
+        height: 30px;
+        margin-left: -17px;
+        .botaoVoltar
+        {
+            float: left;
+
+            width: 30px;
+            height: 30px;
+
+            cursor: pointer;
+
+            background: $corBtnMenu;
+
+            @include box-shadow(0px, 0px, 3px, .3);
+            &:before
+            {
+                font-size: 30px;
+                font-weight: bolder;
+
+                position: absolute;
+                top: 7px;
+                left: 11px;
+
+                width: 10px;
+                height: 30px;
+
+                content: '';
+
+                color: #fff;
+                background: url(assets/images/icons/ISVOR01_icone_voltar.png) no-repeat;
+            }
+            &:hover
+            {
+                background: $corBtnFundoHover;
+            }
+            &:active
+            {
+                @include box-shadow-inset(0px, 0px, 7px, .2);
+            }
+        }
+        .botaoAvancar
+        {
+            position: relative;
+
+            float: right;
+
+            @extend .botaoVoltar;
+            &:before
+            {
+                font-family: $fontSwipe;
+
+                position: absolute;
+                top: 5px;
+                left: 9px;
+
+                width: 18px;
+                height: 31px;
+
+                content: '';
+                -webkit-animation: pulsate 1s ease-out;
+                   -moz-animation: pulsate 1s ease-out;
+                -webkit-animation-iteration-count: infinite;
+                   -moz-animation-iteration-count: infinite;
+
+                color: $corFonteHover;
+                background: url(assets/images/icons/ISVOR01_icone_avancar.png) no-repeat;
+                background-size: 13px;
+                @-webkit-keyframes pulsate
+                {
+                    0%
+                    {
+                        -webkit-transform: scale(.8, .8);
+                    }
+                    25%
+                    {
+                        -webkit-transform: scale(.9, .9);
+                    }
+                    50%
+                    {
+                        -webkit-transform: scale(1.2, 1.2);
+                    }
+                    75%
+                    {
+                        -webkit-transform: scale(1.0, 1.0);
+                    }
+                    100%
+                    {
+                        -webkit-transform: scale(.8, .8);
+                    }
+                }
+                @-moz-keyframes pulsate
+                {
+                    0%
+                    {
+                        -moz-transform: scale(.8, .8);
+                    }
+                    25%
+                    {
+                        -moz-transform: scale(.9, .9);
+                    }
+                    50%
+                    {
+                        -moz-transform: scale(1.2, 1.2);
+                    }
+                    75%
+                    {
+                        -moz-transform: scale(1.0, 1.0);
+                    }
+                    100%
+                    {
+                        -moz-transform: scale(.8, .8);
+                    }
+                }
+            }
+        }
+        .botaoAvancar.foco
+        {
+            background: $corPadrao;
+        }
+        .valorSlide
+        {
+            font-family: $fontePadrao;
+            font-size: 18px;
+
+            position: absolute;
+            top: 5px;
+            left: 36px;
+
+            color: $corPredominante;
+            #sldAtual
+            {
+                font-weight: bold;
+
+                margin-right: 2px;
+            }
+            #sldTotal
+            {
+                font-weight: bold;
+            }
+            #cursoDE
+            {
+                font-size: 13px;
+                font-weight: bold;
+            }
+        }
+    }
+    .botaoVoltar.desativado,
+    .botaoAvancar.desativado
+    {
+        cursor: default;
+
+        background: $corBtnDesativado;
+        &:before
+        {
+            -webkit-animation-play-state: paused; /* Chrome, Safari, Opera */
+                    animation-play-state: paused;
+        }
+        &:active
+        {
+            @include box-shadow(0px, 0px, 3px, .3);
+        }
+    }
+
+    .botaoVoltar.voltarInicio{
+    	position: absolute;
+
+    	color: #942314;
+    	font-family: helvetica;
+    	line-height: 30px;
+    	text-align: center;
+    	  font-size: 14px;
+    	    left: -675px;
+  top: -465px;
+
+    	&:after{
+    		width: 30px;
+    		height: 30px;
+    		position: absolute;
+    		content: '';
+    		background:#942314;
+    		  z-index: -5;
+    		  left: -30px;
+    	}
+
+    	&:before{
+    		left: -20px;
+    	}
+    	width: 100%;
+		background:#fff;
+
+		&:hover{
+			background: #fff;
+
+			&:after{
+				background: #a13a2c;
+			}
+		}
+}
+
+}
+
+.ajuda
+{
+    position: absolute;
+    z-index: 99;
+    top: 0;
+
+    width: 103%;
+    height: 124%;
+
+    border-top: 10px solid #373737;
+    background: $corFundoCurso;
+    .closeAjuda
+    {
+        position: relative;
+
+        float: right;
+
+        width: 30px;
+        height: 30px;
+        margin-right: 17px;
+
+        cursor: pointer;
+
+        background: $corPadrao;
+        &:before
+        {
+            position: absolute;
+            top: 8px;
+            left: 9px;
+
+            width: 12px;
+            height: 13px;
+
+            content: '';
+            -webkit-animation: pulsate 1s ease-out;
+               -moz-animation: pulsate 2s ease-out;
+               -moz-animation: pulsate 2s ease-out;
+            -webkit-animation-iteration-count: infinite;
+               -moz-animation-iteration-count: infinite;
+               -moz-animation-iteration-count: infinite;
+
+            color: #fff;
+            background: url(assets/images/icons/ISVOR01_icone_fechar.png) no-repeat;
+            @-webkit-keyframes pulsate
+            {
+                0%
+                {
+                    -webkit-transform: scale(.8, .8);
+                }
+                25%
+                {
+                    -webkit-transform: scale(.9, .9);
+                }
+                50%
+                {
+                    -webkit-transform: scale(1.0, 1.0);
+                }
+                75%
+                {
+                    -webkit-transform: scale(1.0, 1.0);
+                }
+                100%
+                {
+                    -webkit-transform: scale(.8, .8);
+                }
+            }
+            @-moz-keyframes pulsate
+            {
+                0%
+                {
+                    -moz-transform: scale(.8, .8);
+                }
+                25%
+                {
+                    -moz-transform: scale(.9, .9);
+                }
+                50%
+                {
+                    -moz-transform: scale(1.0, 1.0);
+                }
+                75%
+                {
+                    -moz-transform: scale(1.0, 1.0);
+                }
+                100%
+                {
+                    -moz-transform: scale(.8, .8);
+                }
+            }
+        }
+        &:hover
+        {
+            background: $corBtnFundoHover;
+        }
+    }
+    .credito
+    {
+        position: relative;
+        top: 120px;
+
+        text-align: center;
+        .tituloCredito
+        {
+            font-family: $fontePadrao;
+            font-size: 26px;
+
+            position: relative;
+            top: -107px;
+            left: 40px;
+
+            width: 88%;
+            margin-top: 23px;
+
+            text-align: center;
+            text-transform: uppercase;
+
+            color: $corPadrao;
+        }
+        .imagemCapaCredito
+        {
+            position: relative;
+            top: -98px;
+            left: -15px;
+
+            width: 25%;
+        }
+        .subtituloCredito
+        {
+            font-family: $fontePadrao;
+
+            position: relative;
+            top: -30px;
+
+            text-transform: uppercase;
+
+            color: #4b4c4c;
+        }
+        .conteudoCredito
+        {
+            font-family: $fontePadrao;
+
+            position: relative;
+            top: -70px;
+            left: 42%;
+
+            text-align: left;
+
+            color: #4b4c4c;
+        }
+        .conteudoCredito.reser
+        {
+            font-weight: bold;
+
+            color: #a13a2c;
+        }
+    }
+}
+
+#modal
+{
+    position: relative !important;
+}
+
+
+.atividade{
+	  box-shadow: 1px 3px 7px rgba(0,0,0,.5);
+
+	  .pergunta_atividade{
+	  	background:#962414;
+	  	  padding: 20px 20px 15px 20px;
+	  	  color:#fff;
+	  	    box-shadow: 0px 3px 6px rgba(0,0,0,0.5);
+	  }
+
+	  .alternativa_atividade{
+
+	  	  margin-bottom: 90px;
+
+
+	  	li{
+
+	  	  border-bottom: 1px solid #962414;
+	  	}
+	  }
+
+	  .enviaResposta{
+	  	position: absolute;
+  bottom: 0;
+  right: 0;
+  color: #fff;
+    font-weight: bold;
+  text-align: center;
+  line-height: 50px;
+  height: 50px;
+  font-size: 14px;
+
+  &:hover{
+  	background: #a13a2c;
+  }
+	  }
+
+	  ul{
+	  	padding:0;
+	  }
+}

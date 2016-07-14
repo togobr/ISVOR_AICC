@@ -1,0 +1,260 @@
+{  
+
+   "_course_id":"546b6a16ad4130810c000007",
+   "hasContent":true,
+   "type":"Aula",
+   "name":"Outras funcionalidades",
+   "_id":"546b6a2cad4130810c000009",
+   "updatedAt":"2014-11-18T15:47:58.164Z",
+   "courseName":"Equipamento E.A.SY.",
+   "credito":"Créditos",
+   "titleCredito":"",
+   "contentCredito": "<span style='color: rgb(14, 59, 116);'>Gerência</span><br><b>Alejandro Gonzales</b><br><br><span style='color: rgb(14, 59, 116);'>Supervisão do Currículo</span><br><b>Rogério Machado</b>",
+   "numeroModuloTop": "6.",
+   "tituloMenu": "Menu - Indice",
+   "slides":[  
+
+
+      {  
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Portal de Relacionamento B2B",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+            {  
+              
+               "template":"capaModulo",
+               "order":1,
+               "imagemCapaModulo" : "css/assets/images/C15_EasyWeb/Capas_M06.png",
+               "imagemNumeroModulo": "css/assets/images/ISVOR01_img_modulo_06.png",
+               "tituloModuloCapa": "Outras funcionalidades",
+               "content": "<lu><li>Esquemas elétricos no E.A.SY</li><li>Armazenamento de dados memorizados da EDC</li><li>Guia de reparação IVECO ?</li><li>Pedido de chave Daily</li><li>Agregar ECU ao rastreamento</li><li>Acesso ao manual do usuário</li></lu>"
+             
+            }
+       
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {  
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Esquemas elétricos no E.A.SY",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+             {  
+              
+               "template":"captura",
+               "order":1,
+               "captura": "css/assets/images/C15_EasyWeb/Capturas/.swf",
+               "title": "Esquemas elétricos<br/>no E.A.SY",
+               "tituloCapturaStyle": "left:-1px; top:20px; position:absolute;",
+               "textoCapturaStyle": "left:-1px; top:175px; width:369px; position:absolute;",
+               "content": "Além de permitir o rastreamento e teste de sistemas de veículos, o E.A.SY apresenta muitas outras funcionalidades, uma delas é a apresentação dos esquemas elétricos do veículo. Veja na demonstração a seguir como visualizar estes esquemas.",
+               "imagem": "css/assets/images/C15_EasyWeb/C15_captura15.png",
+               "contentBtn": "Clique aqui para iniciar a simulação"
+
+            }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {  
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Salvando dados memorizados da EDC",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+             {  
+              
+               "template":"captura",
+               "order":1,
+               "captura": "css/assets/images/C15_EasyWeb/Capturas/.swf",
+               "title": "Salvando dados memorizados da EDC",
+               "tituloCapturaStyle": "left:-1px; top:-1px; position:absolute;",
+               "textoCapturaStyle": "left:-1px; top:173px; width:327px; position:absolute;",
+               "content": "Você pode utilizar o sistema E.A.SY para salvar os dados de funcionamento do caminhão em seu computador. Na simulação a seguir você verá como armazenar os dados memorizados para posterior envio à análise IVECO caso necessário.",
+               "imagem": "css/assets/images/C15_EasyWeb/C15_captura16.png",
+               "contentBtn": "Clique aqui para iniciar a simulação"
+
+            }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {  
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Guia de reparação IVECO",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+             {  
+              
+               "template":"captura",
+               "order":1,
+               "captura": "css/assets/images/C15_EasyWeb/Capturas/.swf",
+               "title": "Guia de reparação IVECO",
+               "tituloCapturaStyle": "left:-1px; top:-18px; position:absolute;",
+               "textoCapturaStyle": "left:-1px; top:135px; width:357px; position:absolute;",
+               "content": "",
+               "imagem": "css/assets/images/C15_EasyWeb/C15_captura17.png",
+               "contentBtn": "Clique aqui para iniciar a simulação"
+
+            }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {  
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Pedido de chave Daily",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+             {  
+              
+               "template":"captura",
+               "order":1,
+               "captura": "css/assets/images/C15_EasyWeb/Capturas/.swf",
+               "title": "Pedido de chave Daily",
+               "tituloCapturaStyle": "left:-1px; top:25px; position:absolute;",
+               "textoCapturaStyle": "left:-1px; top:160px; width:357px; position:absolute;",
+               "content": "Para efetuar um pedido de chave para o veículo Daily Euro V deve-se emitir um relatório presente no EASY, abrir um chamado no portal One Call e inserir o relatório no chamado. <br/><br/>Na demonstração a seguir você verá o passo a passo deste procedimento.",
+               "imagem": "css/assets/images/C15_EasyWeb/C15_captura18.png",
+               "contentBtn": "Clique aqui para iniciar a simulação"
+
+            }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {  
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Agregar ECU ao rastreamento",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+             {  
+              
+               "template":"captura",
+               "order":1,
+               "captura": "css/assets/images/C15_EasyWeb/Capturas/.swf",
+               "title": "Agregar ECU ao rastreamento",
+               "tituloCapturaStyle": "left:-1px; top:53px; position:absolute;",
+               "textoCapturaStyle": "left:-1px; 205px; width:357px; position:absolute;",
+               "content": "O E.A.SY permite que você agregue uma ECU ao rastreamento que está executando. Na demonstração a seguir você verá como realizar este procedimento. ",
+               "imagem": "css/assets/images/C15_EasyWeb/C15_captura19.png",
+               "contentBtn": "Clique aqui para iniciar a simulação"
+
+            }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {  
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Acesso ao manual do usuário",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+             {  
+              
+               "template":"captura",
+               "order":1,
+               "captura": "css/assets/images/C15_EasyWeb/Capturas/.swf",
+               "title": "Acesso ao manual<br/>do usuário",
+               "tituloCapturaStyle": "left:-1px; top:21px; position:absolute;",
+               "textoCapturaStyle": "left:-1px; top:180px; width:357px; position:absolute;",
+               "content": "Ao longo deste curso você conheceu as diferentes fucionalidades do E.A.SY. No entanto, caso ainda restem dúvidas em relação a este equipamento, você pode acessar o manual do usuário presente no E.A.SY. Na demonstração a seguir você verá como acessar este manual. ",
+               "imagem": "css/assets/images/C15_EasyWeb/C15_captura20.png",
+               "contentBtn": "Clique aqui para iniciar a simulação"
+
+            }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      
+      {  
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "ultimoModulo": true,
+         "name":"Conclusão",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+            {  
+              
+               "template":"telaFinal",
+               "ultimoModulo": true,
+               "imagem": "css/assets/images/icons/ISVOR01_icone_capa_fim.png",
+               "title": "Excelente!",
+               "content": "Você chegou ao final do curso!<br/><br/>Lembre-se de que esse sistema irá ajudá-lo no seu dia a dia de trabalho. Retorne sempre que tiver alguma dúvida de acesso a alguma parte do sistema.<br/><br/> Bom trabalho!",
+                "textoBt":"ACESSAR O PRÓXIMO MÓDULO"
+             
+            }
+       
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      }
+
+
+   ],
+
+   "index":null,
+   "id":null,
+   "styleObj":null
+}

@@ -1,0 +1,67 @@
+{
+	"defaults": {
+		"template": "atividade",
+		"title": "Digite aqui sua pergunta.",
+		"parametros": {	
+			"gabarito": [], 
+			"tentativas": "1"
+		},
+		"alternativas": [
+			{
+				"numberAlt": 0,
+				"alt": "Edite as alternativas dando dois cliques.",
+				"checked" : false
+			},
+
+			{
+				"numberAlt": 1,
+				"alt": "Edite as alternativas dando dois cliques.",
+				"checked" : false
+			}
+		],
+		"feedbackCerto" : {
+			"type": "respostaCerta",
+	    	"title" : "Resposta Certa"
+	 	 },
+		"feedbackErrado": {
+			"type": "respostaErrada",
+	    	"title" : "Resposta Errada"
+		},
+
+		"feedback": {
+			"modal": true, 
+			"circundado": true
+		},
+		
+		"tipo": {
+			"active": true,
+			"subType": "radio"
+		},
+
+		"nota": {
+			"active": true,
+			"subType": "comNota"
+		},
+
+		"styleObj": {
+			"position": "absolute",
+			"top": "36px",
+			"left": "37px",
+			"width": "609px"
+		}
+	},
+
+	"validators": [
+		"_template === atividade"
+	],
+
+	"editor": {
+		"restrictions": {
+			"width": true,
+			"height": false,
+			"top": true,
+			"left": true
+		}
+	}
+}
+

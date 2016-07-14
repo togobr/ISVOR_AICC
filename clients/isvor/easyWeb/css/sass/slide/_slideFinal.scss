@@ -1,0 +1,39 @@
+@import "../_estiloPadrao.scss"; 
+
+
+//------------- CAIXA SLIDE FINAL ATIVIDADE --------------------
+
+
+.caixaFinalAtividade{
+	@include border-radius(0px);
+	@include box-shadow($x1:0px, $x2:0px, $x3:7px, $intensidade: 0.3);
+	display: inline-block;
+  	vertical-align: middle;
+	width: 450px;
+	position: relative;
+	left: 50%;
+	margin-left: -225px;
+    background: $auxColor;
+	.tituloFinalAtividade{
+		font-family: $fontePadrao;
+		background: $auxColor;
+		color: $baseColor;
+		text-align: center;
+		h2{
+			margin: 0px;
+			padding: 15px 20px;
+			font-style: italic;
+			font-size: 36px;
+		}
+	}
+
+	.textoFinalAtividade{
+		color: $baseColor;
+		font-family: $fontePadrao;
+		padding: 50px;
+		font-size: 30px;
+		.msgNota{
+			font-size: 16px;
+		}
+	}
+}

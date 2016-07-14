@@ -1,0 +1,35 @@
+<div style="{{style}}" id="{{_id}}" class="{{class}}">	
+	<div class="capaBack">
+		<div class="topoCapa"></div>
+		<img class="imgPrincipalCapa animated fadeInDown" src="{{imagemCapa}}">
+		<img class="barralateral1" src="css/assets/images/ISVOR01_img_linha_capa.png">
+		<img class="barralateral2" src="css/assets/images/ISVOR01_img_linha_capa.png">
+		<div class="textosCapa animated fadeInUp">
+			<img class= "logoCapa" src="{{logoCapa}}">
+			
+			<div class="tituloCapa" style="{{tituloCapaStyle}}">{{&tituloCapa}}</div>
+			<div class="conteudoCapa">{{&content}}</div>
+		</div>
+		<div class="bottomCapa"></div>
+	</div>
+	
+	<div class="btnCapaInicio animated fadeInUp" style="display:none;z-index:10;">{{&btnCapaTexto}}
+				<div class="innerBtnCapaInicio"></div>
+		</div>
+
+
+		<embed src="{{#srcAnima}} {{srcAnima}} {{/srcAnima}}" frameborder="0" style="width:900px;height:480px;" height="100%" wmode="transparent"></embed>
+
+	
+
+		
+		
+	
+
+		
+	<!-- <iframe class="iframeFlash" src="{{#srcAnima}} {{srcAnima}} {{/srcAnima}}"  wmode="transparent" style="border:0px;height:480px;width:900px;z-index:0;">
+		<p>Your browser does not support iframes.</p>
+	</iframe> -->
+
+	
+</div>

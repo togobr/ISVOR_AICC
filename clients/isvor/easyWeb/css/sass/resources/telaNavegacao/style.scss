@@ -1,0 +1,699 @@
+
+.topTelaNav
+{
+    position: relative;
+
+    width: 100%;
+    height: 285px;
+
+    border-top: 10px solid #4b4c4c;
+    background: url(assets/images/ISVOR01_CNHI_telaNavegacao_imagem.png);
+      background-position-y: -2px;
+    .faixas
+    {
+        position: absolute;
+        bottom: 0;
+
+        width: 100%;
+    }
+    ul
+    {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+
+        list-style-type: none;
+        li
+        {
+            font-family: helvetica, sans-serif;
+            font-size: 13px;
+            font-weight: bold;
+            line-height: 30px;
+
+            display: inline-block;
+
+            width: 540px;
+            height: 35px;
+
+            text-align: center;
+
+            color: #fff;
+            background: #b22d12;
+            &:first-child
+            {
+                width: 364px;
+                margin-right: -4px;
+                float: left;
+
+                background: #802113;
+            }
+        }
+    }
+}
+
+
+.midTelaNav
+{
+    font-family: helvetica, sans-serif;
+    font-size: 14px;
+
+    position: relative;
+
+    height: 55px;
+
+    color: #fff;
+    background: #49160f;
+    box-shadow: -1px -5px 3px rgba(0,0,0,.2);
+    ul
+    {
+        display: table;
+
+        margin: 0;
+        padding: 0;
+
+        list-style-type: none;
+
+
+
+
+        li
+        {
+            display: table-cell;
+
+            width: 180px;
+            height: 52px;
+
+            cursor: pointer;
+            text-align: center;
+            vertical-align: middle;
+
+            &:last-child{
+
+	            	span{
+	            		&:after{
+	      
+	            		background: none;
+	            	
+	            	}
+            	}
+        	
+        	}
+            span{
+            	&:after{
+            		content: '';
+            		background: url(assets/images/ISVOR01_img_linha_menu.png);
+            		position: absolute;
+            		width:2px;
+            		height: 52px;
+            		top: 0;
+  					right: -1px;
+
+  					  opacity: .5;
+            	}
+
+
+
+            }
+        }
+    }
+    .modOb
+    {
+        position: relative;
+
+        background: #da3716;
+        &:after
+        {
+            position: absolute;
+            z-index: 1;
+            top: -5px;
+            left: 50%;
+
+            display: block;
+
+            width: 0;
+            margin-left: -6px;
+
+            content: '';
+
+            border-width: 0 6px 6px;
+            border-style: solid;
+            border-color: #da3716 transparent;
+        }
+    }
+    .modOp
+    {
+        position: relative;
+
+        background: #b32e1b;
+        &:after
+        {
+            position: absolute;
+            z-index: 1;
+            top: -7px;
+            left: 50%;
+
+            display: block;
+
+            width: 0;
+            margin-left: -8px;
+
+            content: '';
+
+            border-width: 0 8px 8px;
+            border-style: solid;
+            border-color: #b32e1b transparent;
+        }
+    }
+    
+
+    .modOp.modFinalizado,.modOb.modFinalizado {
+    	background:#5a160c;
+
+    	&:after{
+    		  border-color: #5A160C transparent;
+    	}
+    	
+    }
+
+    .modOp.modAtual,
+    .modOb.modAtual
+    {
+    	background:#fc7100;
+    	 &:before
+        {
+            position: absolute;
+            z-index: 1;
+              bottom: -10px;
+            left: 50%;
+            display: block;
+            top:initial;
+
+            width: 0;
+            margin-left: -8px;
+
+            content: '';
+
+            border-width: 8px 8px 0;
+            border-style: solid;
+            border-color: #49160F transparent;
+        }
+        &:after
+        {
+            position: absolute;
+            z-index: 1;
+              top: 52px !important;
+            left: 50%;
+            display: block;
+            top:initial;
+
+            width: 0;
+            margin-left: -8px;
+
+            content: '';
+
+            border-width: 8px 8px 0;
+            border-style: solid;
+            border-color: #fc7100 transparent;
+        }
+    }
+
+}
+
+.modOp.modAtual.modFinalizado,.modOb.modAtual.modFinalizado {
+	background:#5a160c;
+
+	span{
+		&:before{
+			  content: '';
+			  position: absolute;
+			  height: 6px;
+			  width: 100%;
+			  bottom: 0;
+			  right: 0px;
+			  background-color: #fc7100;
+		}
+	}
+}
+
+.midTelaNav.midNavtutorial{
+	position:absolute;
+
+	ul{
+		li{
+			cursor:default;
+		}
+	}
+}
+
+
+.bottomTelaNav{
+	background:#ccc;
+	font-family: helvetica, sans-serif;
+	height: 140px;
+
+
+	.modulo{
+
+		position: absolute;
+  		display: none;
+  		width: 100%;
+  		height: 140px;
+
+  		ul{
+  			li{
+  				font-size:14px;
+  			}
+  		}
+
+		h1{
+			margin:0;
+			color: #5a160c;
+			font-size: 17px;
+		}
+
+		
+
+	}
+
+
+	.modulo.d1{
+		h1{
+			  margin: 0;
+			  color: #5a160c;
+			  font-size: 17px;
+			  float: left;
+			  margin-right: 63px;
+			  margin-left: 32px;
+			  margin-top: 50px;
+		}
+
+		ul{
+				color:#333;
+			  padding: 0;
+			  margin: 0;
+			  float: left;
+			    margin-top: 30px;
+			  list-style-type: square;
+
+			  li{
+			  	 padding: 5px 0;
+			  }
+
+			   
+		}
+	}
+
+
+	.modulo.d2{
+		h1{
+
+
+			margin-top: 23px;
+			margin-left: 32px;
+			  
+		}
+
+		ul{
+		  color: #333;
+		  padding: 0;
+		  margin: 0;
+		  float: left;
+		  margin-top: 5px;
+		  margin-left: 50px;
+		  position: relative;
+		  list-style-type: square;
+		  width: 594px;
+
+			  li{
+			  	 padding: 5px 0;
+			  }
+
+			   
+		}
+	}
+
+
+	
+}
+
+.btAcessoMod{
+	background-color: #fff;
+	position: absolute;
+	right: 47px;
+	bottom: 38%;
+	height: 32px;
+	line-height: 32px;
+	width: 205px;
+	text-align: center;
+	color: #942314;
+	font-weight: bold;
+	box-shadow: -1px 2px 8px rgba(0,0,0,.2);
+	cursor: pointer;
+
+
+	&:after{
+	content: '';
+	position: absolute;
+	height: 32px;
+	width: 32px;
+	background-color: #942314;
+	right: -32px;
+
+	}
+
+	&:before{
+
+	content: '';
+	position: absolute;
+	height: 22px;
+	width: 13px;
+	background: url(assets/images/icons/ISVOR01_icone_avancar_gde.png) no-repeat;
+	right: -24px;
+	top: 5px;
+	z-index: 1;
+	-webkit-animation: pulsate 1s ease-out;
+	-webkit-animation-iteration-count: infinite;
+
+	}
+
+	&:hover{
+		&:after{
+		background-color:#a13a2c;
+		}
+	}
+}
+
+
+.btAcessoMod.btModTut{
+	bottom:initial;
+	right:initial;
+	cursor:default;
+	font-family: helvetica, sans-serif;
+	&:before{
+		-webkit-animation: initial;
+	-webkit-animation-iteration-count: initial;
+	}
+	&:hover{
+		&:after{
+			background-color:#942314;
+		}
+	}
+}
+
+
+.maskTut{
+	background:rgba(255,255,255,0.75);
+	width:100%;
+	height:100%;
+	position: absolute;
+	top:0;
+	left:0;
+	z-index:999;
+	display:none;
+}
+
+
+.telaTuto{
+
+	position: absolute;
+	background:#fff;
+	font-family: helvetica, sans-serif;
+	box-shadow: 0px 2px 18px rgba(100,100,100,.5);
+	color: #333;
+
+
+	.btFechar{
+
+		content: '';
+		position: absolute;
+		height: 35px;
+		width: 34px;
+		background-color: #942314;
+		right: 0px;
+		top: 0;
+
+		cursor:pointer;
+
+
+		&:hover{
+			background-color:#a13a2c;
+		}
+
+		&:before{
+
+			content: 'X';
+			position: absolute;
+			height: 22px;
+			width: 13px;
+			right: 13px;
+			top: 2px;
+			color: #fff;
+			z-index: 1;
+			font-weight: bold;
+			font-size: 28px;
+
+		}
+
+	}
+
+	.btVoltarTutorial{
+
+		position: absolute;
+		  bottom: 0;
+
+		  left: 60px;
+		  height: 36px;
+		  font-size: 14px;
+		  cursor: pointer;
+
+
+
+			  &:before{
+
+				  content: '';
+				  position: absolute;
+				  height: 22px;
+				  width: 13px;
+				  background: url(assets/images/btn_voltar_active.png) no-repeat;
+				  left: -32px;
+				  top: -3px;
+				  z-index: 1;
+				
+
+			  }
+
+			  &:hover{
+			  	&:before{
+			  		background: url(assets/images/btn_voltar_hover.png) no-repeat;
+			  	}
+			  }
+
+	}
+
+	.btAvTutorial{
+		position: absolute;
+		bottom: 0;
+		width: 185px;
+		right: 0;
+		height: 36px;
+		font-size: 14px;
+
+		cursor: pointer;
+
+
+		&:after{
+			content: '';
+			position: absolute;
+			height: 32px;
+			width: 32px;
+			background-color: #942314;
+			right: 18px;
+			bottom: 13px;
+
+			  }
+
+			  &:before{
+
+				content: '';
+				position: absolute;
+				height: 22px;
+				width: 13px;
+				background: url(assets/images/icons/ISVOR01_icone_avancar_gde.png) no-repeat;
+				right: 26px;
+				top: -3px;
+				z-index: 1;
+				
+
+			  }
+
+			  &:hover{
+			  	&:after{
+			  		background-color:#a13a2c;
+			  	}
+			  }
+
+	}
+
+}
+
+.telaTuto.passo1{
+
+		 width: 458px;
+ 		   height: 305px;
+
+  		  
+
+  		  p{
+
+  		  	text-align: center;
+  			line-height: 25px;
+  			margin-top: 54px;
+
+  		  }
+}
+
+
+
+
+.telaTuto.passo2{
+
+	&:after{
+		content: '';
+		position: absolute;
+		border-style: solid;
+		border-width: 15px 15px 0;
+		border-color: #FFFFFF transparent;
+		display: block;
+		width: 0;
+		z-index: 1;
+		bottom: -15px;
+		left: 18px;
+	}
+
+		width: 458px;
+  		height: 175px;
+  		  p{
+
+  		  	text-align: center;
+  			line-height: 25px;
+  			margin-top: 54px;
+
+  		  }
+}
+
+
+.telaTuto.passo3{
+
+		   width: 360px;
+  			height: 215px;
+
+  		  
+
+  		  p{
+
+  		  	text-align: center;
+  			line-height: 25px;
+  			margin-top: 54px;
+
+  		  }
+}
+
+
+.telaTuto.passo4{
+
+
+
+	&:after{
+		content: '';
+		position: absolute;
+		border-style: solid;
+		border-width: 15px 15px 0;
+		border-color: #FFFFFF transparent;
+		display: block;
+		width: 0;
+		z-index: 1;
+		bottom: -15px;
+		right: 25px;
+	}
+
+		  width: 290px;
+  		height: 124px;
+  		  p{
+
+  		  	text-align: center;
+  			line-height: 25px;
+ 			margin-top: 36px;
+
+  		  }
+}
+
+
+.telaTuto.passo5,.telaTuto.passo6 {
+
+		    width: 366px;
+  			height: 258px;
+
+  		  
+
+  		  p{
+
+  		  	text-align: center;
+  			line-height: 25px;
+  			margin-top: 54px;
+
+  		  }
+}
+
+
+.telaTuto.passo7{
+
+	width: 500px;
+  	height: 383px;
+
+  	img{
+  		margin-left: 190px;
+  		margin-top: 28px;
+  	}
+
+
+	h3{
+	text-align: center;
+	font-size: 20px;
+	}
+
+
+	p{
+
+	text-align: center;
+	line-height: 25px;
+
+
+	}
+}
+
+
+.telaTuto.passo8{
+
+	width: 500px;
+  height: 380px;
+  	img{
+  		margin-left: 158px;
+  		margin-top: 28px;
+  	}
+
+
+	h3{
+	text-align: center;
+	font-size: 20px;
+	}
+
+
+	p{
+
+	text-align: center;
+	line-height: 40px;
+	
+
+
+	}
+}

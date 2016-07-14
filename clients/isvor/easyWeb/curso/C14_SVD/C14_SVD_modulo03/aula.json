@@ -1,0 +1,274 @@
+{  
+
+   "_course_id":"546b6a16ad4130810c000007",
+   "hasContent":true,
+   "type":"Aula",
+   "name":"Portal de Relacionamento Link.e.entry",
+   "_id":"546b6a2cad4130810c000009",
+   "updatedAt":"2014-11-18T15:47:58.164Z",
+   "courseName":"Sistema de Vendas Diretas",
+   "credito":"Créditos",
+   "titleCredito":"",
+   "contentCredito": "<span style='color: rgb(14, 59, 116);'>Gerência</span><br><b>Alejandro Gonzales</b><br><br><span style='color: rgb(14, 59, 116);'>Supervisão do Currículo</span><br><b>Rogério Machado</b>",
+   "numeroModuloTop": "3.",
+   "tituloMenu": "Menu - Indice",
+   "slides":[  
+
+
+      {  
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Portal de Relacionamento B2B",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+            {  
+              
+               "template":"capaModulo",
+               "order":1,
+               "imagemCapaModulo" : "css/assets/images/C14_SVD/C14_SVD_Capa_m03.png",
+               "imagemNumeroModulo": "css/assets/images/ISVOR01_img_modulo_03.png",
+               "tituloModuloCapa": "Portal de Relacionamento Link.e.entry",
+               "content": "<ul><li>Acesso ao Portal Link.e.entry</li><li>RELATÓRIOS</li><li>ETAPAS DE PRODUÇÃO DE UM VEÍCULO</li><li>EMULAÇÃO DE TERMINAL</li></ul>"
+             
+            }
+       
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+     
+
+
+      {  
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Introdução",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+                    
+             {  
+              
+               "template":"destaque",
+               "order":0,
+               "imagem": "css/assets/images/ISVOR01_img_atencao.png",
+               "title": "Bem-vindo",
+               "content": "Ao Módulo 3 - Portal de Relacionamento Link.e.entry."
+
+             },
+
+
+            {  
+               "_id":"54b535e86e98656c0d000004",
+               "template":"texto",
+               "order":1,
+               "styleObj":{  
+                  "left":"401px",
+                  "top":"145px",
+                  "width":"414px",
+                  "position":"absolute"
+               },
+               "content":"Aqui você irá aprender como usar o sistema <b>Link.e.entry</b> para fazer a gestão da carteira de pedidos.<br/><br/>O Link.e.entry é um sistema de comunicação entre a concessionária e a Fábrica, que gerencia diversas funções.<br/><br/>Para <b>Vendas Diretas,</b> o Link.e.entry permite pesquisar todas as informações da carteira de pedidos, como, por exemplo, a emissão e o status dos pedidos.",
+               "normal":{  
+                  "active":true,
+                  "subType":"semFundo"
+               },
+               "balao":{  
+                  "active":false,
+                  "subType":"left"
+               },
+               "titulo":{  
+                  "active":false,
+                  "subType":"primario"
+               },
+               "_course_id":"546b6a16ad4130810c000007",
+               "slide":0,
+               "index":1,
+               "id":"texto1",
+               "class":"texto",
+               "style":"left:51px;top:36px;width:284px;position:absolute;"
+            }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+
+      {  
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Acesso ao Portal Link.e.entry",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+             {  
+              
+               "template":"captura",
+               "order":1,
+               "captura": "css/assets/images/C14_SVD/Capturas/C14_M02_Cap01_Acesso.swf",
+               "title": "Acesso ao Portal Link.e.entry",
+               "tituloCapturaStyle": "left:42px; top:-20px; position:absolute;",
+               "textoCapturaStyle": "left:40px; top:120px; width:273px; position:absolute;",
+               "content": "Agora você verá como acessar o Portal Link.e.entry.<br/><br/>O acesso a esse sistema é feito pelo endereço: <b>http://linkentry.fiat.com/.</b>",
+               "imagem": "css/assets/images/C14_SVD/C14_SVD_captura04.png",
+               "contentBtn": "Clique aqui para iniciar a simulação"
+
+            }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+
+      {  
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Relatórios",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+             {  
+              
+               "template":"captura",
+               "order":1,
+               "captura": "css/assets/images/C14_SVD/Capturas/C14_M02_Cap02_Relatorios.swf",
+               "title": "Relatórios",
+               "tituloCapturaStyle": "left:42px; top:-20px; position:absolute;",
+               "textoCapturaStyle": "left:40px; top:120px; width:313px; position:absolute;",
+               "content": "Veja, a seguir, como consultar relatórios da carteira de pedidos por meio do Link.e.entry.",
+               "imagem": "css/assets/images/C14_SVD/C14_SVD_captura05.png",
+               "contentBtn": "Clique aqui para iniciar a simulação"
+
+            }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+     
+      {  
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Etapas de produção de um veículo",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[ 
+
+
+          {  
+               "_id":"54b535ff6e98656c0d00000a",
+               "template":"multimedia",
+               "order":0,     
+               "styleObj":{  
+                  "left":"0px",
+                  "top":"-59px",
+                  "height":"600px",
+                  "width":"900px",
+                  "position":"absolute"
+               },
+               "src":"css/assets/images/C14_SVD/Capturas/C14_REC02_Etapas/index.html",
+               "_course_id":"546b6a16ad4130810c000007",
+               "slide":1,
+               "index":3,
+               "id":"multimedia1",
+               "class":"multimedia",
+               "style":"left:543px;top:225px;height:208px;width:283px;position:absolute;"
+            } 
+         
+             
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+
+      {  
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Emulação de terminal",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+             {  
+              
+               "template":"captura",
+               "order":1,
+               "captura": "css/assets/images/C14_SVD/Capturas/.swf",
+               "title": "Emulação de terminal",
+               "tituloCapturaStyle": "left:42px; top:-20px; position:absolute;",
+               "textoCapturaStyle": "left:40px; top:120px; width:273px; position:absolute;",
+               "content": "Agora que você já possui uma carteira de clientes atualizada em mãos, chegou a hora de fazer o gerenciamento dos pedidos realizados pelo sistema IMS, disponível dentro do Link.e.entry.<br/><br/>Para entender como esse procedimento funciona, assista a simulação a seguir.",
+               "imagem": "css/assets/images/C14_SVD/C14_SVD_captura07.png",
+               "contentBtn": "Clique aqui para iniciar a simulação"
+
+            }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+
+
+      {  
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "ultimoModulo": true,
+         "name":"Conclusão",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+            {  
+              
+               "template":"telaFinal",
+               "ultimoModulo": true,
+               "imagem": "css/assets/images/icons/ISVOR01_icone_capa_fim.png",
+               "title": "Excelente!",
+               "content": "Você chegou ao final do Módulo 3 – Portal de Relacionamento Link.e.entry. Parabéns!<br/><br/>No próximo módulo você conhecerá como fazer o Cancelamento de Nota Fiscal.<br/><br/>Até lá!",
+                "textoBt":"ACESSAR O PRÓXIMO MÓDULO"
+             
+            }
+       
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      }
+
+
+   ],
+
+   "index":null,
+   "id":null,
+   "styleObj":null
+}

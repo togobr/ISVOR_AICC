@@ -1,0 +1,512 @@
+/* line 1, sass/general/funcionais.scss */
+body {
+  overflow-x: hidden;
+}
+
+/* line 5, sass/general/funcionais.scss */
+.swipe {
+  overflow: hidden;
+  visibility: hidden;
+  position: relative;
+}
+
+/* line 11, sass/general/funcionais.scss */
+.swipe-wrap {
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+}
+
+/* line 17, sass/general/funcionais.scss */
+.swipe-wrap > div {
+  float: left;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+/* line 24, sass/general/funcionais.scss */
+.mobile .swipe-wrap > div {
+  overflow: auto;
+}
+
+/* line 28, sass/general/funcionais.scss */
+#modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 20;
+}
+
+/* line 37, sass/general/funcionais.scss */
+#modalOverlay {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  display: none;
+}
+
+/* line 45, sass/general/funcionais.scss */
+#modalContent {
+  position: relative;
+}
+
+/* line 49, sass/general/funcionais.scss */
+.primeiroPlano {
+  z-index: 2;
+}
+
+/* line 53, sass/general/funcionais.scss */
+.tipsy-inner {
+  padding: 5px 7px;
+  max-width: 200px;
+  border: 4px solid #FFF;
+  background-color: #eaeeed;
+  -webkit-box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+  color: black;
+  text-align: center;
+}
+
+/* Rounded corners */
+/* Uncomment for shadow */
+/*.tipsy-inner { box-shadow: 0 0 5px #000000; -webkit-box-shadow: 0 0 5px #000000; -moz-box-shadow: 0 0 5px #000000; }*/
+/* line 71, sass/general/funcionais.scss */
+.tipsy-arrow {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: 5px dashed #000;
+  line-height: 0;
+}
+
+/* Rules to colour arrows */
+/* line 80, sass/general/funcionais.scss */
+.tipsy-arrow-s {
+  border-top-color: #FFF;
+}
+
+/* line 84, sass/general/funcionais.scss */
+.tipsy-s .tipsy-arrow {
+  bottom: 10px;
+  left: 50%;
+  margin-left: -5px;
+  border-top-style: solid;
+  border-right-color: transparent;
+  border-bottom: none;
+  border-left-color: transparent;
+}
+
+/* line 94, sass/general/funcionais.scss */
+#overlayModal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 102, sass/general/funcionais.scss */
+#wrapperModalCont {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+/*
+ * Image replacement
+ */
+/* line 9, sass/general/auxiliares.scss */
+.ir {
+  background-color: transparent;
+  border: 0;
+  overflow: hidden;
+  /* IE 6/7 fallback */
+  *text-indent: -9999px;
+}
+
+/* line 17, sass/general/auxiliares.scss */
+.ir:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 150%;
+}
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+/* line 28, sass/general/auxiliares.scss */
+.hidden {
+  display: none !important;
+  visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+/* line 37, sass/general/auxiliares.scss */
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute !important;
+  width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+/* line 53, sass/general/auxiliares.scss */
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+/* line 67, sass/general/auxiliares.scss */
+.invisible {
+  visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+/* line 83, sass/general/auxiliares.scss */
+.cf:before,
+.cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+/* line 89, sass/general/auxiliares.scss */
+.cf:after {
+  clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+/* line 98, sass/general/auxiliares.scss */
+.cf {
+  *zoom: 1;
+}
+
+/* line 1, sass/trans/anima.scss */
+.animate {
+  -webkit-transform: translateZ(0);
+  -webkit-animation-fill-mode: both;
+  -moz-animation-fill-mode: both;
+  -ms-animation-fill-mode: both;
+  -o-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes $fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes $fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-o-keyframes $fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes $fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/* line 31, sass/trans/fade.scss */
+.transFadeIn {
+  -webkit-animation-name: transFadeIn;
+  -moz-animation-name: transFadeIn;
+  -o-animation-name: transFadeIn;
+  animation-name: transFadeIn;
+}
+
+@-webkit-keyframes $fadeInLeft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-20px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+  }
+}
+@-moz-keyframes $fadeInLeft {
+  0% {
+    opacity: 0;
+    -moz-transform: translateX(-20px);
+  }
+  100% {
+    opacity: 1;
+    -moz-transform: translateX(0);
+  }
+}
+@-o-keyframes $fadeInLeft {
+  0% {
+    opacity: 0;
+    -o-transform: translateX(-20px);
+  }
+  100% {
+    opacity: 1;
+    -o-transform: translateX(0);
+  }
+}
+@keyframes $fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+/* line 86, sass/trans/fade.scss */
+.transFadeInLeft {
+  -webkit-animation-name: transFadeInLeft;
+  -moz-animation-name: transFadeInLeft;
+  -o-animation-name: transFadeInLeft;
+  animation-name: transFadeInLeft;
+}
+
+@-webkit-keyframes $fadeInRight {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(20px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+  }
+}
+@-moz-keyframes $fadeInRight {
+  0% {
+    opacity: 0;
+    -moz-transform: translateX(20px);
+  }
+  100% {
+    opacity: 1;
+    -moz-transform: translateX(0);
+  }
+}
+@-o-keyframes $fadeInRight {
+  0% {
+    opacity: 0;
+    -o-transform: translateX(20px);
+  }
+  100% {
+    opacity: 1;
+    -o-transform: translateX(0);
+  }
+}
+@keyframes $fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+/* line 141, sass/trans/fade.scss */
+.transFadeInRight {
+  -webkit-animation-name: transFadeInRight;
+  -moz-animation-name: transFadeInRight;
+  -o-animation-name: transFadeInRight;
+  animation-name: transFadeInRight;
+}
+
+@-webkit-keyframes $fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    display: none !important;
+    visibility: hidden;
+  }
+}
+@-moz-keyframes $fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    display: none !important;
+    visibility: hidden;
+  }
+}
+@-o-keyframes $fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes $fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    display: none !important;
+    visibility: hidden;
+  }
+}
+/* line 174, sass/trans/fade.scss */
+.transFadeOut {
+  -webkit-animation-name: transFadeOut;
+  -moz-animation-name: transFadeOut;
+  -o-animation-name: transFadeOut;
+  animation-name: transFadeOut;
+}
+
+@-webkit-keyframes $fadeOutLeft {
+  0% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateX(-20px);
+  }
+}
+@-moz-keyframes $fadeOutLeft {
+  0% {
+    opacity: 1;
+    -moz-transform: translateX(0);
+  }
+  100% {
+    opacity: 0;
+    -moz-transform: translateX(-20px);
+  }
+}
+@-o-keyframes $fadeOutLeft {
+  0% {
+    opacity: 1;
+    -o-transform: translateX(0);
+  }
+  100% {
+    opacity: 0;
+    -o-transform: translateX(-20px);
+  }
+}
+@keyframes $fadeOutLeft {
+  0% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+}
+/* line 229, sass/trans/fade.scss */
+.transFadeOutLeft {
+  -webkit-animation-name: transFadeOutLeft;
+  -moz-animation-name: transFadeOutLeft;
+  -o-animation-name: transFadeOutLeft;
+  animation-name: transFadeOutLeft;
+}
+
+@-webkit-keyframes $fadeOutRight {
+  0% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateX(20px);
+  }
+}
+@-moz-keyframes $fadeOutRight {
+  0% {
+    opacity: 1;
+    -moz-transform: translateX(0);
+  }
+  100% {
+    opacity: 0;
+    -moz-transform: translateX(20px);
+  }
+}
+@-o-keyframes $fadeOutRight {
+  0% {
+    opacity: 1;
+    -o-transform: translateX(0);
+  }
+  100% {
+    opacity: 0;
+    -o-transform: translateX(20px);
+  }
+}
+@keyframes $fadeOutRight {
+  0% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+}
+/* line 284, sass/trans/fade.scss */
+.transFadeOutRight {
+  -webkit-animation-name: transFadeOutRight;
+  -moz-animation-name: transFadeOutRight;
+  -o-animation-name: transFadeOutRight;
+  animation-name: transFadeOutRight;
+}

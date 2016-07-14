@@ -1,0 +1,109 @@
+{  
+
+   "_course_id":"546b6a16ad4130810c000007",
+   "hasContent":true,
+   "type":"Aula",
+   "name":"Opções Offline",
+   "_id":"546b6a2cad4130810c000009",
+   "updatedAt":"2014-11-18T15:47:58.164Z",
+   "courseName":"Equipamento E.A.SY.",
+   "credito":"Créditos",
+   "titleCredito":"",
+   "contentCredito": "<span style='color: rgb(14, 59, 116);'>Gerência</span><br><b>Alejandro Gonzales</b><br><br><span style='color: rgb(14, 59, 116);'>Supervisão do Currículo</span><br><b>Rogério Machado</b>",
+   "numeroModuloTop": "3.",
+   "tituloMenu": "Menu - Indice",
+   "slides":[  
+
+
+      {  
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Portal de Relacionamento B2B",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+            {  
+              
+               "template":"capaModulo",
+               "order":1,
+               "imagemCapaModulo" : "css/assets/images/C15_EasyWeb/Capas_M03.png",
+               "imagemNumeroModulo": "css/assets/images/ISVOR01_img_modulo_03.png",
+               "tituloModuloCapa": "Opções Offline",
+               "content": ""
+             
+            }
+       
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {  
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Opções Offline",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+             {  
+              
+               "template":"captura",
+               "order":1,
+               "captura": "css/assets/images/C15_EasyWeb/Capturas/.swf",
+               "title": "Opções Offline",
+               "tituloCapturaStyle": "left:-1px; top:-13px; position:absolute;",
+               "textoCapturaStyle": "left:-1px; top:110px; width:357px; position:absolute;",
+               "content": "O E.A.SY pode operar em dois modos diferentes, Offline e Online.  Caso você esteja utilizado o sistema em modo Offline, você não será capaz de rastrar um novo veículo, mas poderá usara opção Arquivo para verificar rastreamentos já arquivados.<br/><br/>Na demonstração a seguir você verá como acessar e navegar pela opção <b>Arquivo.</b>",
+               "imagem": "css/assets/images/C15_EasyWeb/C15_captura07.png",
+               "contentBtn": "Clique aqui para iniciar a simulação"
+
+            }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {  
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "ultimoModulo": true,
+         "name":"Conclusão",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+            {  
+              
+               "template":"telaFinal",
+               "ultimoModulo": true,
+               "imagem": "css/assets/images/icons/ISVOR01_icone_capa_fim.png",
+               "title": "Excelente!",
+               "content": "Você concluiu o Módulo Opções Offline. Agora você já sabe como buscar relatórios de um veículo com informações arquivadas no E.A.SY. <br/>Siga para o próximo módulo e conheça as opções Online do E.A.SY.",
+                "textoBt":"ACESSAR O PRÓXIMO MÓDULO"
+             
+            }
+       
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      }
+
+
+   ],
+
+   "index":null,
+   "id":null,
+   "styleObj":null
+}

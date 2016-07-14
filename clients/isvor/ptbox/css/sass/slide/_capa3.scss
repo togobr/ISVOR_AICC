@@ -1,0 +1,52 @@
+ @import "../_estiloPadrao.scss"; 
+
+.faixaCapa3{
+	display: inline-block;
+	vertical-align: middle;
+	width: 420px;
+	background: $auxColor;
+	margin-left: 80px;
+	overflow: hidden;
+	.texto.titulo.primario{
+		position: relative;
+		width: 100%;
+		height: 100%;
+		display: table;
+		color: $baseColor;
+  		vertical-align: middle;
+  		 .tagP{
+  		 	font-variant: small-caps;
+  			font-family: $fontePadrao;
+			font-size: 46px;
+			font-weight: normal;
+  			line-height: 60px;
+  			margin: 20px;
+  		}
+	}
+	&:before{
+		content: "";
+		@include box-shadow($x1:0px, $x2:0px, $x3:7px, $intensidade: 0.3);
+		position: absolute;
+		background: $auxColor;
+		top: 15px;
+		bottom: 15px;
+		left: 40px;
+		right: 328px;
+	}
+
+	.yellowStripes{
+		position: absolute;
+		padding: 0px;
+		right: 40px;
+		margin: 0;
+		top: 15px;
+		li{
+			@include box-shadow($x1:0px, $x2:0px, $x3:7px, $intensidade: 0.3);
+			display: inline-block;
+			height: 508px;
+			width: 40px;
+			background: $auxColor;
+			margin-left: 13px;
+		}
+	}
+}

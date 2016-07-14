@@ -1,0 +1,16 @@
+{
+	"defaults": {
+		"title": "Exemplo de Capa Simples"
+	},
+
+	"resources": {
+		"allowed": [
+			"imagem"
+		],
+
+		"insert": [
+			{  
+		    }
+		]
+	}
+}

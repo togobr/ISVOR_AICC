@@ -1,0 +1,37 @@
+.slideBackground{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	.glyphicon{
+		display: none;
+		position: absolute;
+		font-size: 50px;
+		top: 50%;
+		left: 50%;
+		margin-left: -25px;
+		margin-top: -25px;
+	}
+	
+	.noContent{
+		.glyphicon{
+			display: block;
+		}
+		border: 1px solid #b3b3b3;
+		background: #e7e7e7;
+	}
+} 
+
+.slideBackground.noContent{
+	background: #e7e7e7;
+}
+
+//Retirando placeholder do slide no player, quando o slide não tiver fundo definido.
+.swipe-wrap{
+	.slideBackground.noContent{
+		display: none;
+		.glyphicon{
+			display: none;
+		}
+	}
+}

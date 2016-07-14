@@ -1,0 +1,72 @@
+{
+	"defaults": {
+		"template": "tabs",
+		"styleObj": {
+			"position": "absolute",
+			"top": "36px",
+			"left": "53px",
+			"width": "620px",
+			"height": "350px"
+		},
+		"horizontal": {
+			"active": true,
+			"position": "bottom"
+		},
+		"vertical": {
+			"active": false,
+			"position": "left"
+		},
+		"active": 0,
+		"tabs": [{
+			"tab": "",
+			"thumbnail": {
+				"baseImg": "",
+				"src": "",
+				"changed": false
+			},
+			"dynamicContent": {
+				"entity": "slide",
+				"_id": null
+			}
+		}]
+	},
+
+	"thumbnails": {
+		"template": "imagem",
+		"border": false,
+		"editor": {
+			"restrictions": {
+				"stateHandlers": {
+					"boundingBox": false,
+					"edition": {
+						"_all": false,
+						"recImgPicker": true,
+						"recImgEditar": true
+					}
+				},
+				"deletable": false,
+				"copyable": false,
+				"top": false,
+				"left": false,
+				"right": false,
+				"bottom": false,
+				"width": false,
+				"height": false
+			}
+		}
+	},
+
+	"editor": {
+		"restrictions": {
+			"stateHandlers": {
+				"edition": {
+					"_all": false
+				}
+			},
+			"width": true,
+			"height": true,
+			"top": true,
+			"left": true
+		}
+	}
+}

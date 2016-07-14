@@ -1,0 +1,69 @@
+{
+	"resources": {
+		"allowed": [
+
+		],
+
+		"insert": [{
+			"template": "imagem",
+			"baseImg": "",
+			"src": "",
+			"imgHeight": 185,
+			"legend": {
+				"active": false,
+				"content": "Teste : Teste images"
+			},
+			"border": false,
+			"styleObj": {
+				"width": "283px",
+				"height": "469px",
+				"left": "645px",
+				"top": "36px",
+				"position": "absolute"
+			},
+			"order": 1
+		}, {
+			"template": "texto",
+			"class": "faixaCapa semFundo",
+			"content": "Capas são Slides Especiais que Trazem o Título da Secção de Conteúdo.",
+			"styleObj": {
+				"position": "relative",
+				"width": "inherit",
+				"top": "0px",
+				"left": "0px"
+			},
+			"normal": {
+				"subType": "",
+				"active": true
+			},
+			"balao": {
+				"subType": "left",
+				"active": false
+			},
+			"titulo": {
+				"subType": "primario",
+				"active": false
+			},
+			"order": 0,
+
+			"editor": {
+				"restrictions": {
+					"stateHandlers": {
+						"boundingBox": false,
+						"edition": {
+							"_all": false
+						}
+					},
+					"deletable": false,
+					"copyable": false,
+					"top": false,
+					"left": false,
+					"right": false,
+					"bottom": false,
+					"width": false,
+					"height": false
+				}
+			}
+		}]
+	}
+}

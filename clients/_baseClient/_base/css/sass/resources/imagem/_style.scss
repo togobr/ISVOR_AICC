@@ -1,0 +1,103 @@
+@import "../../mixins.scss";
+
+.resource .imagem{
+	position: absolute;	
+	min-width: 100px;
+	min-height: 100px;
+	display: table;
+
+	.trow{
+		display: table-row;
+	}
+	.trow:first-child{
+		height: 100%;
+	}
+
+	.tcell{
+		display: table-cell;
+		height: inherit;
+	}
+
+	img{
+		display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+		line-height: 0;	
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+	}
+	
+	.glyphicon{
+		display: none;
+		position: absolute;		
+		font-size: 50px;
+		top: 50%;
+		left: 50%;
+		margin-left: -25px;
+		margin-top: -30px;
+	}
+	
+	.noContent{
+		background: #e7e7e7;
+		border: 1px solid #dcd7d5;
+		.glyphicon{
+			display: block;
+		}
+	}
+
+	#imageWrapper{
+		position: relative;
+		height: 100%;
+		min-height: 100px;
+	}
+	
+	#recImglegendaContent{
+		text-align: center;
+		padding-top: 3px;
+		font-size: 12px;
+		display: block;
+	}
+}
+
+.resource .imagem.borda{
+	padding: 5px;
+}
+
+// --- Responsável pelo zoom da imagem ---
+
+.mbCanvas{
+	.imagem.zoomImg{
+		&:after{
+			content: "";
+			position: absolute;
+			height: 30px;
+			width: 34px;
+			background: url(assets/images/zoom.png);
+			top: 0px;
+			right: -1px;
+			z-index: 20;
+		}
+	}
+}
+
+.middle, #modal{
+	.imagem.zoomImg{
+		 cursor: url(../css/assets/images/zoomPointer.png), -moz-zoom-in;
+		&:after{
+			content: "";
+			position: absolute;
+			height: 30px;
+			width: 34px;
+			background: url(../css/assets/images/zoom.png);
+			top: 0px;
+			right: -1px;
+			z-index: 20;
+		}
+	}
+}
+
+
+

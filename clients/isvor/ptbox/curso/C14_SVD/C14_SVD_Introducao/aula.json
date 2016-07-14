@@ -1,0 +1,232 @@
+{  
+
+   "_course_id":"546b6a16ad4130810c000007",
+   "hasContent":true,
+   "type":"Aula",
+   "name":"Introdução",
+   "_id":"546b6a2cad4130810c000009",
+   "updatedAt":"2014-11-18T15:47:58.164Z",
+   "courseName":"Sistema de Vendas Diretas",
+   "credito":"Créditos",
+   "titleCredito":"",
+   "contentCredito": "<span style='color: rgb(14, 59, 116);'>Gerência</span><br><b>Alejandro Gonzales</b><br><br><span style='color: rgb(14, 59, 116);'>Supervisão do Currículo</span><br><b>Rogério Machado</b>",
+   "numeroModuloTop": "1.",
+   "tituloMenu": "Menu - Indice",
+   "slides":[  
+ 
+
+      {  
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Bem-vindo ao curso!",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+            {  
+              
+               "template":"capa",
+               "order":1,
+               "logoCapa": "css/assets/images/ISVOR01_logo_FCA.png",
+               "imagemCapa" : "css/assets/images/C14_SVD/C14_SVD_Capa.png",
+               "btnCapaTexto" : "Clique aqui para começar",
+               "tituloCapa": "Sistema de <br>Vendas Diretas",
+               "content": "Bem-vindo ao curso!"
+             
+            }
+       
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+
+      {  
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Sistema de Vendas Diretas",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+            {  
+              
+               "template":"capaIntroducao",
+               "order":1,
+               "imagem" : "css/assets/images/C14_SVD/C14_SVD_Capa.png",
+               "title": "Sistema de Vendas Diretas",
+               "content": "Bem-vindo ao curso “Conhecendo os Sistemas de <br/>Vendas Diretas”.<br><br>Neste curso você irá conhecer:<br/><li>as etapas de um processo de Vendas Diretas;</li><li>como acompanhar um pedido cadastrado no sistema;</li><li>como utilizar os sistemas que fazem parte do processo de Vendas Diretas.</li><br/><br/>Para isso, seus estudos estarão divididos em três módulos:<li>Módulo 1 - Portal de Relacionamento B2B</li><li>Módulo 2 - Portal de Relacionamento Link.e.entry</li><li>Módulo 3 - Cancelamento de Nota Fiscal</li><br/><br/>Bons Estudos!",
+               "tituloCapaIntroStyle": "top:27px; position:absolute; width:409px;",
+               "conteudoCapaIntroStyle":"top:81px; width:409px; position:absolute;"
+
+            }
+       
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+
+      {  
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Introdução",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+            {  
+              
+               "template":"capaModulo",
+               "order":1,
+               "imagemCapaModulo" : "css/assets/images/C14_SVD/C14_SVD_Capa_m01.png",
+               "imagemNumeroModulo": "css/assets/images/ISVOR01_img_modulo_01.png",
+               "tituloModuloCapa": "Introdução",
+               "content": "<ul><li>Vendas Diretas<br/><br/></li><li>O Processo de Vendas Diretas<br/><br/></li></ul>"
+             
+            }
+       
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+
+      {  
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Vendas Diretas",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+                    
+             {  
+              
+               "template":"destaque",
+               "order":0,
+               "imagem": "css/assets/images/ISVOR01_icone_interrogacao.png",
+               "title": "",
+               "content": "<b>Você tem alguma informação sobre Vendas Diretas?</b>"
+
+             },
+
+
+            {  
+               "_id":"54b535e86e98656c0d000004",
+               "template":"texto",
+               "order":1,
+               "styleObj":{  
+                  "left":"401px",
+                  "top":"101px",
+                  "width":"414px",
+                  "position":"absolute"
+               },
+               "content":"As Vendas Diretas envolvem um processo em que há um relacionamento pessoal entre o Consultor de Vendas e o Cliente, por meio de negociações específicas.<br/><br/>O consultor avalia o que o cliente precisa e oferece a ele produtos que satisfaçam suas necessidades.<br/><br/>Na Chrysler, essa modalidade de comercialização é destinada a:<br/><br/><b>pessoas jurídicas</b> que atuam em diversos segmentos, tais como: frotistas, comerciantes, entre outros.<br/><br/><b>pessoas físicas,</b> como por exemplo: taxistas, produtores rurais, portadores de necessidades especiais, diplomatas, funcionários e <i>dealer.</i> ",
+               "normal":{  
+                  "active":true,
+                  "subType":"semFundo"
+               },
+               "balao":{  
+                  "active":false,
+                  "subType":"left"
+               },
+               "titulo":{  
+                  "active":false,
+                  "subType":"primario"
+               },
+               "_course_id":"546b6a16ad4130810c000007",
+               "slide":0,
+               "index":1,
+               "id":"texto1",
+               "class":"texto",
+               "style":"left:51px;top:36px;width:284px;position:absolute;"
+            }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {  
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Vendas Diretas",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+                    
+             {  
+               "_id":"54b535ff6e98656c0d00000a",
+               "template":"multimedia",
+               "order":0,     
+               "styleObj":{  
+                  "left":"0px",
+                  "top":"-59px",
+                  "height":"600px",
+                  "width":"900px",
+                  "position":"absolute"
+               },
+               "src":"css/assets/images/C14_SVD/Capturas/C14_REC01_Processos/index.html",
+               "_course_id":"546b6a16ad4130810c000007",
+               "slide":1,
+               "index":3,
+               "id":"multimedia1",
+               "class":"multimedia",
+               "style":"left:543px;top:225px;height:208px;width:283px;position:absolute;"
+            }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+
+
+      {  
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Conclusão",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+            {  
+              
+               "template":"telaFinal",
+               "ultimoModulo": false,
+               "imagem": "css/assets/images/icons/ISVOR01_icone_capa_fim.png",
+               "title": "Excelente!",
+               "content": "Você concluiu o Módulo 1 - Introdução do curso Sistema de Vendas Diretas, siga para o próximo módulo.",
+               "textoBt":"ACESSAR O PRÓXIMO MÓDULO"
+             
+            }
+       
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      }
+
+   ],
+
+   "index":null,
+   "id":null,
+   "styleObj":null
+}

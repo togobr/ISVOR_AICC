@@ -1,0 +1,25 @@
+<div id="{{_id}}" class="{{class}}" style="{{style}}">
+
+	<a href="javascript:void(0);" class="tab-prev"></a>
+	
+	<ul class="tabs-nav">
+		{{#tabs}}
+		<li><a class="anchor mbTooltip" href="#" title="{{tab}}"></a></li>
+		{{/tabs}}
+	</ul>
+	
+	<a href="javascript:void(0);" class="tab-next"></a>
+
+	<div class="tabs-content">
+		{{#tabs}}
+			<div class="tab-content"></div>
+		{{/tabs}}
+
+		<div class="sliderMenu">
+			<a href="javascript:void(0);" class="prev-slide"></a>
+			<div class="summary"></div>
+			<a href="javascript:void(0);" class="next-slide"></a>
+		</div>
+	</div>
+	
+</div>

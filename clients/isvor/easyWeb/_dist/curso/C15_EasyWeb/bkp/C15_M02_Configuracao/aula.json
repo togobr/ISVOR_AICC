@@ -1,0 +1,175 @@
+{  
+
+   "_course_id":"546b6a16ad4130810c000007",
+   "hasContent":true,
+   "type":"Aula",
+   "name":"Configurações ",
+   "_id":"546b6a2cad4130810c000009",
+   "updatedAt":"2014-11-18T15:47:58.164Z",
+   "courseName":"E.A.SY: Ferramenta de diagnóstico",
+   "credito":"Créditos",
+   "titleCredito":"",
+   "contentCredito": "<span style='color: rgb(150, 36, 20);'>Gerência</span><br><b>Alejandro Gonzales</b><br><br><span style='color: rgb(150, 36, 20);'>Supervisão do Currículo</span><br><b>Rogério Machado</b>",
+   "numeroModuloTop": "2.",
+   "tituloMenu": "Menu - Indice",
+   "slides":[  
+
+
+      {  
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Portal de Relacionamento B2B",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+            {  
+              
+               "template":"capaModulo",
+               "order":1,
+               "imagemCapaModulo" : "css/assets/images/C15_EasyWeb/Capas_M02.png",
+               "imagemNumeroModulo": "css/assets/images/ISVOR01_img_modulo_02.png",
+               "tituloModuloCapa": "Configurações",
+               "content": "<ul><li>Aba de configurações<br/><br/></li><li>Administração de licença <br/><br/></li><li>Seleção de idioma</li></ul>"
+             
+            }
+       
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {  
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Aba de configurações",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+             {  
+              
+               "template":"captura",
+               "order":1,
+               "captura": "css/assets/images/C15_EasyWeb/Capturas/Captura03_configuracoes.swf",
+               "title": "Aba de configurações",
+               "tituloCapturaStyle": "left:10px; top:10px; position:absolute;",
+               "textoCapturaStyle": "left:10px; top:130px; width:348px; position:absolute;",
+               "content": "As configurações do E.A.SY permitem que você configure diferentes funcionalidades do sistema, como a  seleção do idioma e da unidade de medição, além de administrar a licença do E.A.SY.<br/><br/>Na demonstração a seguir você conhecerá as diferentes opções da aba de configurações presente no sistema.",
+               "imagem": "css/assets/images/C15_EasyWeb/C15_captura03.png",
+               "contentBtn": "Clique aqui para iniciar a simulação"
+
+            }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {  
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Administração de licença",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+             {  
+              
+               "template":"captura",
+               "order":1,
+               "captura": "css/assets/images/C15_EasyWeb/Capturas/Captura04_licenca.swf",
+               "title": "Administração de licença",
+               "tituloCapturaStyle": "left:10px; top:10px; position:absolute;",
+               "textoCapturaStyle": "left:10px; top:130px; width:348px; position:absolute;",
+               "content": "Acessando as configurações do E.A.SY, você pode acompanhar o status da licença do software e sua validação. <br/><br/>Na demonstração a seguir você verá como administrar a licença do E.A.SY.",
+               "imagem": "css/assets/images/C15_EasyWeb/C15_captura04.png",
+               "contentBtn": "Clique aqui para iniciar a simulação"
+
+            }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {  
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Seleção de idioma",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+             {  
+              
+               "template":"captura",
+               "order":1,
+               "captura": "css/assets/images/C15_EasyWeb/Capturas/Captura05_idioma.swf",
+               "title": "Seleção de idioma",
+               "tituloCapturaStyle": "left:10px; top:10px; position:absolute;",
+               "textoCapturaStyle": "left:10px; top:130px; width:348px; position:absolute;",
+               "content": "Acessando as configurações do E.A.SY, você pode escolher o idioma que será utilizado no sistema. <br/><br/>Na demonstração a seguir você verá como alterar o idioma do sistema.",
+               "imagem": "css/assets/images/C15_EasyWeb/C15_captura05.png",
+               "contentBtn": "Clique aqui para iniciar a simulação"
+
+            }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+     
+
+
+   
+
+
+      {  
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "ultimoModulo": true,
+         "name":"Conclusão",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+            {  
+              
+               "template":"telaFinal",
+               "ultimoModulo": true,
+               "imgFim": "css/assets/images/ISVOR01_icone_capa_fim.png",
+               "title": "Excelente!",
+               "content": "Você concluiu o Módulo Configurações do E.A.SY. Agora você já conhece as opções da aba configurações presente no sistema, e sabe como administrar a licença do software e alterar seu idioma.<br/><br/>Siga para o próximo módulo e conheça as opções Offline do E.A.SY.",
+                "textoBt":"ACESSAR O PRÓXIMO MÓDULO"
+             
+            }
+       
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      }
+
+
+   ],
+
+   "index":null,
+   "id":null,
+   "styleObj":null
+}

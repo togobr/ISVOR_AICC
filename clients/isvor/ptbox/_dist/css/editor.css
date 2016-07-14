@@ -1,0 +1,44 @@
+/*
+#start
+	
+$r:{{color.r}};
+$g:{{color.g}};	
+$b:{{color.b}};	
+
+$rgb : $r + $g + $b;
+$baseColor: rgb($r, $g, $b); 	
+
+@function fontColor() {
+	@if $rgb/3 > 178{
+		@return #000000;
+	} @else {
+		@return #ffffff;
+	}
+}
+ 
+//-------------------------- FONTE ------------------------------- 
+$fontePadrao: {{font.name}}, sans-serif;
+
+//-------------------------- LOGO ------------------------------- 
+$logo: url("{{logo.url}}") no-repeat;
+
+//-------------------------- BACKGROUND SLIDE  ------------------------------- 
+$background_atividade: url(assets/images/background_atividade.png);
+
+#end
+*/
+@font-face {
+  font-family: 'VWHeadlineOTBook';
+  src: url("assets/fonts/VWHeadlineOT-Book.eot");
+  src: url("assets/fonts/VWHeadlineOT-Book.eot") format("embedded-opentype"), url("assets/fonts/VWHeadlineOT-Book.ttf") format("truetype"), url("assets/fonts/VWHeadlineOT-Book.svg#VWHeadlineOTBook") format("svg");
+}
+@font-face {
+  font-family: 'VWHeadlineOTSemibold';
+  src: url("assets/fonts/VWHeadlineOT-Semibold.eot");
+  src: url("assets/fonts/VWHeadlineOT-Semibold.eot") format("embedded-opentype"), url("assets/fonts/VWHeadlineOT-Semibold.ttf") format("truetype"), url("assets/fonts/VWHeadlineOT-Semibold.svg#VWHeadlineOT-Semibold") format("svg");
+}
+@font-face {
+  font-family: 'VWHeadlineOTBlack';
+  src: url("assets/fonts/VWHeadlineOT-Black.eot");
+  src: url("assets/fonts/VWHeadlineOT-Black.eot") format("embedded-opentype"), url("assets/fonts/VWHeadlineOT-Black.ttf") format("truetype"), url("assets/fonts/VWHeadlineOT-Black.svg#VWHeadlineOT-Black") format("svg");
+}

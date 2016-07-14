@@ -1,0 +1,39 @@
+/* line 1, sass/ieFix.scss */
+.gavetaSelected:before {
+  left: -3px;
+}
+
+/* line 5, sass/ieFix.scss */
+.botaoCirculo {
+  filter: none;
+}
+
+/* line 9, sass/ieFix.scss */
+.botaoCirculo:hover {
+  filter: none;
+}
+
+/* line 13, sass/ieFix.scss */
+.programe-se .tituloCaixaDestaque {
+  filter: none;
+}
+
+/* line 17, sass/ieFix.scss */
+.primeiroPlano {
+  box-shadow: none;
+}
+
+/* line 21, sass/ieFix.scss */
+.tituloPrimeiroPlano, .pergunta_atividade {
+  border-radius: 5px 5px 0px 0px;
+  -moz-border-radius: 5px 5px 0px 0px;
+  -webkit-border-radius: 5px 5px 0px 0px;
+  border: 1px solid #dddddf;
+}
+
+/* line 28, sass/ieFix.scss */
+.caixa, .caixaDestaque, .primeiroPlano, .imagem {
+  -webkit-box-shadow: #666 2px 2px 5px;
+  -moz-box-shadow: #666 2px 2px 5px;
+  box-shadow: #666 2px 2px 5px;
+}

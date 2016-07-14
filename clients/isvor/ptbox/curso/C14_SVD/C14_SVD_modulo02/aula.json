@@ -1,0 +1,234 @@
+{  
+
+   "_course_id":"546b6a16ad4130810c000007",
+   "hasContent":true,
+   "type":"Aula",
+   "name":"Portal de Relacionamento B2B",
+   "_id":"546b6a2cad4130810c000009",
+   "updatedAt":"2014-11-18T15:47:58.164Z",
+   "courseName":"Sistema de Vendas Diretas",
+   "credito":"Créditos",
+   "titleCredito":"",
+   "contentCredito": "<span style='color: rgb(14, 59, 116);'>Gerência</span><br><b>Alejandro Gonzales</b><br><br><span style='color: rgb(14, 59, 116);'>Supervisão do Currículo</span><br><b>Rogério Machado</b>",
+   "numeroModuloTop": "2.",
+   "tituloMenu": "Menu - Indice",
+   "slides":[  
+
+
+      {  
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Portal de Relacionamento B2B",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+            {  
+              
+               "template":"capaModulo",
+               "order":1,
+               "imagemCapaModulo" : "css/assets/images/C14_SVD/C14_SVD_Capa_m02.png",
+               "imagemNumeroModulo": "css/assets/images/ISVOR01_img_modulo_02.png",
+               "tituloModuloCapa": "Portal de Relacionamento B2B",
+               "content": "<ul><li>Acesso ao Portal B2B<br>de clientes<br/><br/></li><li>Novo Pedido – Cadastro do Cliente<br/><br/></li><li>Novo Pedido – Pedido Comercial</li></ul>"
+             
+            }
+       
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+     
+
+
+      {  
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Introdução",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+                    
+             {  
+              
+               "template":"destaque",
+               "order":0,
+               "imagem": "css/assets/images/ISVOR01_icone_interrogacao.png",
+               "title": "",
+               "content": "<b>Para começar, você sabe para que serve o Portal B2B?</b>"
+
+             },
+
+
+            {  
+               "_id":"54b535e86e98656c0d000004",
+               "template":"texto",
+               "order":1,
+               "styleObj":{  
+                  "left":"401px",
+                  "top":"145px",
+                  "width":"414px",
+                  "position":"absolute"
+               },
+               "content":"O B2B é o portal em que ocorre a troca de informações entre a Fábrica e seus usuários. O Portal disponibiliza acesso a sistemas, conteúdos e, além disso, facilita a comunicação entre as partes interessadas.<br/><br/>São elas:<br/><br/><b><li>Fornecedores</li><li>Concessionárias</li><li>Escritórios Regionais</li></b>",
+               "normal":{  
+                  "active":true,
+                  "subType":"semFundo"
+               },
+               "balao":{  
+                  "active":false,
+                  "subType":"left"
+               },
+               "titulo":{  
+                  "active":false,
+                  "subType":"primario"
+               },
+               "_course_id":"546b6a16ad4130810c000007",
+               "slide":0,
+               "index":1,
+               "id":"texto1",
+               "class":"texto",
+               "style":"left:51px;top:36px;width:284px;position:absolute;"
+            }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+
+      {  
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Acesso ao Portal B2B",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+             {  
+              
+               "template":"captura",
+               "order":1,
+               "captura": "css/assets/images/C14_SVD/Capturas/C14_M01_Cap01_Acesso_v1.swf",
+               "title": "Acesso ao Portal B2B",
+               "tituloCapturaStyle": "left:42px; top:-20px; position:absolute;",
+               "textoCapturaStyle": "left:40px; top:120px; width:273px; position:absolute;",
+               "content": "Para fazer um novo pedido, acesse o portal Fiat B2B pelo site www.portalfiat.com.br. Fique atento!",
+               "imagem": "css/assets/images/C14_SVD/C14_SVD_captura01.png",
+               "contentBtn": "Clique aqui para iniciar a simulação"
+
+            }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+
+      {  
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Novo Pedido – Cadastro do Cliente",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+             {  
+              
+               "template":"captura",
+               "order":1,
+               "captura": "css/assets/images/C14_SVD/Capturas/C14_M01_Cap02_Novo_Pedido.swf",
+               "title": "Novo Pedido – Cadastro<br/>do Cliente",
+               "tituloCapturaStyle": "left:42px; top:-20px; position:absolute;",
+               "textoCapturaStyle": "left:40px; top:120px; width:273px; position:absolute;",
+               "content": "Veja como realizar um Novo Pedido por meio do Sistema de Vendas Diretas.",
+               "imagem": "css/assets/images/C14_SVD/C14_SVD_captura02.png",
+               "contentBtn": "Clique aqui para iniciar a simulação"
+
+            }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {  
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Novo Pedido – Pedido Comercial",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+             {  
+              
+               "template":"captura",
+               "order":1,
+               "captura": "css/assets/images/C14_SVD/Capturas/C14_M01_Cap03_Pedido_Comercial.swf",
+               "title": "Novo Pedido – Pedido Comercial",
+               "tituloCapturaStyle": "left:42px; top:-20px; position:absolute;",
+               "textoCapturaStyle": "left:40px; top:120px; width:273px; position:absolute;",
+               "content": "Agora que você já viu como cadastrar um cliente no Sistema de Vendas Diretas, chegou a hora de verificar como escolher os veículos que irão suprir as necessidades do cliente. Fique atento!",
+               "imagem": "css/assets/images/C14_SVD/C14_SVD_captura03.png",
+               "contentBtn": "Clique aqui para iniciar a simulação"
+
+            }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+
+
+
+      {  
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "ultimoModulo": true,
+         "name":"Conclusão",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+            {  
+              
+               "template":"telaFinal",
+               "ultimoModulo": true,
+               "imagem": "css/assets/images/icons/ISVOR01_icone_capa_fim.png",
+               "title": "Excelente!",
+               "content": "Você chegou ao final do Módulo 2 – Portal de Relacionamento B2B. Parabéns!<br/><br/>No próximo módulo você conhecerá o Portal de Relacionamento Link.e.entry.<br/><br/>Até lá!",
+                "textoBt":"ACESSAR O PRÓXIMO MÓDULO"
+             
+            }
+       
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      }
+
+
+   ],
+
+   "index":null,
+   "id":null,
+   "styleObj":null
+}

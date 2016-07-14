@@ -1,0 +1,119 @@
+{
+   "defaults": {
+      "background": {
+         "src": ""
+      }
+   },
+
+   "resources": {
+      "allowed": [
+         "texto",
+         "caixaDestaque",
+         "imagem",
+         "video",
+         "multimedia",
+         "audio",
+         "atividade",
+         "botaoPP"
+      ],
+
+      "insert": [
+         {  
+               
+               "template":"texto",
+               "order":0,
+               "styleObj":{  
+                  "left":"45.578125px",
+                  "top":"35.859375px",
+                  "width":"248.796875px",
+                  "position":"absolute"
+               },
+               "content":"Template Tela Texto",
+               "normal":{  
+                  "active":false,
+                  "subType":"semFundo"
+               },
+               "balao":{  
+                  "active":false,
+                  "subType":"left"
+               },
+               "titulo":{  
+                  "active":true,
+                  "subType":"secundario"
+               }
+            },
+            {  
+               
+               "template":"texto",
+               "order":1,
+               "styleObj":{  
+                  "left":"45.578125px",
+                  "top":"145px",
+                  "width":"247.421875px",
+                  "position":"absolute"
+               },
+               "content":"Donec lacus erat, placerat sit amet turpis sit amet, rutrum tempor magna.&nbsp;<div><br></div><div>Suspendisse lobortis quam tempus, tincidunt lectus id, facilisis enim.</div><div><br></div><div>Aenean tempor quis leo nec consectetur. Fusce posuere lorem sit amet nibh tristique, a lacinia mi ultricies. Maecenas vel mauris nunc. Praesent eget sapien nec arcu suscipit aliquet suscipit a dolor.&nbsp;</div>",
+               "normal":{  
+                  "subType":"semFundo",
+                  "active":true
+               },
+               "balao":{  
+                  "active":false,
+                  "subType":"left"
+               },
+               "titulo":{  
+                  "active":false,
+                  "subType":"primario"
+               }
+            },
+            {  
+              
+               "template":"texto",
+               "order":2,
+               "styleObj":{  
+                  "left":"304.671875px",
+                  "top":"35.859375px",
+                  "width":"522.671875px",
+                  "position":"absolute"
+               },
+               "content":"<b>Lorem ipsum Aliqua nostrud occaecat anim elit culpa ut magna velit esse deserunt.</b>",
+               "normal":{  
+                  "active":true,
+                  "subType":"semFundo"
+               },
+               "balao":{  
+                  "active":false,
+                  "subType":"left"
+               },
+               "titulo":{  
+                  "active":false,
+                  "subType":"primario"
+               }
+            },
+            {  
+               
+               "template":"texto",
+               "order":3,
+               "styleObj":{  
+                  "left":"305.671875px",
+                  "top":"142px",
+                  "width":"509.53125px",
+                  "position":"absolute"
+               },
+               "content":"<ul><li><span style=\"background-color: initial;\">Donec lacus erat, placerat sit amet turpis sit amet, rutrum tempor magna.&nbsp;<br><br></span></li><li>Suspendisse lobortis quam tempus, tincidunt lectus id, facilisis enim. Aenean tempor quis leo nec consectetur.&nbsp;<br><br></li><li>Fusce posuere lorem sit amet nibh tristique, a lacinia mi ultricies.<br><br></li><li> Maecenas vel mauris nunc.&nbsp;<br><br></li><li>Praesent eget sapien nec arcu suscipit aliquet suscipit a dolor.&nbsp;<br><br></li><li>Donec facilisis orci vel molestie finibus. Suspendisse non leo varius libero pulvinar finibus.<br></li></ul>",
+               "normal":{  
+                  "active":true,
+                  "subType":"semFundo"
+               },
+               "balao":{  
+                  "active":false,
+                  "subType":"left"
+               },
+               "titulo":{  
+                  "active":false,
+                  "subType":"primario"
+               }
+            }
+      ]
+   }
+}

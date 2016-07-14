@@ -1,0 +1,13 @@
+{
+  "name": "namespace",
+  "homepage": "https://github.com/diogoreus/requirejs-namespace-plugin",
+  "_release": "ed7801ad59",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "ed7801ad591c03a1912f9de1621c3e73ef8c7c71"
+  },
+  "_source": "https://github.com/diogoreus/requirejs-namespace-plugin.git",
+  "_target": "*",
+  "_originalSource": "https://github.com/diogoreus/requirejs-namespace-plugin.git"
+}

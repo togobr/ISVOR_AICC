@@ -1,0 +1,13 @@
+{
+	"name": "Comenius - Player",
+	"version": "0.0.1",
+	"dependencies": {
+		"swipe": "https://github.com/diogoreus/Swipe.git",
+		"jquery-tipsy": "https://github.com/jaz303/tipsy.git",
+		"tooltipster": "https://github.com/iamceege/tooltipster.git",
+		"videojs-youtube": "https://github.com/eXon/videojs-youtube.git",
+		"videojs-vimeo": "https://github.com/eXon/videojs-vimeo.git"
+	},
+	
+	"devDependencies": {}
+}

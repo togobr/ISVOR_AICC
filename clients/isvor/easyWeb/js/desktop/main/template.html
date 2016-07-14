@@ -1,0 +1,56 @@
+<div class="wrapper">
+	<div class="ajuda" style="display: none;">
+	<div class="closeAjuda"></div>
+		<div class="credito">
+			<h1 class="tituloCredito">CRÉDITOS</h1>
+			<h2 class="subtituloCredito">{{&titleCredito}}</h2>
+			<img src="css/assets/images/ISVOR01_logo_cjdr.png" style="{{styleImagemCredito}}" class="imagemCapaCredito">
+			<p class="conteudoCredito">{{&contentCredito}}</p>
+			<br>
+			<p class="conteudoCredito reser">&copy; 2015</p>
+		</div>
+	</div>
+
+	<div class="menuIndice" style="display: none">
+		<div class="closeIndice"></div>
+		<div class="avancarIndice"></div>
+		<div class="voltarIndice"></div>
+		<div class="textoMenu">
+		<h1 class="tituloMenu">{{&tituloMenu}}</h1>
+		</div>
+		<ol id="indice" style="right:0px">
+			{{#slides}}
+				<li class="slideIten indiceDesativado"><h3>{{name}}</h3></li>
+			{{/slides}}					
+		</ol>
+	</div>
+
+	<div class="top">	
+			<h5 class="courseName">{{courseName}}</h5>  <br> </span> <h6 class="courseMod">{{name}}</h6> <br>
+			<span class="numeroModuloTop">{{&numeroModuloTop}} </span>
+	</div>
+
+	<div id="slider" class="swipe middle" style="background:{{background}}">
+		<div class="swipe-wrap">
+		</div>
+	</div>
+
+	<div class="bottom">
+
+		<!--O menu aparecerá, somente quando a classe bottom ganhar a classe "atividade"-->
+		<div class="menu">
+			<div class="botaoVoltar"></div>
+			<div class="botaoAvancar"></div>
+
+			<div class="valorSlide">
+				<div class="valorSlideAtual">
+					<span id="sldAtual"></span> <span id="cursoDE">DE</span> <span id="sldTotal"></span>
+				</div>
+			</div>
+		</div>
+		<div class="logo"></div>
+		<div class="botaoIndice" style="display:none;"><span class="btnMenuCreditos">M</span></div>
+		<!-- <div class="botaoAjuda"><span class="btnMenuIndice">C</span></div> -->
+		
+	</div>
+</div>

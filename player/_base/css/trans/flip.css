@@ -1,0 +1,175 @@
+@-webkit-keyframes transFlipIn {
+  /* line 7, ../sass/trans/flip.scss */
+  0% {
+    -webkit-transform: perspective(400px) rotateX(90deg);
+    opacity: 0;
+  }
+
+  /* line 12, ../sass/trans/flip.scss */
+  40% {
+    -webkit-transform: perspective(400px) rotateX(-10deg);
+  }
+
+  /* line 16, ../sass/trans/flip.scss */
+  70% {
+    -webkit-transform: perspective(400px) rotateX(10deg);
+  }
+
+  /* line 20, ../sass/trans/flip.scss */
+  100% {
+    -webkit-transform: perspective(400px) rotateX(0deg);
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes transFlipIn {
+  /* line 26, ../sass/trans/flip.scss */
+  0% {
+    -moz-transform: perspective(400px) rotateX(90deg);
+    opacity: 0;
+  }
+
+  /* line 31, ../sass/trans/flip.scss */
+  40% {
+    -moz-transform: perspective(400px) rotateX(-10deg);
+  }
+
+  /* line 35, ../sass/trans/flip.scss */
+  70% {
+    -moz-transform: perspective(400px) rotateX(10deg);
+  }
+
+  /* line 39, ../sass/trans/flip.scss */
+  100% {
+    -moz-transform: perspective(400px) rotateX(0deg);
+    opacity: 1;
+  }
+}
+
+@-o-keyframes transFlipIn {
+  /* line 45, ../sass/trans/flip.scss */
+  0% {
+    -o-transform: perspective(400px) rotateX(90deg);
+    opacity: 0;
+  }
+
+  /* line 50, ../sass/trans/flip.scss */
+  40% {
+    -o-transform: perspective(400px) rotateX(-10deg);
+  }
+
+  /* line 54, ../sass/trans/flip.scss */
+  70% {
+    -o-transform: perspective(400px) rotateX(10deg);
+  }
+
+  /* line 58, ../sass/trans/flip.scss */
+  100% {
+    -o-transform: perspective(400px) rotateX(0deg);
+    opacity: 1;
+  }
+}
+
+@keyframes transFlipIn {
+  /* line 64, ../sass/trans/flip.scss */
+  0% {
+    transform: perspective(400px) rotateX(90deg);
+    opacity: 0;
+  }
+
+  /* line 69, ../sass/trans/flip.scss */
+  40% {
+    transform: perspective(400px) rotateX(-10deg);
+  }
+
+  /* line 73, ../sass/trans/flip.scss */
+  70% {
+    transform: perspective(400px) rotateX(10deg);
+  }
+
+  /* line 77, ../sass/trans/flip.scss */
+  100% {
+    transform: perspective(400px) rotateX(0deg);
+    opacity: 1;
+  }
+}
+
+/* line 83, ../sass/trans/flip.scss */
+.transFlipIn {
+  -webkit-backface-visibility: visible !important;
+  -webkit-animation-name: transFlipIn;
+  -moz-backface-visibility: visible !important;
+  -moz-animation-name: transFlipIn;
+  -o-backface-visibility: visible !important;
+  -o-animation-name: transFlipIn;
+  backface-visibility: visible !important;
+  animation-name: transFlipIn;
+}
+
+@-webkit-keyframes transFlipOut {
+  /* line 96, ../sass/trans/flip.scss */
+  0% {
+    -webkit-transform: perspective(400px) rotateX(0deg);
+    opacity: 1;
+  }
+
+  /* line 100, ../sass/trans/flip.scss */
+  100% {
+    -webkit-transform: perspective(400px) rotateX(90deg);
+    opacity: 0;
+  }
+}
+
+@-moz-keyframes transFlipOut {
+  /* line 107, ../sass/trans/flip.scss */
+  0% {
+    -moz-transform: perspective(400px) rotateX(0deg);
+    opacity: 1;
+  }
+
+  /* line 111, ../sass/trans/flip.scss */
+  100% {
+    -moz-transform: perspective(400px) rotateX(90deg);
+    opacity: 0;
+  }
+}
+
+@-o-keyframes transFlipOut {
+  /* line 118, ../sass/trans/flip.scss */
+  0% {
+    -o-transform: perspective(400px) rotateX(0deg);
+    opacity: 1;
+  }
+
+  /* line 122, ../sass/trans/flip.scss */
+  100% {
+    -o-transform: perspective(400px) rotateX(90deg);
+    opacity: 0;
+  }
+}
+
+@keyframes transFlipOut {
+  /* line 129, ../sass/trans/flip.scss */
+  0% {
+    transform: perspective(400px) rotateX(0deg);
+    opacity: 1;
+  }
+
+  /* line 133, ../sass/trans/flip.scss */
+  100% {
+    transform: perspective(400px) rotateX(90deg);
+    opacity: 0;
+  }
+}
+
+/* line 139, ../sass/trans/flip.scss */
+.transFlipOut {
+  -webkit-animation-name: transFlipOut;
+  -webkit-backface-visibility: visible !important;
+  -moz-animation-name: transFlipOut;
+  -moz-backface-visibility: visible !important;
+  -o-animation-name: transFlipOut;
+  -o-backface-visibility: visible !important;
+  animation-name: transFlipOut;
+  backface-visibility: visible !important;
+}

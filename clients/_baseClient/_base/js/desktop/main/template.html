@@ -1,0 +1,52 @@
+<div class="wrapper" id="{{_id}}">
+	<div class="ajuda" style="display: none"></div>
+
+	<div class="menuIndice" style="display: none">
+		<div class="avancarIndice"></div>
+		<div class="voltarIndice"></div>
+		<ol id="indice" style="right:0px">
+			{{#slides}}
+				<li class="slideIten indiceDesativado"><h3>{{name}}</h3></li>
+			{{/slides}}					
+		</ol>
+	</div>
+
+	<div class="top">
+		<h3>{{courseName}} | {{name}}</h3>
+	</div>
+
+	<div id="slider" class="swipe middle" style="background:{{background}}">
+		<div class="swipe-wrap"></div>
+	</div>
+
+	<div class="bottom">
+		<div class="logo"></div>
+
+		<div class="botaoMenu botaoIndice">
+			<div class="botaoIcon-indice botaoIcon"></div>
+			<span>Índice</span>
+		</div>
+
+		<div class="botaoMenu botaoAjuda">
+			<div class="botaoIcon-ajuda botaoIcon"></div>
+			<span>Ajuda</span>
+		</div>
+
+		<div class="barraProgresso">
+			<div class="valorBarraProgresso">
+				<div class="frontText">
+					slide 15 / 25
+				</div>
+			</div>
+			<div class="backText">
+				slide 15 / 25
+			</div>
+		</div>
+
+		<div class="botaoMenu botaoVoltar">
+			<div class="voltarImg"></div>
+		</div>
+	</div>
+
+	<div class="botaoAvancar"></div>
+</div>

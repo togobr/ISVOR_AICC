@@ -1,0 +1,357 @@
+// bloco de estilo comum entre as classes de orientação (horizontal|vertical)
+// @TODO remover blocos de css pertinentes ao editor e deixar somente o que é do clients
+// @TOGO: ver no jQuery UI, tem estilos para a posição horizontal e vertical dos tabs, talvez usar o CSS do jQuery.ui ao inves das classes abaixo
+
+.addRemoveTabs {
+    display: none;
+}
+
+.tabs{
+    padding: 10px;
+    border: 1px solid #b8b8b8;
+    background: #f7f7f7;
+}
+
+.theTab {
+    &.ui-tabs {
+        position: relative;
+        display: block;  // mostra o recurso somente quando passar pelo jQuery.ui
+        height: 100%;
+        width: 100%;
+    }
+
+    ul.tabs-nav {
+        display: block;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        background: #f8f8f8;
+        position: relative;
+
+        li {
+            list-style: none;
+            border: 1px solid #b8b8b8;
+            position: relative;
+            text-align: center;
+            display: table;
+
+            .anchor {
+                background: #FFFFFF;
+                display: block;
+                height: inherit;
+                width: 100%;
+                color: #000000;
+                display: table;
+                &:focus{
+                    outline: none;
+                }
+
+                &, & * {
+                    text-decoration: none;
+                }
+
+                .tagP {
+                    padding: 8px;
+                    width: inherit;
+                    height: inherit;
+                    display: table-cell;
+                    vertical-align: middle;
+                    cursor: pointer;
+                    font-size: 17px;
+                }
+            }
+
+            &.ui-tabs-active {
+                >* {
+                    background: #eaeaea;
+                }
+            }
+        }
+    }
+
+    .tabs-content    {
+        position: relative;
+        border: 1px solid #b8b8b8;
+        width: 100%;
+        background: #eaeaea;
+        overflow: hidden;
+    }
+
+    .addRemoveTabs {
+        position: absolute;
+        bottom: -1px;
+        right: -1px;
+    }
+
+    .tab-prev, .tab-next {
+        cursor: pointer;
+        /* display: none; */
+    }
+
+    &.tabs-nav-can-scroll {
+        .tab-prev, .tab-next {
+            display: block;
+        }
+    }
+
+    //Disable dos botoes
+    &.tabs-nav-prev-exausted .tab-prev, &.tabs-nav-next-exausted .tab-next {
+        background: #BDBDBD;
+    }
+
+}
+
+// FIM bloco de estilo comum entre as classes de orientação
+
+
+//**********************| VERTICAL |**********************
+
+.theTab.vertical {
+    &.left {
+        .tabs-content {
+            right: 0px;
+        }
+
+        .tab-prev, .tab-next {
+            left: 0px;
+        }
+    }
+    &.right {
+        ul.tabs-nav {
+            float: right;
+        }
+
+        .tabs-content {
+            left: 0px;
+        }
+
+        .tab-prev, .tab-next {
+            right: 0px;
+        }
+    }
+
+    .tab-prev, .tab-next {
+        @include border-radius();
+        position: absolute;
+        width: 35%;
+        height: 10px;
+        z-index: 1;
+        &:after{
+            content: '';
+            position: absolute;
+            border-style: solid;
+            border-width: 5px 5px 0px;
+            border-color: #FFFFFF transparent;
+            display: block;
+            width: 0;
+            z-index: 1;
+            left: 50%;
+            top: 50%;
+            margin-left: -2.5px;
+            margin-top: -2.5px;
+        }
+    }
+
+    .tab-prev {
+        top: 0px;
+        &:after{
+            border-width: 0 5px 5px;
+        }
+    }
+
+    .tab-next {
+        bottom: 0px;
+    }
+
+    ul.tabs-nav {
+        float: left;
+        width: 35%;
+        height: inherit;
+        overflow: hidden;
+        padding: 15px 0px 4px 0px;
+
+        li {
+            width: 100%;
+        }
+    }
+
+    .tabs-content {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        height: inherit;
+        width: 63%;
+        z-index: 0;
+
+        .tab-content {
+            height: inherit;
+
+            .TabsStage {
+                height: inherit;
+
+                .mbCanvas {
+                    height: inherit;
+                }
+            }
+        }
+    }
+}
+
+
+
+//**********************| HORIZONTAL |**********************
+
+.theTab.horizontal {
+
+    .tab-next, .tab-prev{
+        &:after{
+            content: '';
+            position: absolute;
+            border-style: solid;
+            border-width: 5px 0 5px 5px;
+            border-color: transparent #FFFFFF;
+            display: block;
+            width: 0;
+            z-index: 1;
+            top: 50%;
+            left: 50%;
+            margin-top: -5px;
+            margin-left: -3px;
+        }
+    }
+
+    .tab-prev{
+        &:after{
+            border-width: 5px 5px 5px 0;
+        }
+    }
+
+    &.top {
+        background: none;
+        ul.tabs-nav {
+            border-bottom: 0px;
+            li{
+                border-bottom: 0px;
+            }
+        }
+
+        &:after, &.before{
+            content: none;
+        }
+        .tab-next, .tab-prev{
+            top: 0px;
+        }
+    }
+
+    &.bottom {
+        background: none;
+        bottom: auto;
+        border: 0px;
+        ul.tabs-nav {
+            position: absolute;
+            bottom: 0px;
+            li{
+                border-top: 0px;
+            }
+        }
+
+        .tab-prev, .tab-next {
+            bottom: 0px;
+        }
+    }
+
+    .tab-prev, .tab-next {
+        width: 20px;
+        height: 20%;
+        position: absolute;
+        left: 0px;
+        z-index: 1;
+    }
+
+    .tab-next {
+        right: 0px;
+        left: initial;
+    }
+
+    ul.tabs-nav {
+        height: 20%;
+        overflow: hidden;
+        white-space: nowrap;
+        padding: 0px 21px 0px 21px;
+
+        li {
+            height: 100%;
+            min-width: 60px;
+            display: inline-block;
+        }
+    }
+
+    .tabs-content {
+        height: 80%;
+
+        .tab-content {
+            height: 100%;
+
+            .TabsStage {
+                height: inherit;
+
+                .mbCanvas {
+                    height: inherit;
+                }
+            }
+        }
+    }
+}
+
+
+//************************************* AJUSTES DE LAYOUT PARA O EDITOR *************************************
+
+.resource {
+    .theTab {
+        .mb-stage {
+            .content-blocker {
+                width: 100%;
+                height: 100%;
+                top: 0px;
+                left: 0px;
+                bottom: 0px;
+                right: 0px;
+                position: absolute;
+                z-index: 1000;
+                /* @include opacityBackground($n1: 255, $n2: 192, $n3: 203, $opacidade: 0.5); */
+            }
+        }
+
+        .tab-content .TabsStage .mbCanvas {
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            overflow: hidden; /* esconde conteudo que extrapola o canvas */
+        }
+    }
+}
+
+.onEdition2 .theTab {
+    .addRemoveTabs {
+        display: block;
+    }
+
+    ul.tabs-nav{
+        li {
+            .addRemoveTabs .btn-group .btn{
+                @include border-radius(0px);
+                padding: 0px 4px;
+            }
+        }
+
+        .addRemoveTabs:last-child{
+            position: relative;
+            display: none;
+            top: 0px;
+            left: 0px;
+            #mbRemoveTab{
+                display: none !important;
+            }
+        }
+    }
+}

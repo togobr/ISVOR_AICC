@@ -1,0 +1,260 @@
+{  
+
+   "_course_id":"546b6a16ad4130810c000007",
+   "hasContent":true,
+   "type":"Aula",
+   "name":"Opções Online",
+   "_id":"546b6a2cad4130810c000009",
+   "updatedAt":"2014-11-18T15:47:58.164Z",
+   "courseName":"Equipamento E.A.SY.",
+   "credito":"Créditos",
+   "titleCredito":"",
+   "contentCredito": "<span style='color: rgb(14, 59, 116);'>Gerência</span><br><b>Alejandro Gonzales</b><br><br><span style='color: rgb(14, 59, 116);'>Supervisão do Currículo</span><br><b>Rogério Machado</b>",
+   "numeroModuloTop": "5.",
+   "tituloMenu": "Menu - Indice",
+   "slides":[  
+
+
+      {  
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Portal de Relacionamento B2B",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+            {  
+              
+               "template":"capaModulo",
+               "order":1,
+               "imagemCapaModulo" : "css/assets/images/C15_EasyWeb/Capas_M05.png",
+               "imagemNumeroModulo": "css/assets/images/ISVOR01_img_modulo_05.png",
+               "tituloModuloCapa": "Rastreamento de Sistemas",
+               "content": "<lu><li>Seleção de sistema a ser rastreado</li><li>Leitura de códigos de identificação</li><li>Leitura da memória de erros</li><li>Leitura e seleção de Parâmetros</li><li>Realização de teste de rodagem</li><li>Realização de comandos em diagnóstico ativo</li></lu>"
+             
+            }
+       
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {  
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Seleção de sistemas de rastreamento",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+             {  
+              
+               "template":"captura",
+               "order":1,
+               "captura": "css/assets/images/C15_EasyWeb/Capturas/.swf",
+               "title": "Seleção de sistemas de rastreamento",
+               "tituloCapturaStyle": "left:-1px; top:40px; position:absolute;",
+               "textoCapturaStyle": "left:-1px; top:195px; width:369px; position:absolute;",
+               "content": "O principal objetivo do E.A.SY é rastrear e monitorar sistemas elétricos de veículos.<br/><br/>Na captura a seguir você verá como selecionar estes sistemas para rastreamento.",
+               "imagem": "css/assets/images/C15_EasyWeb/C15_captura09.png",
+               "contentBtn": "Clique aqui para iniciar a simulação"
+
+            }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {  
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Leitura de códigos de identificação",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+             {  
+              
+               "template":"captura",
+               "order":1,
+               "captura": "css/assets/images/C15_EasyWeb/Capturas/.swf",
+               "title": "Leitura de códigos de identificação",
+               "tituloCapturaStyle": "left:-1px; top:-70px; position:absolute;",
+               "textoCapturaStyle": "left:-1px; top:73px; width:357px; position:absolute;",
+               "content": "Depois de selecionar o sistema para rastreamento, você pode realizar a leitura de seu código de identificação. Essa leitura permite acessar as informações da central, como os dados de fabricação, programação, versão de software e chassi do veículo onde foi montada originamente.<br/><br/>Acessar estes dados é importante para saber se a central realmente pertence ao veículo em que está ou e houve altração no Software original.<br/><br/>Na demonstração a seguir você verá como verificar estes dados através do EASY.",
+               "imagem": "css/assets/images/C15_EasyWeb/C15_captura10.png",
+               "contentBtn": "Clique aqui para iniciar a simulação"
+
+            }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {  
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Leitura da memória de erros",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+             {  
+              
+               "template":"captura",
+               "order":1,
+               "captura": "css/assets/images/C15_EasyWeb/Capturas/.swf",
+               "title": "Leitura da memória<br/>de erros",
+               "tituloCapturaStyle": "left:-1px; top:-18px; position:absolute;",
+               "textoCapturaStyle": "left:-1px; top:135px; width:357px; position:absolute;",
+               "content": "Depois de selecionar o sistema a ser rastreado, através das informações da memória de erros é possível verificar os erros gravados na memória da central em que se está trabalhando. <br/><br/>Na simulação a seguir você verá como acessar estes dados no E.A.SY.",
+               "imagem": "css/assets/images/C15_EasyWeb/C15_captura11.png",
+               "contentBtn": "Clique aqui para iniciar a simulação"
+
+            }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {  
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Leitura e seleção de Parâmetros",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+             {  
+              
+               "template":"captura",
+               "order":1,
+               "captura": "css/assets/images/C15_EasyWeb/Capturas/.swf",
+               "title": "Leitura e seleção de Parâmetros",
+               "tituloCapturaStyle": "left:-1px; top:-37px; position:absolute;",
+               "textoCapturaStyle": "left:-1px; top:113px; width:357px; position:absolute;",
+               "content": "Depois de selecionar o sistema a ser rastreado, além de realizar a leitura do código de idetificação e da memória de erros, também é possível realizar a leitura dos parâmetros de análise. <br/><br/>Na demonstração a seguir, você verá como acessar os parâmetros de análises, assim como criar novos grupos de parâmetros para testes específicos que queira realizar no veículo. ",
+               "imagem": "css/assets/images/C15_EasyWeb/C15_captura12.png",
+               "contentBtn": "Clique aqui para iniciar a simulação"
+
+            }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {  
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Realização de teste de rodagem",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+             {  
+              
+               "template":"captura",
+               "order":1,
+               "captura": "css/assets/images/C15_EasyWeb/Capturas/.swf",
+               "title": "Realização de<br/>teste de rodagem",
+               "tituloCapturaStyle": "left:-1px; top:-17px; position:absolute;",
+               "textoCapturaStyle": "left:-1px; top:135px; width:357px; position:absolute;",
+               "content": "Depois de selecionar os parâmetros de análise adequados, você poderá iniciar um teste para monitorar e analisar um determinado sistema. <br/><br/>Na demonstração a seguir você verá como realizar a aquisição dos parâmetros durante um teste de rodagem. ",
+               "imagem": "css/assets/images/C15_EasyWeb/C15_captura13.png",
+               "contentBtn": "Clique aqui para iniciar a simulação"
+
+            }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {  
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Realização de comandos em diagnóstico ativo ",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+             {  
+              
+               "template":"captura",
+               "order":1,
+               "captura": "css/assets/images/C15_EasyWeb/Capturas/.swf",
+               "title": "Realização de comandos<br/>em diagnóstico ativo ",
+               "tituloCapturaStyle": "left:-1px; top:-17px; position:absolute;",
+               "textoCapturaStyle": "left:-1px; top:135px; width:357px; position:absolute;",
+               "content": "Através da opção diagnóstico ativo é possível executar comandos nos diversos atuadores do sistema em que se está trabalhando. <br/><br/>Na simulação a seguir você verá como acessar o diagnóstico ativo para efetuar um comando no sistema em teste. ",
+               "imagem": "css/assets/images/C15_EasyWeb/C15_captura14.png",
+               "contentBtn": "Clique aqui para iniciar a simulação"
+
+            }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      
+      {  
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "ultimoModulo": true,
+         "name":"Conclusão",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+            {  
+              
+               "template":"telaFinal",
+               "ultimoModulo": true,
+               "imagem": "css/assets/images/icons/ISVOR01_icone_capa_fim.png",
+               "title": "Excelente!",
+               "content": "Você concluiu o Módulo Rastreamento de Sistema. Agora você já sabe como selecionar um sistema para rastreamento, realizar a leitura de seus dados e testar seus parâmetros.  <br/><br/>Siga para o próximo módulo e conheça as outras funcionalidades do E.A.SY.",
+                "textoBt":"ACESSAR O PRÓXIMO MÓDULO"
+             
+            }
+       
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      }
+
+
+   ],
+
+   "index":null,
+   "id":null,
+   "styleObj":null
+}

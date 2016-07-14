@@ -1,0 +1,89 @@
+@import "mixins.scss";
+@import "resources/caixaDestaque/style";
+@import "resources/texto/style";
+@import "resources/primeiroPlano/style";
+@import "resources/tabs/style";
+@import "resources/slider/style";
+@import "resources/video/style";
+@import "resources/imagem/style";
+@import "resources/audio/style";
+@import "resources/multimedia/style";
+@import "resources/personagem/style";
+@import "resources/indice/style";
+@import "slide/atividade/style";
+@import "slide/default/style";
+/* @import "slide/textoImagem/style"; */
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.tagP{
+  cursor: default;
+}
+
+.texto, .primeiroPlano .tituloPrimeiroPlano, .atividade, .caixaDestaque, .imagem{
+    word-spacing: 5px;
+    .tagP{
+        margin: 0;
+        margin-bottom: 10px;
+        line-height: 17px;
+    }
+}
+
+.texto ul, .caixaDestaque ul{
+    padding: {
+        left: 20px;
+        right:30px;         
+    }
+    margin-bottom: 10px;
+    li{
+        padding:1px;
+    }
+}
+
+.texto ol, .caixaDestaque ol{
+    list-style-type:none;
+    counter-reset:list;
+    margin-bottom: 10px;
+    margin-left: 12px;
+    li{
+        padding: 1px;
+        &:before{
+            font-weight: bold;
+            counter-increment: list 1;
+            content:counter(list) ".";
+            margin-right: 6px;
+        }
+    }
+}
+
+//---------- TOOLTIP
+
+.mbTooltip{
+    font-weight: bold;
+    font-style: italic;
+    cursor: help;
+} 
+
+//----------- GENERAL
+
+/* .swipe-wrap > div:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -0.25em;
+  /* Adjusts for spacing /
+} */
+

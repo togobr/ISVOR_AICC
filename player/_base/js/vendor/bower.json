@@ -1,0 +1,15 @@
+{
+	"name": "Comenius - Player",
+	"version": "0.0.1",
+	"dependencies": {
+		"requirejs": "~2.1.4",
+		"requirejs-text": "2.0.5",
+		"modernizr": "~2.6.2",
+		"jquery": "~1.8",
+		"mustache": "0.7.3",
+		"namespace": "https://github.com/diogoreus/requirejs-namespace-plugin.git",
+		"require-plugins": "https://github.com/millermedeiros/requirejs-plugins.git",
+		"almond": "0.2.9"
+	},
+	"devDependencies": {}
+}

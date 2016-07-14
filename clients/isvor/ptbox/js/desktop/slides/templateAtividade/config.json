@@ -1,0 +1,155 @@
+{
+   "defaults": {
+      "background": {
+         "src": ""
+      }
+   },
+
+   "resources": {
+      "allowed": [
+         "texto",
+         "caixaDestaque",
+         "imagem",
+         "video",
+         "multimedia",
+         "audio",
+         "atividade",
+         "botaoPP"
+      ],
+
+      "insert": [
+         {  
+              
+               "template":"texto",
+               "order":0,
+               "styleObj":{  
+                  "left":"45.578125px",
+                  "top":"35.859375px",
+                  "width":"306px",
+                  "position":"absolute"
+               },
+               "content":"Template Tela Atividade",
+               "normal":{  
+                  "active":false,
+                  "subType":"semFundo"
+               },
+               "balao":{  
+                  "active":false,
+                  "subType":"left"
+               },
+               "titulo":{  
+                  "active":true,
+                  "subType":"secundario"
+               }
+            },
+            {  
+               
+               "template":"texto",
+               "order":1,
+               "styleObj":{  
+                  "left":"45.578125px",
+                  "top":"101px",
+                  "width":"248.796875px",
+                  "position":"absolute"
+               },
+               "content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat arcu nec risus rutrum, ac consequat risus lacinia.&nbsp;<div>&nbsp;</div><div>Donec eu diam vulputate nibh blandit pulvinar sed sed dui.\n\nMorbi vehicula metus feugiat gravida venenatis.&nbsp;<div><br></div></div>",
+               "normal":{  
+                  "active":true,
+                  "subType":"semFundo"
+               },
+               "balao":{  
+                  "active":false,
+                  "subType":"left"
+               },
+               "titulo":{  
+                  "active":false,
+                  "subType":"primario"
+               }
+            },
+            {  
+               "template":"caixaDestaque",
+               "order":2,
+               "styleObj":{  
+                  "position":"absolute",
+                  "width":"248.796875px",
+                  "top":"308.125px",
+                  "left":"45.796875px"
+               },
+               "type":"objetivo",
+               "title":"Objetivo",
+               "content":"Lorem ipsum Ut exercitation deserunt velit fugiat elit quis nostrud id irure ullamco Excepteur sint sit est consequat exercitation sit."
+            },
+            {  
+               
+               "template":"atividade",
+               "order":3,
+               "styleObj":{  
+                  "position":"absolute",
+                  "top":"101.125px",
+                  "left":"349px",
+                  "width":"478.671875px"
+               },
+               "title":"Digite aqui sua pergunta.",
+               "parametros":{  
+                  "tentativas":"1",
+                  "gabarito":[  
+                     "0",
+                     "2",
+                     "4"
+                  ]
+               },
+               "alternativas":[  
+                  {  
+                     "checked":false,
+                     "alt":"Edite as alternativas dando dois cliques.",
+                     "numberAlt":0
+                  },
+                  {  
+                     "checked":false,
+                     "alt":"Edite as alternativas dando dois cliques.",
+                     "numberAlt":1
+                  },
+                  {  
+                     "checked":false,
+                     "alt":"Edite as alternativas dando dois cliques.",
+                     "numberAlt":2
+                  },
+                  {  
+                     "numberAlt":3,
+                     "alt":"Edite as alternativas dando dois cliques.",
+                     "checked":false
+                  },
+                  {  
+                     "checked":false,
+                     "alt":"Edite as alternativas dando dois cliques.",
+                     "numberAlt":4
+                  }
+               ],
+               "feedbackCerto":{  
+                  "type":"respostaCerta",
+                  "title":"Resposta Certa",
+                  "styleObj":null
+               },
+               "feedbackErrado":{  
+                  "type":"respostaErrada",
+                  "title":"Resposta Errada",
+                  "styleObj":null
+               },
+               "feedback":{  
+                  "modal":true,
+                  "circundado":true
+               },
+               "tipo":{  
+                  "subType":"checkbox",
+                  "active":true
+               },
+               "nota":{  
+                  "active":true,
+                  "subType":"comNota"
+               },
+              
+               "lock":false
+            }
+      ]
+   }
+}

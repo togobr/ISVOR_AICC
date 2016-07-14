@@ -1,0 +1,9 @@
+/* line 1, ../sass/trans/anima.scss */
+.animate {
+  -webkit-transform: translateZ(0);
+  -webkit-animation-fill-mode: both;
+  -moz-animation-fill-mode: both;
+  -ms-animation-fill-mode: both;
+  -o-animation-fill-mode: both;
+  animation-fill-mode: both;
+}

@@ -1,0 +1,27 @@
+{
+	"defaults": {
+		"template": "audio",
+		"src": "",
+		"type": "",
+		"styleObj": {
+			"position": "absolute",
+			"width": "313px",
+			"height": "33px",
+			"top": "36px",
+			"left": "37px"
+		}
+	},
+
+	"validators": [
+		"_template === audio"
+	],
+
+	"editor": {
+		"restrictions": {
+			"width": true,
+			"height": false,
+			"top": true,
+			"left": true
+		}
+	}
+}

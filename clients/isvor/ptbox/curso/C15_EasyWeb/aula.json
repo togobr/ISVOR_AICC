@@ -1,0 +1,1436 @@
+{  
+
+   "_course_id":"546b6a16ad4130810c000007",
+   "hasContent":true,
+   "type":"Aula",
+   "name":"Introdução",
+   "_id":"546b6a2cad4130810c000009",
+   "updatedAt":"2014-11-18T15:47:58.164Z",
+   "courseName":"E.A.SY: Ferramenta de diagnóstico",
+   "credito":"Créditos",
+   "titleCredito":"",
+   "contentCredito": "<span style='color: rgb(150, 36, 20);'>Gerência</span><br><b>Alejandro Gonzales</b><br><br><span style='color: rgb(150, 36, 20);'>Supervisão do Currículo</span><br><b>Rogério Machado</b>",
+   "numeroModuloTop": "1.",
+   "tituloMenu": "Menu - Indice",
+   "mod1":"Instruções Básicas",
+   "mod2":"Configurações",
+   "mod3":"Opções Offline e Online",
+   "mod4":"Rastreamento e teste do sistema",
+   "mod5":"Mais funcionalidades",
+   "travaSlides":false,
+   "slides":[  
+ 
+
+      {
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Bem-vindo ao curso!",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+             {
+              "template":"capa",
+              "order":1,
+              "logoCapa": "css/assets/images/ISVOR01_CNHi_logo_capa.png",
+              "imagemCapa" : "css/assets/images/C15_EasyWeb/C15_Capa.png",
+              "btnCapaTexto" : "Clique aqui para começar",
+              "tituloCapa": "Equipamento E.A.SY.",
+              "content": "Bem-vindo ao curso!",
+              "animado":true,
+              "srcAnima":"css/assets/capas/C15_capaPiloto.swf",
+              "tempoAnima":6
+           }
+
+       
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Equipamento E.A.SY.Acesso ao sistema E.A.SYAcesso ao sistema E.A.SYAcesso ao sistema E.A.SY",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+            {
+              "template":"capa",
+              "order":1,
+              "logoCapa": "css/assets/images/ISVOR01_CNHi_logo_capa.png",
+              "imagemCapa" : "css/assets/images/C15_EasyWeb/C15_Capa.png",
+              "btnCapaTexto" : "Clique aqui para começar",
+              "tituloCapa": "Equipamento E.A.SY.",
+              "content": "Bem-vindo ao curso!",
+              "animado":true,
+              "srcAnima":"css/assets/capas/c15_introPiloto.swf",
+              "tempoAnima":20
+           }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Equipamento E.A.SY.Acesso ao sistema E.A.SYAcesso ao sistema E.A.SYAcesso ao sistema E.A.SY",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+            {  
+              
+               "template":"telaNavegacao",
+               "order":1
+
+            }
+       
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+
+
+
+
+      {
+         "_id":"54b535e76e98656c0d000003",
+         "template":"slideIntro",
+         "name":"Equipamento ECI",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[
+
+
+            {  
+               "_id":"54b535ec6e98656c0d000006",
+               "template":"imagem",
+               "order":0,
+               "styleObj":{  
+                  "width":"900px",
+                  "height":"320px",
+                  "left":"0px",
+                  "top":"15px",
+                  "position":"absolute"
+               },
+               "baseImg":"",
+               "src":"css/assets/images/C15_EasyWeb/.png",
+               "imgHeight":185,
+               "legend":{  
+                  "active":false,
+                  "content":"Teste : Teste images"
+               },
+               "border":false,
+               "_course_id":"546b6a16ad4130810c000007",
+               "slide":0,
+               "index":3,
+               "id":"imagem1",
+               "class":"imagem",
+               "style":"width:283px;height:212px;left:51.65625px;top:245px;position:absolute;"
+            },
+
+            {
+               "_id":"54b535e86e98656c0d000004",
+               "template":"texto",
+               "order":3,
+               "styleObj":{  
+                  "left":"270px",
+                  "top":"365px",
+                  "width":"270px",
+                  "position":"absolute",
+                  "z-index":"10"
+               },
+               "content":"O equipamento E.A.SY é uma ferramenta de diagnose utilizada para análise de sistemas elétricos, tais como Quadro de instrumentos (Cluster), Centrais de porta (PDM e DDM), Central de câmbio (Eurotronic), Central Denoxtronic dentre outros.<br/><br/>Para realizar a análise dos sistemas elétricos você deve saber como operar o sistema E.a.sy instalado em seu computador, assim como conhecer o equipamento E.C.I, que deve ser conectado ao caminhão no momento da realização de testes. ",
+               "normal":{  
+                  "active":true,
+                  "subType":"semFundo"
+               },
+               "balao":{  
+                  "active":false,
+                  "subType":"left"
+               },
+               "titulo":{  
+                  "active":false,
+                  "subType":"primario"
+               },
+               "_course_id":"546b6a16ad4130810c000007",
+               "slide":0,
+               "index":1,
+               "id":"texto1",
+               "class":"texto",
+               "style":"left:51px;top:36px;width:284px;position:absolute;"
+            },
+
+            {
+               "_id":"54b535e86e98656c0d000004",
+               "template":"texto",
+               "order":4,
+               "styleObj":{  
+                  "left":"550px",
+                  "top":"365px",
+                  "width":"320px",
+                  "position":"absolute",
+                  "z-index":"10"
+               },
+               "content":"<span style='font-size:18px;'><b>Equipamento E.a.sy</b></span>",
+               "normal":{  
+                  "active":true,
+                  "subType":"semFundo"
+               },
+               "balao":{  
+                  "active":false,
+                  "subType":"left"
+               },
+               "titulo":{  
+                  "active":false,
+                  "subType":"primario"
+               },
+               "_course_id":"546b6a16ad4130810c000007",
+               "slide":0,
+               "index":1,
+               "id":"texto1",
+               "class":"texto",
+               "style":"left:51px;top:36px;width:284px;position:absolute;"
+            }
+
+            
+
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+
+      {
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Acesso ao sistema E.a.sy",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+             {  
+              
+               "template":"captura",
+               "order":1,
+               "captura": "css/assets/images/C15_EasyWeb/Capturas/Captura01_acesso/Captura01_acesso.htm",
+               "title": "Acesso ao sistema E.a.sy",
+               "tituloCapturaStyle": "left:-1px; top:-56px; position:absolute;",
+               "textoCapturaStyle": "left:-1px; top:66px; width:364px; position:absolute;",
+               "content": "O equipamento E.A.SY é uma ferramenta de diagnose utilizada para análise de sistemas elétricos, tais como Quadro de instrumentos (Cluster), Centrais de porta (PDM e DDM), Central de câmbio (Eurotronic), Central Denoxtronic dentre outros.<br/><br/>Através do sistema E.A.SY instalado em seu computador você poderá acompanhar estas análises e avaliar o sistema elétrico dos caminhões sobre possíveis falhas.<br/><br/>Na demonstração a seguir você verá como acessar o sistema E.A.SY e conhecerá sua tela inicial.",
+               "imagem": "css/assets/images/C15_EasyWeb/C15_captura01.png",
+               "contentBtn": "Clique aqui para iniciar a simulação"
+
+            }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Atualizador EAUS",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+             {  
+              
+               "template":"captura",
+               "order":1,
+               "captura": "css/assets/images/C15_EasyWeb/Capturas/Captura02_EAUS/Captura02_EAUS.htm",
+               "title": "Atualizador EAUS",
+               "tituloCapturaStyle": "left:22px; top:-38px; position:absolute;",
+               "textoCapturaStyle": "left:20px; top:97px; width:332px; position:absolute;",
+               "content": "O atualizador EAUS deve ser instalado em seu computador para realizar as atualizações do equipamento E.A.SY. <br/><br/>Para efetuar a atualização é necessário que o computador esteja conectado à internet, preferencialmente via cabo devido à estabilidade e velocidade deste tipo de conexão. <br/><br/>Na simulação a seguir você verá como realizar a atualização do equipamento E.A.SY através do atualizador EAUS.",
+               "imagem": "css/assets/images/C15_EasyWeb/C15_captura02.png",
+               "contentBtn": "Clique aqui para iniciar a simulação"
+
+            }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Equipamento ECI",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[
+
+
+            {  
+               "_id":"54b535ec6e98656c0d000006",
+               "template":"imagem",
+               "order":0,
+               "styleObj":{  
+                  "width":"900px",
+                  "height":"320px",
+                  "left":"0px",
+                  "top":"15px",
+                  "position":"absolute"
+               },
+               "baseImg":"",
+               "src":"css/assets/images/C15_EasyWeb/C15_img01.png",
+               "imgHeight":185,
+               "legend":{  
+                  "active":false,
+                  "content":"Teste : Teste images"
+               },
+               "border":false,
+               "_course_id":"546b6a16ad4130810c000007",
+               "slide":0,
+               "index":3,
+               "id":"imagem1",
+               "class":"imagem",
+               "style":"width:283px;height:212px;left:51.65625px;top:245px;position:absolute;"
+            },
+
+            {  
+               "_id":"54b535ec6e98656c0d000006",
+               "template":"imagem",
+               "order":1,
+               "styleObj":{  
+                  "width":"900px",
+                  "height":"130px",
+                  "left":"0px",
+                  "top":"340px",
+                  "position":"absolute",
+                  "z-index":"0"
+               },
+               "baseImg":"",
+               "src":"css/assets/images/C15_EasyWeb/C15_img03.png",
+               "imgHeight":185,
+               "legend":{  
+                  "active":false,
+                  "content":"Teste : Teste images"
+               },
+               "border":false,
+               "_course_id":"546b6a16ad4130810c000007",
+               "slide":0,
+               "index":3,
+               "id":"imagem1",
+               "class":"imagem",
+               "style":"width:283px;height:212px;left:51.65625px;top:245px;position:absolute;"
+            },
+
+
+            {
+               "_id":"54b535e86e98656c0d000004",
+               "template":"texto",
+               "order":3,
+               "styleObj":{  
+                  "left":"270px",
+                  "top":"365px",
+                  "width":"270px",
+                  "position":"absolute",
+                  "z-index":"10"
+               },
+               "content":"<span style='color: #ffffff;'>A ECI é o equipamento que permite a interface entre o computador (software) e o caminhão (sistemas).</span>",
+               "normal":{  
+                  "active":true,
+                  "subType":"semFundo"
+               },
+               "balao":{  
+                  "active":false,
+                  "subType":"left"
+               },
+               "titulo":{  
+                  "active":false,
+                  "subType":"primario"
+               },
+               "_course_id":"546b6a16ad4130810c000007",
+               "slide":0,
+               "index":1,
+               "id":"texto1",
+               "class":"texto",
+               "style":"left:51px;top:36px;width:284px;position:absolute;"
+            },
+
+            {
+               "_id":"54b535e86e98656c0d000004",
+               "template":"texto",
+               "order":4,
+               "styleObj":{  
+                  "left":"550px",
+                  "top":"365px",
+                  "width":"320px",
+                  "position":"absolute",
+                  "z-index":"10"
+               },
+               "content":"<span style='color: #ffffff;'>Esta tem a função de “traduzir” o que os sistemas do caminhão dizem e comunicar ao software (instalado no computador). Este por sua vez mostra ao usuário as informações na tela do E.A.SY.</span>",
+               "normal":{  
+                  "active":true,
+                  "subType":"semFundo"
+               },
+               "balao":{  
+                  "active":false,
+                  "subType":"left"
+               },
+               "titulo":{  
+                  "active":false,
+                  "subType":"primario"
+               },
+               "_course_id":"546b6a16ad4130810c000007",
+               "slide":0,
+               "index":1,
+               "id":"texto1",
+               "class":"texto",
+               "style":"left:51px;top:36px;width:284px;position:absolute;"
+            },
+
+            {  
+               "_id":"54b535e86e98656c0d000004",
+               "template":"texto",
+               "order":2,
+               "styleObj":{  
+                  "left":"-45px",
+                  "top":"390px",
+                  "width":"355px",
+                  "position":"absolute",
+                  "z-index":"10"
+               },
+               "content":"<span style='color: #ffffff;'><b>Equipamento ECI</b></span>",
+               "normal":{  
+                  "active":true,
+                  "subType":"semFundo"
+               },
+               "balao":{  
+                  "active":false,
+                  "subType":"left"
+               },
+               "titulo":{  
+                  "active":true,
+                  "subType":"secundario"
+               },
+               "_course_id":"546b6a16ad4130810c000007",
+               "slide":0,
+               "index":1,
+               "id":"texto1",
+               "class":"texto",
+               "style":"left:51px;top:36px;width:284px;position:absolute;"
+            }
+
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Comunicação entre ECI, caminhão e E.A.SY",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+
+
+
+            {  
+               "_id":"54b535e86e98656c0d000004",
+               "template":"texto",
+               "order":1,
+               "styleObj":{  
+                  "left":"40px",
+                  "top":"80px",
+                  "width":"355px",
+                  "position":"absolute",
+                  "text-align":"left"
+               },
+               "content":"<p style='color: #ffffff; text-align:left;'><b>Comunicação entre ECI, caminhão e E.A.SY</b></p>",
+               "normal":{  
+                  "active":true,
+                  "subType":"semFundo"
+               },
+               "balao":{  
+                  "active":false,
+                  "subType":"left"
+               },
+               "titulo":{  
+                  "active":true,
+                  "subType":"secundario"
+               },
+               "_course_id":"546b6a16ad4130810c000007",
+               "slide":0,
+               "index":1,
+               "id":"texto1",
+               "class":"texto",
+               "style":"left:51px;top:36px;width:284px;position:absolute;"
+            },
+
+
+
+         {  
+               "_id":"54b535e86e98656c0d000004",
+               "template":"texto",
+               "order":2,
+               "styleObj":{  
+                  "left":"40px",
+                  "top":"180px",
+                  "width":"310px",
+                  "position":"absolute",
+                  "font-size":"14px",
+                  "line-hieght":"18px"
+               },
+               "content":"<p style='color: #ffffff; text-align:left;'>Para que o equipamento ECI cumpra <br>sua função ele precisa ser conectado <br>no caminhão, para extrair seus dados <br>e também no computador para <br>fornecer essas informações <br>ao E.A.SY. <br/><br/>Veja nas imagens ao lado as <br>portas de ligação entre a ECI <br>e o caminhão e também entre <br>a ECI e o computador:</p>",
+               "normal":{  
+                  "active":true,
+                  "subType":"semFundo"
+               },
+               "balao":{  
+                  "active":false,
+                  "subType":"left"
+               },
+               "titulo":{  
+                  "active":false,
+                  "subType":"primario"
+               },
+               "_course_id":"546b6a16ad4130810c000007",
+               "slide":0,
+               "index":1,
+               "id":"texto1",
+               "class":"texto",
+               "style":"left:51px;top:36px;width:284px;position:absolute;"
+            },
+                    
+              {  
+               "_id":"54b535ec6e98656c0d000006",
+               "template":"imagem",
+               "order":3,
+               "styleObj":{  
+                  "width":"645px",
+                  "height":"481px",
+                  "left":"255px",
+                  "top":"0px",
+                  "z-index":"1 !important",
+                  "position":"absolute"
+               },
+               "baseImg":"",
+               "src":"css/assets/images/C15_EasyWeb/C15_img02.png",
+               "imgHeight":185,
+               "legend":{  
+                  "active":false,
+                  "content":"Teste : Teste images"
+               },
+               "border":false,
+               "_course_id":"546b6a16ad4130810c000007",
+               "slide":0,
+               "index":3,
+               "id":"imagem1",
+               "class":"imagem",
+               "style":"width:283px;height:212px;left:51.65625px;top:245px;position:absolute;"
+            },
+                    
+              {  
+               "_id":"54b535ec6e98656c0d000006",
+               "template":"imagem",
+               "order":0,
+               "styleObj":{  
+                  "width":"645px",
+                  "height":"481px",
+                  "left":"0px",
+                  "top":"0px",
+                  "z-index":"1 !important",
+                  "position":"absolute"
+               },
+               "baseImg":"",
+               "src":"css/assets/images/C15_EasyWeb/C15_img04.png",
+               "imgHeight":185,
+               "legend":{  
+                  "active":false,
+                  "content":"Teste : Teste images"
+               },
+               "border":false,
+               "_course_id":"546b6a16ad4130810c000007",
+               "slide":0,
+               "index":3,
+               "id":"imagem1",
+               "class":"imagem",
+               "style":"width:283px;height:212px;left:51.65625px;top:245px;position:absolute;"
+            }
+
+
+            
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Funcionamento da ECI",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+             {  
+              
+               "template":"captura",
+               "order":1,
+               "captura": "css/assets/images/C15_EasyWeb/Capturas/CapturaX_ECI/CapturaX_ECI.htm",
+               "title": "Funcionamento da ECI",
+               "tituloCapturaStyle": "left:22px; top:26px; position:absolute;",
+               "textoCapturaStyle": "left:20px; top:161px; width:332px; position:absolute;",
+               "content": "A ECI traz muitas informações úteis sobre o caminhão,  como indicações visuais sobre seu estado interno.<br/><br/>Na demonstração a seguir você conhecerá as luzes spias do ECI, e saberá a função de cada uma delas.",
+               "imagem": "css/assets/images/C15_EasyWeb/C15_captura06.png",
+               "contentBtn": "Clique aqui para iniciar a simulação"
+
+            }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {
+         "_id":"54b535e76e98656c0d000005",
+         "template":"blank",
+         "name":"Conclusão",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+            {  
+               "template":"telaFinal",
+              "style":"background:#fff",
+              "modulo":1,
+              "animado":true,
+              "srcAnima":"css/assets/capas/c15_fechamento_m1.swf"
+            }
+       
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+
+      {
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Equipamento E.A.SY.Acesso ao sistema E.A.SYAcesso ao sistema E.A.SYAcesso ao sistema E.A.SY",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+            {  
+              
+               "template":"telaNavegacao",
+               "order":1
+
+            }
+       
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+
+
+
+
+
+      {
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Equipamento E.A.SY.Acesso ao sistema E.A.SYAcesso ao sistema E.A.SYAcesso ao sistema E.A.SY",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+            {  
+              
+               "template":"telaNavegacao",
+               "order":1
+
+            }
+       
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+
+      {
+         "_id":"54b535e76e98656c0d000003",
+         "template":"slideIntro",
+         "name":"Aba de configurações",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+             {  
+              
+               "template":"captura",
+               "order":1,
+               "captura": "css/assets/images/C15_EasyWeb/Capturas/Captura03_configuracoes/Captura03_configuracoes.htm",
+               "title": "Aba de configurações",
+               "tituloCapturaStyle": "left:10px; top:10px; position:absolute;",
+               "textoCapturaStyle": "left:10px; top:130px; width:348px; position:absolute;",
+               "content": "As configurações do E.A.SY permitem que você configure diferentes funcionalidades do sistema, como a  seleção do idioma e da unidade de medição, além de administrar a licença do E.A.SY.<br/><br/>Na demonstração a seguir você conhecerá as diferentes opções da aba de configurações presente no sistema.",
+               "imagem": "css/assets/images/C15_EasyWeb/C15_captura03.png",
+               "contentBtn": "Clique aqui para iniciar a simulação"
+
+            }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Administração de licença",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+             {  
+              
+               "template":"captura",
+               "order":1,
+               "captura": "css/assets/images/C15_EasyWeb/Capturas/Captura04_licenca/Captura04_licenca.htm",
+               "title": "Administração de licença",
+               "tituloCapturaStyle": "left:10px; top:10px; position:absolute;",
+               "textoCapturaStyle": "left:10px; top:130px; width:348px; position:absolute;",
+               "content": "Acessando as configurações do E.A.SY, você pode acompanhar o status da licença do software e sua validação. <br/><br/>Na demonstração a seguir você verá como administrar a licença do E.A.SY.",
+               "imagem": "css/assets/images/C15_EasyWeb/C15_captura04.png",
+               "contentBtn": "Clique aqui para iniciar a simulação"
+
+            }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Seleção de idioma",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+             {  
+              
+               "template":"captura",
+               "order":1,
+               "captura": "css/assets/images/C15_EasyWeb/Capturas/Captura05_idioma/Captura05_idioma.htm",
+               "title": "Seleção de idioma",
+               "tituloCapturaStyle": "left:10px; top:10px; position:absolute;",
+               "textoCapturaStyle": "left:10px; top:130px; width:348px; position:absolute;",
+               "content": "Acessando as configurações do E.A.SY, você pode escolher o idioma que será utilizado no sistema. <br/><br/>Na demonstração a seguir você verá como alterar o idioma do sistema.",
+               "imagem": "css/assets/images/C15_EasyWeb/C15_captura05.png",
+               "contentBtn": "Clique aqui para iniciar a simulação"
+
+            }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {
+         "_id":"54b535e76e98656c0d000006",
+         "template":"blank",
+         "ultimoModulo": true,
+         "name":"Conclusão",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+            {  
+               "template":"telaFinal",
+              "style":"background:#fff",
+              "modulo":2,
+              "animado":true,
+              "srcAnima":"css/assets/capas/c15_fechamento_m2.swf"
+            }
+       
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+
+      {
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Equipamento E.A.SY.Acesso ao sistema E.A.SYAcesso ao sistema E.A.SYAcesso ao sistema E.A.SY",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+            {  
+              
+               "template":"telaNavegacao",
+               "order":1
+
+            }
+       
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+
+
+
+
+
+      {
+         "_id":"54b535e76e98656c0d000003",
+         "template":"slideIntro",
+         "name":"Opções Offline",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+             {  
+              
+               "template":"captura",
+               "order":1,
+               "captura": "css/assets/images/C15_EasyWeb/Capturas/Captura07_opcoes_offline/Captura07_opcoes_offline.htm",
+               "title": "Opções Offline",
+               "tituloCapturaStyle": "left:-1px; top:-13px; position:absolute;",
+               "textoCapturaStyle": "left:-1px; top:110px; width:357px; position:absolute;",
+               "content": "O E.A.SY pode operar em dois modos diferentes, Offline e Online.  Caso você esteja utilizando o sistema em modo Offline, não será possível rastrear um novo veículo, mas você poderá usar a opção Arquivo para verificar rastreamentos já arquivados. <br/><br/>Na demonstração a seguir você verá como acessar e navegar pela opção <b>Arquivo.</b>",
+               "imagem": "css/assets/images/C15_EasyWeb/C15_captura07.png",
+               "contentBtn": "Clique aqui para iniciar a simulação"
+
+            }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Opções ONLINE",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+             {  
+              
+               "template":"captura",
+               "order":1,
+               "captura": "css/assets/images/C15_EasyWeb/Capturas/Captura08_Opcao_online/Captura08_Opcao_online.htm",
+               "title": "Opções ONLINE",
+               "tituloCapturaStyle": "left:-1px; top:-51px; position:absolute;",
+               "textoCapturaStyle": "left:-1px; top:70px; width:357px; position:absolute;",
+               "content": "O modo online do E.A.SY é utilizado para monitorar o sistema elétrico do caminhão. Para isto, é necessário conectar o E.A.SY ao módulo ECI enquanto o mesmo estiver ligado ao caminhão. <br/><br/>O modo Online do E.A.SY deve ser utilizado com muita responsabilidade e atenção, já que ele pode originar movimentos do chassi e arranque do motor. <br/><br/>Nesta demonstração você verá como acionar o modo online do E.A.SY e conectar o Software à chave de ignição para colocá-la em marcha. ",
+               "imagem": "css/assets/images/C15_EasyWeb/C15_captura08.png",
+               "contentBtn": "Clique aqui para iniciar a simulação"
+
+            }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {
+         "_id":"54b535e76e98656c0d000007",
+         "template":"blank",
+         "ultimoModulo": true,
+         "name":"Conclusão",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+            {  
+               "template":"telaFinal",
+              "style":"background:#fff",
+              "modulo":3,
+              "animado":true,
+              "srcAnima":"css/assets/capas/c15_fechamento_m3.swf"
+            }
+       
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+
+      {
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Equipamento E.A.SY.Acesso ao sistema E.A.SYAcesso ao sistema E.A.SYAcesso ao sistema E.A.SY",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+            {  
+              
+               "template":"telaNavegacao",
+               "order":1
+
+            }
+       
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+
+
+
+
+
+
+
+
+
+      {
+         "_id":"54b535e76e98656c0d000003",
+         "template":"slideIntro",
+         "name":"Seleção de sistemas de rastreamento",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+             {  
+              
+               "template":"captura",
+               "order":1,
+               "captura": "css/assets/images/C15_EasyWeb/Capturas/Captura09_selecaodesistema/Captura09_selecaodesistema.htm",
+               "title": "Seleção de sistemas de rastreamento",
+               "tituloCapturaStyle": "left:-1px; top:40px; position:absolute;",
+               "textoCapturaStyle": "left:-1px; top:195px; width:369px; position:absolute;",
+               "content": "Depois de conectar o caminhão ao sistema E.A.SY através do modo online, você poderá selecionar um de seus sistemas elétricos para rastreamento e teste. Na demonstração a seguir você verá como realizar esta  seleção.",
+               "imagem": "css/assets/images/C15_EasyWeb/C15_captura09.png",
+               "contentBtn": "Clique aqui para iniciar a simulação"
+
+            }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Leitura de códigos de identificação",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+             {  
+              
+               "template":"captura",
+               "order":1,
+               "captura": "css/assets/images/C15_EasyWeb/Capturas/Captura10_Codigo_identificacao/Captura10_Codigo_identificacao.htm",
+               "title": "Leitura de códigos<br/>de identificação",
+               "tituloCapturaStyle": "left:-1px; top:-70px; position:absolute;",
+               "textoCapturaStyle": "left:-1px; top:73px; width:357px; position:absolute;",
+               "content": "Depois de selecionar o sistema para rastreamento, você pode realizar a leitura de seu código de identificação. Essa leitura permite acessar as informações da central, como os dados de fabricação, programação, versão de software e chassi do veículo onde foi montada originalmente.<br/><br/>Acessar estes dados é importante para saber se a central realmente pertence ao veículo em que está ou se houve alteração no Software original.<br/><br/>Na demonstração a seguir você verá como verificar estes dados através do E.A.SY.",
+               "imagem": "css/assets/images/C15_EasyWeb/C15_captura10.png",
+               "contentBtn": "Clique aqui para iniciar a simulação"
+
+            }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Leitura da memória de erros",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+             {  
+              
+               "template":"captura",
+               "order":1,
+               "captura": "css/assets/images/C15_EasyWeb/Capturas/Captura11_memorias_erros/Captura11_memorias_erros.htm",
+               "title": "Leitura da memória<br/>de erros",
+               "tituloCapturaStyle": "left:-1px; top:-18px; position:absolute;",
+               "textoCapturaStyle": "left:-1px; top:135px; width:357px; position:absolute;",
+               "content": "Na opção DIAGNÓSTICO, além de fazer a leitura do código de identificação, você também pode acessar as informações da memória de erros, onde é possível verificar os erros gravados na memória da central em que se está trabalhando. <br/><br/>Na simulação a seguir você verá como acessar estes dados no E.A.SY.",
+               "imagem": "css/assets/images/C15_EasyWeb/C15_captura11.png",
+               "contentBtn": "Clique aqui para iniciar a simulação"
+
+            }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Leitura e seleção de Parâmetros",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+             {  
+              
+               "template":"captura",
+               "order":1,
+               "captura": "css/assets/images/C15_EasyWeb/Capturas/Captura12_selecao_parametro/Captura12_selecao_parametro.htm",
+               "title": "Leitura e seleção<br/>de Parâmetros",
+               "tituloCapturaStyle": "left:-1px; top:-37px; position:absolute;",
+               "textoCapturaStyle": "left:-1px; top:113px; width:353px; position:absolute;",
+               "content": "Depois de selecionar o sistema a ser rastreado, além de realizar a leitura do código de identificação e da memória de erros, também é possível realizar a leitura dos parâmetros de análise. <br/><br/>Na demonstração a seguir, você verá como acessar os parâmetros de análises, assim como criar novos grupos de parâmetros para testes específicos que queira realizar no veículo. ",
+               "imagem": "css/assets/images/C15_EasyWeb/C15_captura12.png",
+               "contentBtn": "Clique aqui para iniciar a simulação"
+
+            }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Realização de teste de rodagem",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+             {  
+              
+               "template":"captura",
+               "order":1,
+               "captura": "css/assets/images/C15_EasyWeb/Capturas/Captura13_teste_rodagem/Captura13_teste_rodagem.htm",
+               "title": "Realização de<br/>teste de rodagem",
+               "tituloCapturaStyle": "left:-1px; top:-17px; position:absolute;",
+               "textoCapturaStyle": "left:-1px; top:135px; width:357px; position:absolute;",
+               "content": "Depois de selecionar os parâmetros de análise adequados, você poderá iniciar um teste para monitorar e analisar um determinado sistema. <br/><br/>Na demonstração a seguir você verá como realizar a aquisição dos parâmetros durante um teste de rodagem. ",
+               "imagem": "css/assets/images/C15_EasyWeb/C15_captura13.png",
+               "contentBtn": "Clique aqui para iniciar a simulação"
+
+            }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Realização de comandos em diagnóstico ativo ",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+             {  
+              
+               "template":"captura",
+               "order":1,
+               "captura": "css/assets/images/C15_EasyWeb/Capturas/Captura14_diagnostico_ativo/Captura14_diagnostico_ativo.htm",
+               "title": "Realização de comandos<br/>em diagnóstico ativo ",
+               "tituloCapturaStyle": "left:-1px; top:-17px; position:absolute;",
+               "textoCapturaStyle": "left:-1px; top:137px; width:357px; position:absolute;",
+               "content": "Através da opção diagnóstico ativo é possível executar comandos nos diversos atuadores do sistema em que se está trabalhando. <br/><br/>Na simulação a seguir você verá como acessar o diagnóstico ativo para efetuar um comando no sistema em teste. ",
+               "imagem": "css/assets/images/C15_EasyWeb/C15_captura14.png",
+               "contentBtn": "Clique aqui para iniciar a simulação"
+
+            }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {
+         "_id":"54b535e76e98656c0d000008",
+         "template":"blank",
+         "ultimoModulo": true,
+         "name":"Conclusão",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+            {  
+               "template":"telaFinal",
+              "style":"background:#fff",
+              "modulo":4,
+              "animado":true,
+              "srcAnima":"css/assets/capas/c15_fechamento_m4.swf"
+            }
+       
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+
+      {
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Equipamento E.A.SY.Acesso ao sistema E.A.SYAcesso ao sistema E.A.SYAcesso ao sistema E.A.SY",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+            {  
+              
+               "template":"telaNavegacao",
+               "order":1
+
+            }
+       
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+
+
+
+
+
+
+
+
+      {
+         "_id":"54b535e76e98656c0d000003",
+         "template":"slideIntro",
+         "name":"Esquemas elétricos no E.A.SY",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+             {  
+              
+               "template":"captura",
+               "order":1,
+               "captura": "css/assets/images/C15_EasyWeb/Capturas/Captura15_Esquema_eletricos/Captura15_Esquema_eletricos.htm",
+               "title": "Esquemas elétricos<br/>no E.A.SY",
+               "tituloCapturaStyle": "left:-1px; top:20px; position:absolute;",
+               "textoCapturaStyle": "left:-1px; top:175px; width:369px; position:absolute;",
+               "content": "Além de permitir o rastreamento e teste de sistemas de veículos, o E.A.SY apresenta muitas outras funcionalidades, uma delas é a apresentação dos esquemas elétricos do veículo. Veja na demonstração a seguir como visualizar estes esquemas.",
+               "imagem": "css/assets/images/C15_EasyWeb/C15_captura15.png",
+               "contentBtn": "Clique aqui para iniciar a simulação"
+
+            }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Salvando dados memorizados da EDC",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+             {  
+              
+               "template":"captura",
+               "order":1,
+               "captura": "css/assets/images/C15_EasyWeb/Capturas/Captura16_Salavando_dados_memorizados/Captura16_Salavando_dados_memorizados.htm",
+               "title": "Salvando dados memorizados da EDC",
+               "tituloCapturaStyle": "left:-1px; top:18px; position:absolute;",
+               "textoCapturaStyle": "left:-1px; top:173px; width:327px; position:absolute;",
+               "content": "Você pode utilizar o sistema E.A.SY para salvar os dados de funcionamento do caminhão em seu computador. Na simulação a seguir você verá como armazenar os dados memorizados para posterior envio à análise IVECO<br/>caso necessário.",
+               "imagem": "css/assets/images/C15_EasyWeb/C15_captura16.png",
+               "contentBtn": "Clique aqui para iniciar a simulação"
+
+            }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Guia de reparação IVECO",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+             {  
+              
+               "template":"captura",
+               "order":1,
+               "captura": "css/assets/images/C15_EasyWeb/Capturas/Captura17_guia_reparacaoIVECO/Captura17_guia_reparacaoIVECO.htm",
+               "title": "Guia de reparação IVECO",
+               "tituloCapturaStyle": "left:12px; top:6px; position:absolute;",
+               "textoCapturaStyle": "left:14px; top:135px; width:342px; position:absolute;",
+               "content": "O Guia de reparação IVECO mostra como se deve proceder para reparar diferentes avarias, levando em conta o modelo do veículo. Este guia pode ser acessado de diferentes formas através do E.A.SY. Na demonstração a seguir mostraremos como acessá-lo. ",
+               "imagem": "css/assets/images/C15_EasyWeb/C15_captura17.png",
+               "contentBtn": "Clique aqui para iniciar a simulação"
+
+            }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Pedido de chave Daily",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+             {  
+              
+               "template":"captura",
+               "order":1,
+               "captura": "css/assets/images/C15_EasyWeb/Capturas/Captura18_Pedido_Daily/Captura18_Pedido_Daily.htm",
+               "title": "Pedido de chave Daily",
+               "tituloCapturaStyle": "left:-1px; top:34px; position:absolute;",
+               "textoCapturaStyle": "left:-1px; top:160px; width:357px; position:absolute;",
+               "content": "Para efetuar um pedido de chave Daily deve-se emitir um relatório presente no E.A.SY, abrir um chamado no portal One Call e inserir o relatório no chamado. <br/><br/>Na demonstração a seguir você verá o passo a passo deste procedimento.",
+               "imagem": "css/assets/images/C15_EasyWeb/C15_captura18.png",
+               "contentBtn": "Clique aqui para iniciar a simulação"
+
+            }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Agregar ECU ao rastreamento",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+             {  
+              
+               "template":"captura",
+               "order":1,
+               "captura": "css/assets/images/C15_EasyWeb/Capturas/Captura19_agregar_ECU_rastreamento/Captura19_agregar_ECU_rastreamento.htm",
+               "title": "Agregar ECU ao rastreamento",
+               "tituloCapturaStyle": "left:-1px; top:53px; position:absolute;",
+               "textoCapturaStyle": "left:-1px; top:205px; width:357px; position:absolute;",
+               "content": "O E.A.SY permite que você agregue uma ECU ao rastreamento que está executando. Na demonstração a seguir você verá como realizar este procedimento. ",
+               "imagem": "css/assets/images/C15_EasyWeb/C15_captura19.png",
+               "contentBtn": "Clique aqui para iniciar a simulação"
+
+            }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Acesso ao manual do usuário",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+             {  
+              
+               "template":"captura",
+               "order":1,
+               "captura": "css/assets/images/C15_EasyWeb/Capturas/Captura20_Acesso_Manual_usuario/Captura20_Acesso_Manual_usuario.htm",
+               "title": "Acesso ao manual<br/>do usuário",
+               "tituloCapturaStyle": "left:-1px; top:28px; position:absolute;",
+               "textoCapturaStyle": "left:-1px; top:180px; width:357px; position:absolute;",
+               "content": "Ao longo deste curso você conheceu as diferentes funcionalidades do E.A.SY. No entanto, caso ainda restem dúvidas em relação a este equipamento, você pode acessar o manual do usuário presente no E.A.SY. Na demonstração a seguir você verá como acessar este manual. ",
+               "imagem": "css/assets/images/C15_EasyWeb/C15_captura20.png",
+               "contentBtn": "Clique aqui para iniciar a simulação"
+
+            }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {
+         "_id":"54b535e76e98656c0d000009",
+         "template":"blank",
+         "ultimoModulo": true,
+         "name":"Conclusão",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+            {  
+               "template":"telaFinal",
+              "style":"background:#fff",
+              "modulo":5,
+              "animado":true,
+              "srcAnima":"css/assets/capas/c15_fechamento_m5.swf"
+            }
+       
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+
+      {
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Equipamento E.A.SY.Acesso ao sistema E.A.SYAcesso ao sistema E.A.SYAcesso ao sistema E.A.SY",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+            {  
+              
+               "template":"telaNavegacao",
+               "order":1
+
+            }
+       
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      }
+
+   ],
+
+   "index":null,
+   "id":null,
+   "styleObj":null
+}

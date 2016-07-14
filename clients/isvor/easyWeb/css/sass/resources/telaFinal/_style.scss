@@ -1,0 +1,129 @@
+.telaFinal{
+	background: #5a160c;
+	border-top: 10px solid #373737;
+
+
+
+	.fimBackImage{
+		width: 342px;
+		height: 480px;
+		background: #5a160c;
+		-webkit-box-shadow: 4px 0px 5px 0px rgba(0, 0, 0, 0.3);
+		-moz-box-shadow: 4px 0px 5px 0px rgba(0, 0, 0, 0.3);
+		box-shadow:4px 0px 5px 0px rgba(0, 0, 0, 0.3);
+
+		.fimImage{
+			position: absolute;
+			  top: 110px;
+			left: 90px;
+			width: 145px;
+			height: 181px;
+		}
+	}
+
+
+	.rightSideFim{
+		position: absolute;
+		width: 62%;
+		height: 480px;
+		top: 0;
+		left: 348px;
+
+
+		.tituloFim{
+			position: relative;
+			left: 88px;
+  			top: 70px;
+			font-family: $fontePadrao;
+			font-size: 32px;
+			color: #ffffff;
+			text-transform: uppercase;
+			font-weight: bold;
+
+		}
+
+		.conteudoFim{
+			position: relative;
+			left: 90px;
+			  padding-top: 95px;
+			font-size: 18px;
+			color: #ffffff;
+			font-family: $fontePadrao;
+			padding-right: 213px;
+			line-height: 24px;
+			font-weight: normal;
+		}
+	}
+
+
+	.btnCapaFim{
+	font-size: 12px;
+	font-family: helvetica, sans-serif;
+	position: absolute;
+	color: #0e3b74;
+	top: 417px;
+	left: 93px;
+	width: 244px;
+	text-align: center;
+	height: 32px;
+	font-weight: normal;
+	text-transform: uppercase;
+	cursor: pointer;
+	background: #ffffff;
+	padding-top: 10px;
+
+		&:hover{
+			.innerBtnCapaFim{
+				background: #4b4c4c;
+			}
+		}
+
+
+
+		.innerBtnCapaFim{
+			width: 32px;
+			height: 32px;
+			position: absolute;
+			left: 244px;
+			top: 0px;
+			background: #0e3b74;
+
+		
+
+			&:before{
+				content: "";
+				background: url(assets/images/icons/ISVOR01_icone_capa_avancar.png) no-repeat;
+				width: 18px;
+				height: 19px;
+				position: absolute;
+				left: 10px;
+				top: 7px;
+				-webkit-animation: pulsate 1s ease-out;
+				-webkit-animation-iteration-count: infinite; 
+
+				@-webkit-keyframes pulsate {
+					0% {-webkit-transform: scale(0.8, 0.8);}
+					25% {-webkit-transform: scale(0.9, 0.9);}
+					50% {-webkit-transform: scale(1.0, 1.0);}
+					75% {-webkit-transform: scale(0.9, 0.9);}
+					100%{-webkit-transform: scale(0.8, 0.8);}
+				}	
+				-moz-animation: pulsate 2s ease-out;
+				-moz-animation-iteration-count: infinite; 
+
+				@-moz-keyframes pulsate {
+					0% {-moz-transform: scale(0.8, 0.8);}
+					25% {-moz-transform: scale(0.9, 0.9);}
+					50% {-moz-transform: scale(1.0, 1.0);}
+					75% {-moz-transform: scale(0.9, 0.9);}
+					100%{-moz-transform: scale(0.8, 0.8);}
+				}
+
+			}
+
+
+
+		}
+	}
+
+}

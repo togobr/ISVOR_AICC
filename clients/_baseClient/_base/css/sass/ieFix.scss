@@ -1,0 +1,32 @@
+.gavetaSelected:before{
+	left: -3px;
+}
+
+.botaoCirculo{
+	filter: none;
+}
+
+.botaoCirculo:hover{
+	filter: none;
+}
+
+.programe-se .tituloCaixaDestaque{ 
+	filter: none;
+}
+
+.primeiroPlano{
+	box-shadow: none;
+}
+
+.tituloPrimeiroPlano, .pergunta_atividade{
+	border-radius: 5px 5px 0px 0px;
+	-moz-border-radius: 5px 5px 0px 0px;
+	-webkit-border-radius: 5px 5px 0px 0px;
+	border: 1px solid #dddddf; 
+}
+
+.caixa, .caixaDestaque, .primeiroPlano, .imagem{
+	-webkit-box-shadow: #666 2px 2px 5px;
+	-moz-box-shadow: #666 2px 2px 5px;
+	box-shadow: #666 2px 2px 5px;
+}

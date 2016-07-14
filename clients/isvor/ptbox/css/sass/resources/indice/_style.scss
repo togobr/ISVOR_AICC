@@ -1,0 +1,234 @@
+#indice{
+	position: absolute;
+	top: 50px;
+	min-width: 980px;
+	max-width: 30630px;
+	height: 430px;
+	padding: 1px 1px 1px 40px;
+}
+
+.menuIndice ol > li {
+	position: relative;
+	list-style: none;
+	margin-bottom: 20px;
+	padding-left: 5px;
+}
+
+
+.menuIndice{
+	overflow: hidden;
+	display: block;
+	position: absolute;
+	background: #ececec;
+	z-index: 99;
+	width: 900px;
+	height: 569px;
+	top: 13px;
+	left: 0px;
+	z-index: 3;
+
+	.avancarIndice{
+		-webkit-box-shadow: 0px 0px 3px rgba(50, 50, 50, 0.3);
+		-moz-box-shadow: 0px 0px 3px rgba(50, 50, 50, 0.3);
+		box-shadow: 0px 0px 3px rgba(50, 50, 50, 0.3);
+		behavior: url(PIE.htc);
+		height: 30px;
+		width: 30px;
+		float: right;
+		background: #4b4c4c;
+		cursor: pointer;
+		position: absolute;
+		top: 237px;
+		left: 850px;
+		z-index: 40;
+	
+			&:before{
+				background: url(assets/images/icons/ISVOR01_icone_avancar.png) no-repeat;
+				content: "";
+				position: absolute;
+				top: 7px;
+				left: 11px;
+				color: #ffffff;
+				font-weight: bolder;
+				font-size: 30px;
+				width: 10px;
+				height: 30px;
+				
+			}
+			&:hover{
+				background: $corBtnFundoHover;
+			
+			}
+			&:active{
+				@include box-shadow-inset(0px, 0px, 7px, 0.2);
+			}
+	}
+
+	.voltarIndice{
+		-webkit-box-shadow: 0px 0px 3px rgba(50, 50, 50, 0.3);
+		-moz-box-shadow: 0px 0px 3px rgba(50, 50, 50, 0.3);
+		box-shadow: 0px 0px 3px rgba(50, 50, 50, 0.3);
+		behavior: url(PIE.htc);
+		height: 30px;
+		width: 30px;
+		float: left;
+		background: #4b4c4c;
+		cursor: pointer;
+		position: absolute;
+		top: 238px;
+		z-index: 40;
+	
+			&:before{
+				background: url(assets/images/icons/ISVOR01_icone_voltar.png) no-repeat;
+				content: "";
+				position: absolute;
+				top: 7px;
+				left: 11px;
+				color: #ffffff;
+				font-weight: bolder;
+				font-size: 30px;
+				width: 10px;
+				height: 30px;
+				
+			}
+			&:hover{
+				background: $corBtnFundoHover;
+			
+			}
+			&:active{
+				@include box-shadow-inset(0px, 0px, 7px, 0.2);
+			}
+	}
+
+
+	ol{
+		float: left;
+		position: relative;
+		counter-reset: li; /* Initiate a counter */
+		list-style: none; /* Remove default numbering */
+		*list-style: decimal-leading-zero;
+
+		-moz-column-width: 245px; /* Firefox */
+		-webkit-column-width: 245px; /* Safari and Chrome */
+		column-width: 245px;
+
+		-moz-column-gap: 40px;
+		-webkit-column-gap:40px;
+	    column-gap:40px;
+
+		.indiceDesativado{
+			pointer-events: none;
+			cursor: default;
+			h3{
+				color:#b1b3b3;
+			}
+		}
+
+		.indiceVisitado{
+		
+			h3{
+				color:#4b4c4c;
+			}
+		}
+
+		.indiceAtual{
+		
+			h3{
+				color: #0e3b74;
+			}
+		}
+		
+	    
+    li{
+    	cursor: pointer;
+		padding-left: 10px;
+		padding-top: 6px;
+		width: 190px;
+		height: 30px;
+		margin-bottom: 8px;
+		margin-left: 0px;
+		border-radius: 3px;
+		left: 66px;
+		bottom: -14px;
+    	h3{
+    		font-family: $fontePadrao;
+    		font-size: 16px;
+    		margin: 0;
+    		font-weight: normal;
+    		padding-left: 35px;
+    	}
+
+    	&:before{
+    		color: #0F3B69;
+			width: 35px;
+			height: 30px;
+			content: counter(li);
+			counter-increment: li;
+			position: absolute;
+			top: -1px;
+			left: -1px;
+			text-align: center;
+			padding-top: 5px;
+    	}
+
+    }
+
+}
+
+}
+
+.tituloMenu{
+		text-align: center;
+		text-transform: uppercase;
+		font-family: $fontePadrao;
+		margin-left: 49px;
+
+}
+
+	.closeIndice{
+
+		float: right;
+		width: 30px;
+		height: 30px;
+		background: $corPredominante;
+		cursor: pointer;
+		margin-right: 19px;
+
+			&:before{
+				content: '';
+				position: absolute;
+				left: 95.5%;
+				top: 9px;
+				background: url(assets/images/icons/ISVOR01_icone_fechar.png) no-repeat;
+				color: #ffffff;
+				width: 12px;
+				-webkit-animation: pulsate 1s ease-out;
+				-webkit-animation-iteration-count: infinite;
+				-moz-animation: pulsate 2s ease-out;
+				-moz-animation-iteration-count: infinite;
+				height: 13px;
+
+				@-webkit-keyframes pulsate {
+					0% {-webkit-transform: scale(0.8, 0.8);}
+					25% {-webkit-transform: scale(0.9, 0.9);}
+					50% {-webkit-transform: scale(1.0, 1.0);}
+					75% {-webkit-transform: scale(1.0, 1.0);}
+					100%{-webkit-transform: scale(0.8, 0.8);}
+				}	
+				-moz-animation: pulsate 2s ease-out;
+				-moz-animation-iteration-count: infinite; 
+
+				@-moz-keyframes pulsate {
+					0% {-moz-transform: scale(0.8, 0.8);}
+					25% {-moz-transform: scale(0.9, 0.9);}
+					50% {-moz-transform: scale(1.0, 1.0);}
+					75% {-moz-transform: scale(1.0, 1.0);}
+					100%{-moz-transform: scale(0.8, 0.8);}
+				}
+			}
+
+			&:hover{
+				background: $corBtnFundoHover;
+			}
+
+	}

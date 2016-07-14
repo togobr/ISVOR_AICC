@@ -1,0 +1,33 @@
+.resource .multimedia{
+	min-width: 141.5px;
+	min-height: 141.5px;
+	.glyphicon{
+		display: none;
+		position: absolute;		
+		font-size: 50px;
+		top: 50%;
+		left: 50%;
+		margin-left: -25px;
+		margin-top: -30px;
+	}
+}
+
+.resource .multimedia.noContent{
+	.glyphicon{
+		display: block;
+	}
+	border: 1px solid #b3b3b3;
+	.bgMultimediaIEfix{
+		position: absolute;
+		height: 100%;
+		width: 100%;
+		background: #e7e7e7;
+		top: 0px;
+	}
+}
+
+
+.multimedia.mobile{
+	position: relative;
+	margin: 10px
+}

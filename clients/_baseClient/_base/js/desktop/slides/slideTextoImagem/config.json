@@ -1,0 +1,118 @@
+{
+	"defaults": {
+
+	},
+
+	"resources": {
+		"allowed": [
+
+		],
+
+		"insert": [{
+			"template": "texto",
+			"content": "<div style=\"text-align: justify;\">Lorem ipsum Aliqua nostrud occaecat anim elit culpa ut magna velit esse deserunt.Lorem ipsum Aliqua nostrud occaecat anim elit culpa ut magna velit esse deserunt.Lorem ipsum Aliqua nostrud occaecat anim elit culpa ut magna velit esse deserunt.Lorem ipsum Aliqua nostrud occaecat anim elit culpa ut magna velit esse deserunt.Lorem ipsum Aliqua nostrud occaecat anim elit culpa ut magna velit esse deserunt.Lorem ipsum Aliqua nostrud occaecat anim elit culpa ut magna velit esse deserunt.Lorem ipsum Aliqua nostrud occaecat anim elit culpa ut magna velit esse deserunt.Lorem ipsum Aliqua nostrud occaecat anim elit culpa ut magna velit esse deserunt.Lorem ipsum Aliqua nostrud occaecat anim elit culpa ut magna velit esse deserunt.Lorem ipsum Aliqua nostrud occaecat anim elit culpa ut magna velit esse deserunt.Lorem ipsum Aliqua nostrud occaecat anim elit culpa ut magna velit esse deserunt.Lorem ipsum Aliqua nostrud occaecat anim elit culpa ut magna velit esse deserunt.Lorem ipsum Aliqua nostrud occaecat anim elit culpa ut magna velit esse deserunt.Lorem ipsum Aliqua nostrud occaecat anim elit culpa ut magna velit esse deserunt.Lorem ipsum Aliqua nostrud occaecat anim elit culpa ut magna velit esse deserunt.Lorem ipsum Aliqua nostrud occaecat anim elit culpa ut magna velit esse deserunt.Lorem ipsum Aliqua nostrud occaecat anim elit culpa ut magna velit esse deserunt.Lorem ipsum Aliqua nostrud occaecat anim elit culpa ut magna velit esse deserunt.Lorem ipsum Aliqua nostrud occaecat anim elit culpa ut magna velit esse deserunt.Lorem ipsum Aliqua nostrud occaecat anim elit culpa ut magna velit esse deserunt.Lorem ipsum Aliqua nostrud occaecat anim elit culpa ut magna velit esse deserunt.Lorem ipsum Aliqua nostrud occaecat anim elit culpa ut magna velit esse deserunt.Lorem ipsum Aliqua nostrud occaecat anim elit culpa ut magna velit esse deserunt.Lorem ipsum Aliqua nostrud occaecat anim elit culpa ut magna velit esse deserunt.Lorem ipsum Aliqua nostrud occaecat anim elit culpa ut magna velit esse deserunt.Lorem ipsum Aliqua nostrud occaecat anim elit culpa ut magna velit esse deserunt.Lorem ipsum Aliqua nostrud occaecat anim elit culpa ut magna velit esse deserunt.Lorem ipsum Aliqua nostrud occaecat anim elit culpa ut magna velit esse deserunt.Lorem ipsum Aliqua nostrud occaecat anim elit culpa ut magna velit esse deserunt.Lorem ipsum Aliqua nostrud occaecat anim elit culpa ut magna velit esse deserunt.Lorem ipsum Aliqua nostrud occaecat anim elit culpa ut magna velit esse deserunt.Lorem ipsum Aliqua nostrud occaecat anim elit culpa ut magna velit esse deserunt.</div>",
+			"styleObj": {
+				"position": "relative",
+				"width": "80%",
+				"top": "50px",
+				"left": "10%"
+			},
+			"normal": {
+				"active": true,
+				"subType": "semFundo"
+			},
+			"balao": {
+				"subType": "left",
+				"active": false
+			},
+			"titulo": {
+				"active": false,
+				"subType": "primario"
+			},
+			"order": 0,
+
+			"editor": {
+				"restrictions": {
+					"stateHandlers": {
+						"boundingBox": false,
+						"edition": {
+							"_all": false
+						}
+					},
+					"deletable": false,
+					"copyable": false,
+					"top": false,
+					"left": false,
+					"right": false,
+					"bottom": false,
+					"width": false,
+					"height": false
+				}
+			}
+
+		}, {
+			"template": "imagem",
+			"baseImg": "",
+			"src": "",
+			"imgHeight": 185,
+			"legend": {
+				"content": "Legenda 1",
+				"active": false
+			},
+			"border": false,
+			"styleObj": {
+				"width": "100px",
+				"height": "200px",
+				"position": "relative",
+				"margin": "0px 20px 10px 0px",
+				"top": "50px",
+				"left": "10%",
+				"float": "left"
+			},
+			"order": 1,
+
+			"editor": {
+				"restrictions": {
+					"deletable": false,
+					"copyable": false,
+					"top": false,
+					"left": false,
+					"right": false,
+					"bottom": false
+				}
+			}
+		}, {
+			"template": "imagem",
+			"baseImg": "",
+			"src": "",
+			"imgHeight": 185,
+			"legend": {
+				"content": "Legenda 2",
+				"active": false
+			},
+			"border": false,
+			"styleObj": {
+				"width": "100px",
+				"height": "200px",
+				"position": "relative",
+				"margin": "0px 20% 10px 20px",
+				"top": "50px",
+				"right": "-10%",
+				"left": "initial",
+				"float": "right"
+			},
+			"order": 2,
+
+			"editor": {
+				"restrictions": {
+					"deletable": false,
+					"copyable": false,
+					"top": false,
+					"left": false,
+					"right": false,
+					"bottom": false
+				}
+			}
+		}]
+	}
+}

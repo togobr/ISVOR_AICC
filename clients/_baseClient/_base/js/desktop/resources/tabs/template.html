@@ -1,0 +1,19 @@
+<div id="{{_id}}" class="{{class}}" style="{{style}}">
+
+	<div class="theTab {{#horizontal.active}}horizontal {{horizontal.position}}{{/horizontal.active}} {{#vertical.active}}vertical {{vertical.position}}{{/vertical.active}}">
+		
+		<div class="tab-prev"></div>
+		<ul class="tabs-nav">
+			{{#tabs}}
+			<li><a class="anchor" href="#"><div class="tagP">{{&tab}}</div></a></li>
+			{{/tabs}}
+		</ul>
+		<div class="tab-next"></div>
+		
+		<div class="tabs-content">
+			{{#tabs}}
+			<div class="tab-content"></div>
+			{{/tabs}}
+		</div>
+	</div>
+</div>

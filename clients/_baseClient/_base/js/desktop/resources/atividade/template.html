@@ -1,0 +1,23 @@
+<div id="{{_id}}" class="{{class}}" style="{{style}}">
+	<div class="pergunta_atividade">
+		<div class="tagP recTitleAtividade">{{&title}}</div>
+	</div>
+
+	<div class="alternativa_atividade">
+		<ul>
+			{{#alternativas}}
+			<li> 
+                <div class="checkOnDiv"> 
+                    <input class="chkOrRadio" type="{{#tipo.subType}}{{tipo.subType}}{{/tipo.subType}}" name="alt{{_id}}" value="{{numberAlt}}" {{#checked}}checked{{/checked}}> 
+                    <div class="tagP recContentAtividade alt{{numberAlt}}">{{&alt}}</div>
+                </div> 
+      		</li> 
+			{{/alternativas}}
+		</ul>
+	</div>
+
+	<div class="enviaResposta desativado">
+		ENVIE SUA RESPOSTA
+	</div>
+</div>
+

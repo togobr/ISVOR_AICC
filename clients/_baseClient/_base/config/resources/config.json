@@ -1,0 +1,73 @@
+{
+	"resources": [
+		{
+			"active": true,
+			"template": "texto",
+			"label": "Caixa de Texto",
+			"icon": "H"
+		},
+
+		{
+			"active": true,
+			"template": "caixaDestaque",
+			"label": "Caixa Destaque",
+			"icon": "I"
+		},
+
+		{
+			"active": false,
+			"template": "gaveta",
+			"label": "Gaveta de Conteúdo",
+			"icon": "e"
+		},
+
+		{
+			"active": false,
+			"template": "personagem",
+			"label": "Personagem",
+			"icon": "h"
+		},
+
+		{
+			"active": true,
+			"template": "imagem",
+			"label": "Imagem",
+			"icon": "J"
+		},
+
+		{
+			"active": true,
+			"template": "video",
+			"label": "Video",
+			"icon": "K"
+		},
+
+		{
+			"active": true,
+			"template": "multimedia",
+			"label": "Multimedia",
+			"icon": "M"
+		},
+
+		{
+			"active": true,
+			"template": "audio",
+			"label": "Audio",
+			"icon": "L"
+		},
+
+		{
+			"active": true,
+			"template": "botaoPP",
+			"label": "Modal",
+			"icon": "&"
+		},
+
+		{
+			"active": true,
+			"template": "atividade",
+			"label": "Atividade",
+			"icon": "_"
+		}
+	]
+}

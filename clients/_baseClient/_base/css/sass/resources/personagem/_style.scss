@@ -1,0 +1,47 @@
+@import "../../mixins.scss";
+
+.resource .personagem{
+	position: absolute;	
+	min-width: 100px;
+	min-height: 100px;
+	display: table;
+
+	img{
+		display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+		line-height: 0;	
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+	}
+	
+	.glyphicon{
+		display: none;
+		position: absolute;		
+		font-size: 50px;
+		top: 50%;
+		left: 50%;
+		margin-left: -25px;
+		margin-top: -30px;
+	}
+	
+	.noContent{
+		background: #e7e7e7;
+		.glyphicon{
+			display: block;
+		}
+	}
+
+	#imageWrapper{
+		position: relative;
+		height: 100%;
+		min-height: 100px;
+	}
+}
+
+
+
+

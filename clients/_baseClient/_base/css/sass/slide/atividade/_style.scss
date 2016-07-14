@@ -1,0 +1,99 @@
+.resource{
+    .atividade{
+      min-width: 284px;
+        .pergunta_atividade{
+            padding: 30px 20px 15px 20px;
+            .tagP{
+                line-height: 20px;
+                font:{
+                    size: 18px;
+                    weight: bold;
+                }
+            }
+        }
+
+        .alternativa_atividade{
+            font-size: 14px;
+            margin-top: 10px;
+            ul{
+                margin: 0px;
+                li{
+                    position: relative;
+                    // padding: 15px 30px 15px 70px;               
+                    .addRemoveTemplate {
+                        position: absolute;
+                        right: 0px;
+                        top: 0px;
+                        display: none;
+                        z-index: 1;
+                    }
+                    .checkOnDiv{
+                        display: table-row;
+                        display: block;
+                        width: 100%;
+                        padding: 15px 30px 15px 70px;
+                        cursor: pointer;
+                        .tagP{
+                            cursor: pointer;
+                            display: table-cell;
+                            vertical-align: middle;
+                        }
+                        .chkOrRadio{
+                            position: absolute;
+                            top: 50%;
+                            left: 25px;
+                            width: 25px;
+                            height: 25px;
+                            margin: 0px;
+                            margin-top: -12.5px;
+                        } 
+                    }
+                }
+                li:nth-child(2) .addRemoveTemplate #mbRemoveAlternative {
+                  display: none;
+                }
+                li:nth-child(5) .addRemoveTemplate #mbAddAlternative {
+                  display: none;
+                }
+            } 
+        }
+
+        .enviaResposta{
+            margin: 10px 20px 20px 0px;
+
+            strong{
+                display: block;
+                padding:12px;
+                text-align: center;
+                line-height: 15px;
+                font:{
+                    size:14px;
+                    weight:bold;
+                }
+            }
+        }
+    }   
+}
+
+.onEdition2 > .atividade .alternativa_atividade{
+    li:last-child .addRemoveTemplate{
+        display: block;
+    }
+}
+
+.caixaResposta{
+    position: absolute;
+    width: 316px;
+    min-height: 80px;
+    display: table;
+        h2{
+        text-align: center;
+        display: table-cell;
+        vertical-align: middle;
+        margin: 0px;
+        font:{
+            size: 20px;
+            weight: bold;
+        } 
+    }
+}

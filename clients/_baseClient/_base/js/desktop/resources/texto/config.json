@@ -1,0 +1,41 @@
+{
+	"defaults": {
+		"template": "texto",
+		"content": "Lorem ipsum Aliqua nostrud occaecat anim elit culpa ut magna velit esse deserunt.",
+		"styleObj": {
+			"position": "absolute",
+			"width": "284px",
+			"top": "36px",
+			"left": "51px"
+		},		
+
+		"normal": {
+			"active": true,
+			"subType": "comFundo"
+		},
+
+		"balao": {
+			"active": false,
+			"subType": "left"
+		},
+
+		"titulo": {
+			"active": false,
+			"subType": "primario"
+		}
+	},
+
+	"validators": [
+		"_styleObj.height === undefined",
+		"_template === texto"
+	],
+
+	"editor": {
+		"restrictions": {
+			"width": true,
+			"height": false,
+			"top": true,
+			"left": true
+		}
+	}
+}

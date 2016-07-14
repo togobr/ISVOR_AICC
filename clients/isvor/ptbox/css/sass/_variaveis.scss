@@ -1,0 +1,89 @@
+/*
+#start
+	
+$r:{{color.r}};
+$g:{{color.g}};	
+$b:{{color.b}};	
+
+$rgb : $r + $g + $b;
+$baseColor: rgb($r, $g, $b); 	
+
+@function fontColor() {
+	@if $rgb/3 > 178{
+		@return #000000;
+	} @else {
+		@return #ffffff;
+	}
+}
+ 
+//-------------------------- FONTE ------------------------------- 
+$fontePadrao: {{font.name}}, sans-serif;
+
+//-------------------------- LOGO ------------------------------- 
+$logo: url("{{logo.url}}") no-repeat;
+
+//-------------------------- BACKGROUND SLIDE  ------------------------------- 
+$background_atividade: url(assets/images/background_atividade.png);
+
+#end
+*/
+			
+$r:0;			
+$g:60;			
+$b:101;			
+
+$rgb : $r + $g + $b;
+$baseColor: rgb($r, $g, $b); 	
+$auxColor: #b6b5b4;
+
+@function fontColor() {
+	@if $rgb/3 > 178{
+		@return #000000;
+	} @else {
+		@return #ffffff;
+	}
+}
+ 
+//-------------------------- FONTE ------------------------------- 
+$fontePadrao: helvetica, sans-serif;
+$fontSwipe: 'Denk One', sans-serif;
+$fonteDroid:'Droid Sans', sans-serif;
+
+//-------------------------- LOGO ------------------------------- 
+$logo: url("assets/images/ISVOR01_logo_cjdr.png") no-repeat;
+
+//-------------------------- BACKGROUND SLIDE  ------------------------------- 
+$background_atividade: url(assets/images/background_atividade.png);
+
+
+//------------------------- Cores Curso -------------------------------------
+$textTitulosCapa: #ffffff;
+$corPadrao:#962414;
+$corPredominante: #373737;
+$corSecundaria: #b1b3b3;
+$corDesativado: #b0b49f;
+$corBtnHover: #8d9393;
+$corFundoCurso: #ececec;
+$corIconeFechar: #ffffff;
+$corFundoCapaModulo: #404040;
+$corBtnFechar: #ffffff;
+
+//-------------------------- Cores botoões menu ------------------------------
+
+$corFonteMenu: #b1b3b3;
+$corFonteHover: #ffffff;
+$corFonteDesativado: #4b4c4c;
+
+$corBtnMenu: #962414;
+$corBtnFundoHover: #a13a2c;
+$corBtnDesativado: #C2A2AB;
+
+$corCreditoTexto: #b1b3b3;
+$corBtnExtras: #4b4c4c;
+
+
+//-------------------------- Captura -------------------------------------------
+
+$corTituloCaptura: #0e3b74;
+$corTextoBtnCaptura: #ffffff;
+$backgroundBtnCaptura: #0d3b74;

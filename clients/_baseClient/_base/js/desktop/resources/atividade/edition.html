@@ -1,0 +1,83 @@
+<!-- <div class="resourceEdition"> -->
+	<div id="editAtividade" class="editionBlock bottom" data-position="left top+10|left bottom">
+
+		<h6>Selecione as alternativas que estarão corretas para esta questão.</h6>
+		
+		<div class="mbBalloonOptions parent">
+			<div class="btn-group editionGroupSwitch" data-value="true|false">
+				<button id="tipo" class="btn btn-default selected" type="button" data-attr="tipo.active">
+					<div data-icon="_" class="icon"></div>
+					<span>TIPO</span>
+				</button>
+				<button id="nota" class="btn btn-default" type="button" data-attr="nota.active">
+					<div data-icon="{" class="icon"></div>
+					<span>NOTA</span>
+				</button>
+			</div>
+		</div>
+
+		<div class="mbBalloonOptions mbBalloonSubOptions recAtividadeSubType" data-type="tipo">
+			<div class="btn-group editionGroud" data-attr="tipo.subType">
+				<button id="tipoRadio" class="btn btn-default" type="button" value="radio">
+					<div data-icon="v" class="icon"></div>
+					<span>Única Escolha</span>
+				</button>
+				<button id="tipoCheckbox" class="btn btn-default" type="button" value="checkbox">
+					<div data-icon="x" class="icon"></div>
+					<span>Múltipla Escolha</span>
+				</button>
+			</div>
+		</div>
+
+		<div class="mbBalloonOptions mbBalloonSubOptions recAtividadeSubType" data-type="nota" style="display:none;">
+			<div class="btn-group editionGroud" data-attr="nota.subType">
+				<button id="notaSemNota" class="btn btn-default" type="button" value="semNota">
+					<div data-icon="[" class="icon"></div>
+					<span>Sem Nota</span>
+				</button>
+				<button id="notaComNota" class="btn btn-default" type="button" value="comNota">
+					<div data-icon="}" class="icon"></div>
+					<span>Com Nota</span>
+				</button>
+			</div>
+		</div>
+
+		<div class="mbActivityProp">
+			<div class="btn-group">
+				<button id="editionLockPlayer" type="button" class="btn btn-default">
+					<div data-icon="~" class="icon"></div>
+					<span>Bloquear player</span>
+				</button>
+			</div>
+		</div>
+		
+	</div>
+	
+
+
+<!-- 	<div class="editionBlock bottom" data-position="right top+10|right bottom" style="display: none">
+		<div class="mbTrueFalseButton">
+			<div class="btn-group">
+				<button class="btn btn-default" id="mbTrueAnswer" value="true" type="button">
+					<div data-icon="B" class="icon"></div>
+				</button>
+				<button class="btn btn-default" id="mbWrongAnswer" value="false" type="button">
+					<div data-icon="F" class="icon"></div>
+				</button>
+			</div>
+		</div>
+	</div> -->
+
+	<div id="addRemoveBlock" class="bottom">
+		<div id="addRemoveTemplate" class="addRemoveTemplate">
+			<div class="btn-group">
+				<button class="btn btn-default" id="mbAddAlternative" value="add" type="button">
+					<div data-icon="0" class="icon"></div>
+				</button>
+				<button class="btn btn-default" id="mbRemoveAlternative" value="remove" type="button">
+					<div data-icon="1" class="icon"></div>
+				</button>
+			</div>
+		</div>
+	</div>
+<!-- </div> -->

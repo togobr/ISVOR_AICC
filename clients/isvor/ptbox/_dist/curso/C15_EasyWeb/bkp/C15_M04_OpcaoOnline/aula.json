@@ -1,0 +1,109 @@
+{  
+
+   "_course_id":"546b6a16ad4130810c000007",
+   "hasContent":true,
+   "type":"Aula",
+   "name":"Opções Online",
+   "_id":"546b6a2cad4130810c000009",
+   "updatedAt":"2014-11-18T15:47:58.164Z",
+   "courseName":"E.A.SY: Ferramenta de diagnóstico",
+   "credito":"Créditos",
+   "titleCredito":"",
+   "contentCredito": "<span style='color: rgb(150, 36, 20);'>Gerência</span><br><b>Alejandro Gonzales</b><br><br><span style='color: rgb(150, 36, 20);'>Supervisão do Currículo</span><br><b>Rogério Machado</b>",
+   "numeroModuloTop": "4.",
+   "tituloMenu": "Menu - Indice",
+   "slides":[  
+
+
+      {  
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Portal de Relacionamento B2B",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+            {  
+              
+               "template":"capaModulo",
+               "order":1,
+               "imagemCapaModulo" : "css/assets/images/C15_EasyWeb/Capas_M04.png",
+               "imagemNumeroModulo": "css/assets/images/ISVOR01_img_modulo_04.png",
+               "tituloModuloCapa": "Opções Online",
+               "content": ""
+             
+            }
+       
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {  
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Opções ONLINE",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+             {  
+              
+               "template":"captura",
+               "order":1,
+               "captura": "css/assets/images/C15_EasyWeb/Capturas/Captura08_Opcao_online.swf",
+               "title": "Opções ONLINE",
+               "tituloCapturaStyle": "left:-1px; top:-51px; position:absolute;",
+               "textoCapturaStyle": "left:-1px; top:70px; width:357px; position:absolute;",
+               "content": "O modo online do E.A.SY é utilizado para monitorar o sistema elétrico do caminhão. Para isto, é necessário conectar o E.A.SY ao módulo ECI enquanto o mesmo estiver ligado ao caminhão. <br/><br/>O modo Online do E.A.SY deve ser utilizado com muita responsabilidade e atenção, já que ele pode originar movimentos do chassi e arranque do motor. <br/><br/>Nesta demonstração você verá como acionar o modo online do E.A.SY e conectar o Software à chave de ignição para colocá-la em marcha. ",
+               "imagem": "css/assets/images/C15_EasyWeb/C15_captura08.png",
+               "contentBtn": "Clique aqui para iniciar a simulação"
+
+            }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+      
+      {  
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "ultimoModulo": true,
+         "name":"Conclusão",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+            {  
+              
+               "template":"telaFinal",
+               "ultimoModulo": true,
+               "imgFim": "css/assets/images/ISVOR01_icone_capa_fim.png",
+               "title": "Excelente!",
+               "content": "Você concluiu o Módulo Opções Online. Agora você já sabe como conectar o E.A.SY a um ECI em operação, assim como acessar a chave de ignição através do software para colocá-la em marcha. <br/><br/>Siga para o próximo módulo e conheça as principais funcionalidades do E.A.SY.",
+                "textoBt":"ACESSAR O PRÓXIMO MÓDULO"
+             
+            }
+       
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      }
+
+
+   ],
+
+   "index":null,
+   "id":null,
+   "styleObj":null
+}

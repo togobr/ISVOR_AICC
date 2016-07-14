@@ -1,0 +1,347 @@
+{  
+
+   "_course_id":"546b6a16ad4130810c000007",
+   "hasContent":true,
+   "type":"Aula",
+   "name":"Introdução",
+   "_id":"546b6a2cad4130810c000009",
+   "updatedAt":"2014-11-18T15:47:58.164Z",
+   "courseName":"Introdução ao Link.e.Entry - Gestão de Importados ",
+   "credito":"Créditos",
+   "titleCredito":"",
+   "contentCredito": "<span style='color: rgb(14, 59, 116);'>Gerência</span><br><b>Alejandro Gonzales</b><br><br><span style='color: rgb(14, 59, 116);'>Supervisão do Currículo</span><br><b>Rogério Machado</b>",
+   "numeroModuloTop": "1.",
+   "tituloMenu": "Menu - Indice",
+   "slides":[  
+ 
+
+      {  
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Bem-vindo ao curso!",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+            {  
+              
+               "template":"capa",
+               "order":1,
+               "logoCapa": "css/assets/images/ISVOR01_logo_FCA.png",
+               "imagemCapa" : "css/assets/images/C03_LE_Gestao_Importados/C03_Capa_Geral.png",
+               "btnCapaTexto" : "Clique aqui para começar",
+               "tituloCapa": "Introdução ao Link.e.Entry <br>Gestão de Importados ",
+               "tituloCapaStyle": "position:absolute; top:240px; width:382px; left:5px;",
+               "content": "Bem-vindo ao curso!"
+             
+            }
+       
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+
+      {  
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Introdução ao Link.e.Entry - Gestão de Importados ",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+            {  
+              
+               "template":"capaIntroducao",
+               "order":1,
+               "imagem" : "css/assets/images/C03_LE_Gestao_Importados/C03_Capa_Geral.png",
+               "title": "O que é o Portal Link.e.Entry?",
+               "content": "O Portal Link.e.Entry é uma <b>ferramenta com interatividade via internet,</b> utilizada como plataforma mundial de <b>recolhimento e gestão de pedidos de veículos e tráfego de dados</b> das diversas áreas de negócios da Rede de Concessionárias do Grupo Fiat Chrysler Automobiles - FCA.<br/><br/>O objetivo do curso é capacitá-lo a operar a gestão de importados através do sistema Link.e.Entry na funcionalidade <i>Pick from Stock</i> da Chrysler. <br><br>Ao finalizá-lo você estará apto a utilizar o sistema Link.e.Entry para ter acesso fácil aos seus valores diários de Crédito e Floor Plan, escolher veículos disponíveis em sua cota e enviá-los ao fluxo de faturamento.",
+               "tituloCapaIntroStyle": "top:27px; position:absolute;  font-size:24px;",
+               "conteudoCapaIntroStyle":"top:120px; width:390px; position:absolute;"
+
+            } 
+       
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+
+      {  
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Introdução",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+            {  
+              
+               "template":"capaModulo",
+               "order":1,
+               "imagemCapaModulo" : "css/assets/images/C03_LE_Gestao_Importados/C03_Capa_modulo.png",
+               "imagemNumeroModulo": "css/assets/images/ISVOR01_img_modulo_01.png",
+               "tituloModuloCapa": "Introdução",
+               "content": "<ul><li>Acesso ao SISTEMA Link.e.Entry<br/><br/></li><li>Pick from Stock<br/><br/></li><li>Emissão de pedidos<br/><br/></li> <li>Download<br/><br/></li> <li>Upload<br/><br/></li> <li>Relatórios<br/><br/></li></ul>"
+             
+            }
+       
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {  
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Acesso ao SISTEMA Link.e.Entry",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+ 
+            {  
+              
+               "template":"captura",
+               "order":1,
+               "captura": "css/assets/images/C03_LE_Gestao_Importados/capturas/C03_LE01_Acesso.swf",
+               "title": "Acesso ao SISTEMA Link.e.Entry",
+               "tituloCapturaStyle": "left:42px; top:-30px; position:absolute;",
+               "textoCapturaStyle": "left:40px; top:125px; width:294px; position:absolute;",
+               "content": "O acesso ao sistema Link.e.Entry é feito por meio do endereço <b>https://linkentry.fiat.com/</b>. Na tela inicial, digite seu usuário, sua senha e depois clique em login.<br/><br/>Nesta simulação você verá como acessar o sistema, como personalizar o layout, como criar um avatar, mudar senha e idioma, entre outras funcionalidades.",
+               "imagem": "css/assets/images/C03_LE_Gestao_Importados/C02_LE_Pecas_Finac_capa_captura_introducao.png",
+               "contentBtn": "Clique aqui para iniciar a simulação"
+ 
+            }
+
+               ],
+                  "index":1,
+                  "id":"blank1",
+                  "class":"blank",
+               "styleObj":null
+      },
+
+
+      {  
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Mas, afinal, o que é CSPS?",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+
+             {  
+              
+               "template":"destaque",
+               "imagem": "css/assets/images/C03_LE_Gestao_Importados/C03_icone_interrogacao.png",
+               "title": "",
+               "content": "<b>O que é a funcionalidade <br><i>Pick from Stock</i> da Chrysler?</b>"
+               },
+
+               {  
+               "_id":"54b535e86e98656c0d000004",
+               "template":"texto",
+               "order":2,
+               "styleObj":{  
+                  "left":"405px",
+                  "top":"130px",
+                  "width":"432px",
+                  "position":"absolute"
+               },
+               "content":"A gestão de importados da Chrysler não trabalha sob demanda, mas prepara um estoque de veículos a serem selecionados pelas concessionárias. Por isso, chamamos essa funcionalidade de <i><b>Pick from Stock</b></i> que, em inglês, significa <b>pegar do estoque</b>.<br/><br/>Para montar esse estoque, a Chrysler realiza um extenso estudo de mercado, e disponibiliza aos <i>dealers</i>  uma cota de veículos baseada em previsões de demanda.<br/><br/>Dessa forma, você deverá selecionar e enviar para o fluxo de faturamento apenas veículos disponíveis na sua cota. Para fazer esses pedidos, você irá utilizar o sistema <b>Link.e.Entry</b>.",
+               "normal":{  
+                  "active":true,
+                  "subType":"semFundo"
+               },
+               "balao":{  
+                  "active":false,
+                  "subType":"left"
+               },
+               "titulo":{  
+                  "active":false,
+                  "subType":"primario"
+               },
+               "_course_id":"546b6a16ad4130810c000007",
+               "slide":0,
+               "index":1,
+               "id":"texto1",
+               "class":"texto",
+               "style":"left:405px;top:130px;width:430px;position:absolute;"
+            }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+
+      {  
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Gestão de importados",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+
+             {  
+              
+               "template":"captura",
+               "order":1,
+               "captura": "css/assets/images/C03_LE_Gestao_Importados/capturas/C03_LE06_Emissao_Pedido.swf",
+               "title": "Emissão de pedidos",
+               "tituloCapturaStyle": "left:42px; top:-20px; position:absolute;",
+               "textoCapturaStyle": "left:40px; top:110px; width:295px; position:absolute;",
+               "content": "A emissão de pedidos de veículos importados é feita no sistema Link.e.Entry. Para isso você deve acessar: <b>Aplicações &#8227; <i>Pick from Stock </i>&#8227; Emissão de pedidos.</b>",
+               "imagem": "css/assets/images/C03_LE_Gestao_Importados/C03_capa_captura_emissao_pedido.png",
+               "contentBtn": "Clique aqui para iniciar a simulação"
+
+            }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+
+      {  
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Download",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+           
+             {  
+              
+               "template":"captura",
+               "order":1,
+               "captura": "css/assets/images/C03_LE_Gestao_Importados/capturas/C03_LE02_Envio_recebimento_downloads.swf",
+               "title": "Download",
+               "tituloCapturaStyle": "left:42px; top:-20px; position:absolute;",
+               "textoCapturaStyle": "left:40px; top:110px; width:296px; position:absolute;",
+               "content": "Através do sistema é possível trocar arquivos com a fábrica. Para fazer esse procedimento clique em: <b>Aplicações &#8227; Envio/Recebimento de arquivos.</b></b><br/><br/>Dealers sem permissão não <br>terão acesso a esta funcionalidade <br>do sistema.",
+               "imagem": "css/assets/images/C03_LE_Gestao_Importados/C03_capa_captura_download.png",
+               "contentBtn": "Clique aqui para iniciar a simulação"
+
+            }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+
+      {  
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Upload",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+
+             {  
+              
+               "template":"captura",
+               "order":1,
+               "captura": "css/assets/images/C03_LE_Gestao_Importados/capturas/C03_LE03_Envio_recebimento_uploads.swf",
+               "title": "Upload",
+               "tituloCapturaStyle": "left:42px; top:-20px; position:absolute;",
+               "textoCapturaStyle": "left:40px; top:110px; width:300px; position:absolute;",
+               "content": "Além de receber arquivos da fábrica, você também pode enviá-los, fazendo um procedimento chamado <b>Upload</b>.",
+               "imagem": "css/assets/images/C03_LE_Gestao_Importados/C03_capa_captura_download.png",
+               "contentBtn": "Clique aqui para iniciar a simulação"
+
+            }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+
+      {  
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Relatórios",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+             {  
+              
+               "template":"captura",
+               "order":1,
+               "captura": "css/assets/images/C03_LE_Gestao_Importados/capturas/C03_LE04_Envio_recebimento_relatorios.swf",
+               "title": "Relatórios",
+               "tituloCapturaStyle": "left:42px; top:-20px; position:absolute;",
+               "textoCapturaStyle": "left:40px; top:110px; width:300px; position:absolute;",
+               "content": "Através dessa área também é possível ver os relatórios.",
+               "imagem": "css/assets/images/C03_LE_Gestao_Importados/C03_capa_captura_download.png",
+               "contentBtn": "Clique aqui para iniciar a simulação"
+
+            }
+         
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+
+      {  
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Conclusão",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+            {  
+              
+               "template":"telaFinal",
+               "ultimoModulo": true,
+               "imagem": "css/assets/images/icons/ISVOR01_icone_capa_fim.png",
+               "title": "Excelente!",
+               "content": "Você concluiu o curso!<br/><br/>Lembre-se de que esse sistema irá<br/> ajudá-lo no seu dia a dia de trabalho.<br/><br/>Retorne sempre que tiver alguma dúvida de acesso a alguma parte do sistema. Bom trabalho!"
+             
+            }
+       
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      }
+
+       
+   ],
+
+   "index":null,
+   "id":null,
+   "styleObj":null
+}

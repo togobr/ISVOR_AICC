@@ -1,0 +1,465 @@
+{  
+
+   "_course_id":"546b6a16ad4130810c000007",
+   "hasContent":true,
+   "type":"Aula",
+   "name":"Introdução",
+   "_id":"546b6a2cad4130810c000009",
+   "updatedAt":"2014-11-18T15:47:58.164Z",
+   "courseName":"Equipamento E.A.SY.",
+   "credito":"Créditos",
+   "titleCredito":"",
+   "contentCredito": "<span style='color: rgb(14, 59, 116);'>Gerência</span><br><b>Alejandro Gonzales</b><br><br><span style='color: rgb(14, 59, 116);'>Supervisão do Currículo</span><br><b>Rogério Machado</b>",
+   "numeroModuloTop": "1.",
+   "tituloMenu": "Menu - Indice",
+   "travaSlides":true,
+   "slides":[  
+ 
+
+      {  
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Bem-vindo ao curso!",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+            {  
+              
+               "template":"capa",
+               "order":1,
+               "logoCapa": "css/assets/images/ISVOR01_CNHi_logo_capa.png",
+               "imagemCapa" : "css/assets/images/C15_EasyWeb/C15_Capa.png",
+               "btnCapaTexto" : "Clique aqui para começar",
+               "tituloCapa": "Equipamento E.A.SY.",
+               "content": "Bem-vindo ao curso!",
+               "animado":true,
+               "srcAnima":"css/assets/flash/ISV01_anima_inicial.swf",
+               "tempoAnima":0
+             
+            }
+       
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {  
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Equipamento E.A.SY.Acesso ao sistema E.A.SYAcesso ao sistema E.A.SYAcesso ao sistema E.A.SY",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+            {  
+              
+               "template":"capaIntroducao",
+               "order":1,
+               "imagem" : "css/assets/images/C15_EasyWeb/C15_Capa.png",
+               "title": " Equipamento E.A.SY.",
+               "content": "Bem-vindo ao curso  Equipamento E.A.SY.<br><br>Aqui você saberá como operar este equipamento para analisar o comportamento dos sistemas elétricos dos caminhões, verificar se existem ou existiram erros (falhas ) durante o funcionamento , além de visualizar a análise dinâmica em testes de rodagem e geração e emissão de relatórios.<br/><br/>Ao final deste curso você será capaz de realizar estas análises através da utilização do sistema E.A.SY, que deve se comunicar com o aparelho ECI instalado no caminhão.",
+               "tituloCapaIntroStyle": "top:74px; position:absolute; width:409px;",
+               "conteudoCapaIntroStyle":"top:131px; width:409px; position:absolute;"
+
+            }
+       
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {  
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Introdução",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+            {  
+              
+               "template":"capaModulo",
+               "order":1,
+               "imagemCapaModulo" : "css/assets/images/C15_EasyWeb/Capas_M01.png",
+               "imagemNumeroModulo": "css/assets/images/ISVOR01_img_modulo_01.png",
+               "tituloModuloCapa": "Introdução",
+               "content": "<ul><li>Acesso ao sistema E.A.SY<br/><br/></li><li>Atualizador EAUS<br/><br/></li><li>Equipamento ECI</li></ul>"
+             
+            }
+       
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {  
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Acesso ao sistema E.a.sy",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+             {  
+              
+               "template":"captura",
+               "order":1,
+               "captura": "css/assets/images/C15_EasyWeb/Capturas/teste1/C02_LE_Pecas_Financ_Cap_Acesso.htm",
+               "title": "Acesso ao sistema E.a.sy",
+               "tituloCapturaStyle": "left:10px; top:-70px; position:absolute;",
+               "textoCapturaStyle": "left:10px; top:46px; width:348px; position:absolute;",
+               "content": "O equipamento E.A.SY é uma ferramenta de diagnose utilizada para análise de sistemas elétricos, tais como Quadro de instrumentos (Cluster), Centrais de porta (PDM e DDM), Central de câmbio (Eurotronic), Central Denoxtronic dentre outras.<br/><br/>Através do sistema E.A.SY instalado em seu computador você poderá acompanhar estas análises e avaliar o sistema elétrico dos caminhões sobre possíveis falhas.<br/><br/>Na demonstração a seguir você verá como acessar o sistema E.A.SY e conhecerá sua tela inicial.",
+               "imagem": "css/assets/images/C15_EasyWeb/C15_captura01.png",
+               "contentBtn": "Clique aqui para iniciar a simulação"
+
+            }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {  
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Atualizador EAUS",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+             {  
+              
+               "template":"captura",
+               "order":1,
+               "captura": "css/assets/images/C15_EasyWeb/Capturas/teste2/Captura02_EAUS.htm",
+               "title": "Atualizador EAUS",
+               "tituloCapturaStyle": "left:22px; top:-38px; position:absolute;",
+               "textoCapturaStyle": "left:20px; top:97px; width:332px; position:absolute;",
+               "content": "O atualizador EAUS deve ser instalado em seu computador para realizar as atualizações do equipamento E.A.SY. <br/><br/>Para efetuar a atualização é necessário que o computador esteja conectado à internet, preferencialmente via cabo devido a estabilidade e velocidade deste tipo de conexão. <br/><br/>Na simulação a seguir você verá como realizar a atualização do equipamento E.A.SY através do atualizador EAUS.",
+               "imagem": "css/assets/images/C15_EasyWeb/C15_captura02.png",
+               "contentBtn": "Clique aqui para iniciar a simulação"
+
+            }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+
+      {  
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Equipamento ECI",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+
+         {  
+               "_id":"54b535ec6e98656c0d000006",
+               "template":"imagem",
+               "order":0,
+               "styleObj":{  
+                  "width":"865px",
+                  "height":"404px",
+                  "left":"16px",
+                  "top":"23px",
+                  "position":"absolute"
+               },
+               "baseImg":"",
+               "src":"css/assets/images/C15_EasyWeb/C15_img01.png",
+               "imgHeight":185,
+               "legend":{  
+                  "active":false,
+                  "content":"Teste : Teste images"
+               },
+               "border":false,
+               "_course_id":"546b6a16ad4130810c000007",
+               "slide":0,
+               "index":3,
+               "id":"imagem1",
+               "class":"imagem",
+               "style":"width:283px;height:212px;left:51.65625px;top:245px;position:absolute;"
+            },
+
+
+
+
+
+
+            {  
+               "_id":"54b535e86e98656c0d000004",
+               "template":"texto",
+               "order":1,
+               "styleObj":{  
+                  "left":"-4px",
+                  "top":"105px",
+                  "width":"355px",
+                  "position":"absolute"
+               },
+               "content":"<span style='color: #962414;'><b>Equipamento ECI</b></span>",
+               "normal":{  
+                  "active":true,
+                  "subType":"semFundo"
+               },
+               "balao":{  
+                  "active":false,
+                  "subType":"left"
+               },
+               "titulo":{  
+                  "active":true,
+                  "subType":"secundario"
+               },
+               "_course_id":"546b6a16ad4130810c000007",
+               "slide":0,
+               "index":1,
+               "id":"texto1",
+               "class":"texto",
+               "style":"left:51px;top:36px;width:284px;position:absolute;"
+            },
+
+
+
+         {  
+               "_id":"54b535e86e98656c0d000004",
+               "template":"texto",
+               "order":2,
+               "styleObj":{  
+                  "left":"72px",
+                  "top":"160px",
+                  "width":"256px",
+                  "position":"absolute"
+               },
+               "content":"<b>A ECI é o equipamento que permite a interface entre o computador (software) e o caminhão (sistemas).<br/><br/>Esta tem a função de “traduzir” o que os sistemas do caminhão dizem e comunicar ao software (instalado no computador).  Este por sua vez mostra ao usuário as informações na tela do E.A.SY.</b>",
+               "normal":{  
+                  "active":true,
+                  "subType":"semFundo"
+               },
+               "balao":{  
+                  "active":false,
+                  "subType":"left"
+               },
+               "titulo":{  
+                  "active":false,
+                  "subType":"primario"
+               },
+               "_course_id":"546b6a16ad4130810c000007",
+               "slide":0,
+               "index":1,
+               "id":"texto1",
+               "class":"texto",
+               "style":"left:51px;top:36px;width:284px;position:absolute;"
+            }
+
+
+          
+                    
+             
+
+
+            
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {  
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Comunicação entre ECI, caminhão e E.A.SY",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+
+
+
+            {  
+               "_id":"54b535e86e98656c0d000004",
+               "template":"texto",
+               "order":0,
+               "styleObj":{  
+                  "left":"-4px",
+                  "top":"105px",
+                  "width":"355px",
+                  "position":"absolute"
+               },
+               "content":"<span style='color: #962414;'><b>Comunicação entre ECI, caminhão e E.A.SY</b></span>",
+               "normal":{  
+                  "active":true,
+                  "subType":"semFundo"
+               },
+               "balao":{  
+                  "active":false,
+                  "subType":"left"
+               },
+               "titulo":{  
+                  "active":true,
+                  "subType":"secundario"
+               },
+               "_course_id":"546b6a16ad4130810c000007",
+               "slide":0,
+               "index":1,
+               "id":"texto1",
+               "class":"texto",
+               "style":"left:51px;top:36px;width:284px;position:absolute;"
+            },
+
+
+
+         {  
+               "_id":"54b535e86e98656c0d000004",
+               "template":"texto",
+               "order":1,
+               "styleObj":{  
+                  "left":"36px",
+                  "top":"200px",
+                  "width":"272px",
+                  "position":"absolute"
+               },
+               "content":"Para que o equipamento ECI cumpra sua função ele precisa ser conectado no caminhão para extrair seus dados e também no computador para fornecer essas informações para o E.A.SY. <br/><br/>Veja nas imagens abaixo as portas de ligação entre a ECI e o caminhão e também entre a ECI e o computador:",
+               "normal":{  
+                  "active":true,
+                  "subType":"semFundo"
+               },
+               "balao":{  
+                  "active":false,
+                  "subType":"left"
+               },
+               "titulo":{  
+                  "active":false,
+                  "subType":"primario"
+               },
+               "_course_id":"546b6a16ad4130810c000007",
+               "slide":0,
+               "index":1,
+               "id":"texto1",
+               "class":"texto",
+               "style":"left:51px;top:36px;width:284px;position:absolute;"
+            },
+                    
+              {  
+               "_id":"54b535ec6e98656c0d000006",
+               "template":"imagem",
+               "order":2,
+               "styleObj":{  
+                  "width":"520px",
+                  "height":"506px",
+                  "left":"386px",
+                  "top":"-7px",
+                  "z-index":"1 !important",
+                  "position":"absolute"
+               },
+               "baseImg":"",
+               "src":"css/assets/images/C15_EasyWeb/C15_img02.png",
+               "imgHeight":185,
+               "legend":{  
+                  "active":false,
+                  "content":"Teste : Teste images"
+               },
+               "border":false,
+               "_course_id":"546b6a16ad4130810c000007",
+               "slide":0,
+               "index":3,
+               "id":"imagem1",
+               "class":"imagem",
+               "style":"width:283px;height:212px;left:51.65625px;top:245px;position:absolute;"
+            }
+
+
+            
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+
+      {  
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Funcionamento da ECI",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+             {  
+              
+               "template":"captura",
+               "order":1,
+               "captura": "css/assets/images/C15_EasyWeb/Capturas/teste3/Captura03_configuracoes.htm",
+               "title": "Funcionamento da ECIS",
+               "tituloCapturaStyle": "left:22px; top:-38px; position:absolute;",
+               "textoCapturaStyle": "left:20px; top:97px; width:332px; position:absolute;",
+               "content": "A ECI trás muitas informações úteis sobre o caminhão,  como indicações visuais sobre seu estado interno.<br/><br/>Na demonstração a seguir você conhecerá as luzes spiais do ECI, e saberá a função de cada uma delas:",
+               "imagem": "css/assets/images/C15_EasyWeb/C15_captura06.png",
+               "contentBtn": "Clique aqui para iniciar a simulação"
+
+            }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+
+
+
+      {  
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Conclusão",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+            {  
+              
+               "template":"telaFinal",
+               "ultimoModulo": false,
+               "imagem": "css/assets/images/icons/ISVOR01_icone_capa_fim.png",
+               "title": "EXCELENTE!",
+               "content": "Você concluiu o Módulo Introdução ao E.A.SY. Agora você já sabe como acessar e instalar o sistema E.A.SY, assim como conhece o equipamento ECI, que comunica os dados do caminhão para o sistema.<br/>Siga para o próximo módulo e conheça as configurações do E.A.SY.",
+               "textoBt":"ACESSAR O PRÓXIMO MÓDULO"
+             
+            }
+       
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      }
+
+   ],
+
+   "index":null,
+   "id":null,
+   "styleObj":null
+}

@@ -1,0 +1,32 @@
+.resource {
+    .texto{
+        min-width: 95px;
+        position: absolute;
+        padding: 20px;
+        font-size: 14px;
+        text-align: left;
+    }
+
+    .titulo{
+        padding: 0px;
+        .tagP {
+            font-weight: bold;
+            text-align: center;
+        }
+    }
+
+    .texto.titulo.primario{
+        .tagP {
+            font-size: 32px;
+            line-height: 32px;
+        }
+    }
+
+    .texto.titulo.secundario{
+        .tagP {
+            font-size: 24px;
+            line-height: 32px;
+        }
+    }
+}
+

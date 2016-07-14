@@ -1,0 +1,128 @@
+@-webkit-keyframes transRollIn {
+  /* line 7, ../sass/trans/roll.scss */
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-100%) rotate(-120deg);
+  }
+
+  /* line 8, ../sass/trans/roll.scss */
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0px) rotate(0deg);
+  }
+}
+
+@-moz-keyframes transRollIn {
+  /* line 12, ../sass/trans/roll.scss */
+  0% {
+    opacity: 0;
+    -moz-transform: translateX(-100%) rotate(-120deg);
+  }
+
+  /* line 13, ../sass/trans/roll.scss */
+  100% {
+    opacity: 1;
+    -moz-transform: translateX(0px) rotate(0deg);
+  }
+}
+
+@-o-keyframes transRollIn {
+  /* line 17, ../sass/trans/roll.scss */
+  0% {
+    opacity: 0;
+    -o-transform: translateX(-100%) rotate(-120deg);
+  }
+
+  /* line 18, ../sass/trans/roll.scss */
+  100% {
+    opacity: 1;
+    -o-transform: translateX(0px) rotate(0deg);
+  }
+}
+
+@keyframes transRollIn {
+  /* line 22, ../sass/trans/roll.scss */
+  0% {
+    opacity: 0;
+    transform: translateX(-100%) rotate(-120deg);
+  }
+
+  /* line 23, ../sass/trans/roll.scss */
+  100% {
+    opacity: 1;
+    transform: translateX(0px) rotate(0deg);
+  }
+}
+
+/* line 26, ../sass/trans/roll.scss */
+.transRollIn {
+  -webkit-animation-name: transRollIn;
+  -moz-animation-name: transRollIn;
+  -o-animation-name: transRollIn;
+  animation-name: transRollIn;
+}
+
+/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
+@-webkit-keyframes transRollOut {
+  /* line 35, ../sass/trans/roll.scss */
+  0% {
+    opacity: 1;
+    -webkit-transform: translateX(0px) rotate(0deg);
+  }
+
+  /* line 40, ../sass/trans/roll.scss */
+  100% {
+    opacity: 0;
+    -webkit-transform: translateX(100%) rotate(120deg);
+  }
+}
+
+@-moz-keyframes transRollOut {
+  /* line 47, ../sass/trans/roll.scss */
+  0% {
+    opacity: 1;
+    -moz-transform: translateX(0px) rotate(0deg);
+  }
+
+  /* line 52, ../sass/trans/roll.scss */
+  100% {
+    opacity: 0;
+    -moz-transform: translateX(100%) rotate(120deg);
+  }
+}
+
+@-o-keyframes transRollOut {
+  /* line 59, ../sass/trans/roll.scss */
+  0% {
+    opacity: 1;
+    -o-transform: translateX(0px) rotate(0deg);
+  }
+
+  /* line 64, ../sass/trans/roll.scss */
+  100% {
+    opacity: 0;
+    -o-transform: translateX(100%) rotate(120deg);
+  }
+}
+
+@keyframes transRollOut {
+  /* line 71, ../sass/trans/roll.scss */
+  0% {
+    opacity: 1;
+    transform: translateX(0px) rotate(0deg);
+  }
+
+  /* line 76, ../sass/trans/roll.scss */
+  100% {
+    opacity: 0;
+    transform: translateX(100%) rotate(120deg);
+  }
+}
+
+/* line 82, ../sass/trans/roll.scss */
+.transRollOut {
+  -webkit-animation-name: transRollOut;
+  -moz-animation-name: transRollOut;
+  -o-animation-name: transRollOut;
+  animation-name: transRollOut;
+}

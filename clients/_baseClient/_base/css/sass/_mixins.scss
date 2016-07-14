@@ -1,0 +1,50 @@
+@mixin linear-gradient($baseColor, $cor1, $perc1, $cor2, $perc2, $cor3, $perc3, $cor4, $perc4) {
+	background: $baseColor; /* Old browsers */
+	background: -moz-linear-gradient(top, $cor1 $perc1, $cor2 $perc2, $cor3 $perc3, $cor4 $perc4); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop($cor1 $perc1), color-stop($cor2 $perc2), color-stop($cor3 $perc3), color-stop($cor4 $perc4)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, $cor1 $perc1, $cor2 $perc2, $cor3 $perc3, $cor4 $perc4); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, $cor1 $perc1, $cor2 $perc2, $cor3 $perc3, $cor4 $perc4); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, $cor1 $perc1, $cor2 $perc2, $cor3 $perc3, $cor4 $perc4); /* IE10+ */
+	background: linear-gradient(to bottom, $cor1 $perc1, $cor2 $perc2, $cor3 $perc3, $cor4 $perc4); /* W3C */
+	-pie-background: linear-gradient($cor2, $baseColor);
+	// filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#{ie-hex-str($cor1)}', endColorstr='#{ie-hex-str($cor4)}',GradientType=0);
+ }
+
+@mixin border-radius($x:5px){
+	-webkit-border-radius: $x;
+	-moz-border-radius: $x;
+	border-radius: $x;
+	// border: 1px solid #b9b8b8;
+}
+
+@mixin box-shadow($x1:4px, $x2:4px, $x3:11px, $intensidade: 0.2){
+	-webkit-box-shadow: $x1 $x2 $x3 rgba(50, 50, 50, $intensidade);
+	-moz-box-shadow:    $x1 $x2 $x3 rgba(50, 50, 50, $intensidade);
+	box-shadow:         $x1 $x2 $x3 rgba(50, 50, 50, $intensidade);
+}
+
+@mixin box-shadow-inset($x:4px, $y:3px, $z:4px, $intensidade: 0.49){
+	-webkit-box-shadow: inset $x $y $z rgba(50, 50, 50, $intensidade);
+	-moz-box-shadow: inset   $x $y $z rgba(50, 50, 50, $intensidade);
+	box-shadow: inset        $x $y $z rgba(50, 50, 50, $intensidade);
+}
+
+@mixin user-select{
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+
+@mixin opacityBackground($n1: 255, $n2:255, $n3:255, $opacidade: 0.8){
+	/* default fallback */
+	background: rgb($n1, $n2, $n3) transparent;
+	/* nice browsers */
+	background: rgba($n1, $n2, $n3, $opacidade);
+	/* IE 6/7 */
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCFFFFFF, endColorstr=#CCFFFFFF);
+	/* IE8 */    
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCFFFFFF, endColorstr=#CCFFFFFF)";
+	border: #ffffff solid 1px;
+}

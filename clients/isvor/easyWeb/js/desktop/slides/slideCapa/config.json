@@ -1,0 +1,32 @@
+{
+	"defaults": {
+		"title": "Exemplo de Capa Simples"
+	},
+
+	"resources": {
+		"allowed": [
+			"imagem"
+		],
+
+		"insert": [
+			{  
+		         "baseImg":"css/assets/images/personagem.png",
+		         "border":false,
+		         "legend":{  
+		            "active":false,
+		            "content":"Teste : Teste images"
+		         },
+		         "imgHeight": 435,
+		         "src":"",
+		         "styleObj":{  
+		            "position":"absolute",
+		            "bottom":"36px",
+		            "left":"495px",
+		            "height":"473px",
+		            "width":"315px"
+		         },
+		         "template":"imagem"
+		    }
+		]
+	}
+}

@@ -1,0 +1,261 @@
+.addRemoveTabs {
+    display: none;
+}
+
+.slider {
+    display: none;  // por padrão não mostra o recurso tabs
+    background: red;
+    overflow: hidden;
+    min-height: 350px;
+    min-width: 620px;
+
+    &.noContent .prev-slide,
+    &.noContent .next-slide,
+    &.firstSlide .prev-slide,
+    &.lastSlide .next-slide,
+    &.tabs-nav-left-exausted .tab-prev,
+    &.tabs-nav-right-exausted .tab-next {  // estilo para botoes no estado 'disabled'
+        // background: grey;
+    }
+
+    &.tabs-nav-can-scroll {
+        .tab-prev, .tab-next {
+            display: block !important;
+        }
+    }
+
+    .sliderMenu{
+        position: absolute;
+        width: 140px;
+        height: 40px;
+        bottom: 0px;
+        left: 50%;
+        margin-left: -70px;
+
+         &> .prev-slide, &> .next-slide {
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            background: blue;
+            width: 40px;
+            height: 40px;
+            z-index: 150;
+        }
+
+        &> .next-slide {
+            left: initial;
+            right: 0px;
+        }
+
+        .summary {
+            position: relative;
+            z-index: 149;
+            text-align: center;
+            font-size: 16px;
+        }
+
+    }
+
+    .tab-prev, .tab-next {
+        // display: none !important;
+        bottom: 0px;
+        width: 30px;
+        height: 20%;
+        position: absolute;
+        left: 0px;
+        z-index: 2;
+    }
+
+    .tab-next {
+        right: 0px;
+        left: initial;
+    }
+
+    &.ui-tabs {
+        display: block;  // mostra o recurso somente quando passar pelo jQuery.ui
+    }
+
+    ul.tabs-nav {
+        display: block;
+        width: 100%;
+        margin: 0px;
+        padding: 10px 35px;
+        background: #FFFFFF;
+        position: absolute;
+        bottom: 0px;
+        height: 20%;
+        overflow: hidden;
+        white-space: nowrap;
+
+        li {
+            display: block;
+            list-style: none;
+            border: 1px solid #dcd7d5;
+            position: relative;
+            height: 100%;
+            min-width: 60px;
+            width: 90px;  // definir uma largura estática
+            // background: blue;
+            // overflow: hidden;
+            display: inline-block;
+            margin-left: 13px;
+            &:first-child{
+                margin-left: 0px;
+            }
+
+            .anchor {
+                color: #333333;
+                // background: orange;
+                display: block;
+                height: 100%;
+                width: 100%;
+                cursor: pointer;
+
+                &, & * {
+                    text-decoration: none;
+                }
+                &:focus{
+                    outline: none;
+                }
+
+                //definição do recurso imagem, como thumbnail do slider;
+                .resource{
+                    height: 100%;
+                    .imagem{
+                        height: 100%;
+                        width: 100%;
+                        min-height: initial;
+                        min-width: initial;
+                        display: block;
+                        .trow, .tcell{
+                            display: block;
+                        }
+                    }
+                    #imageWrapper{
+                        min-height: initial;
+                        border: 0px;
+                    }
+                }
+            }
+
+            &.ui-state-hover{
+                @include box-shadow(0px, 0px, 5px, 0.3);
+            }
+
+            &.ui-tabs-active {
+                // border: 2px solid #A5A5A5;
+                @include box-shadow(2px, 2px, 5px, 0.7);
+            }
+
+            &:focus{
+                outline: none;
+            }
+        }
+    }
+
+    .tabs-content {
+        width: 100%;
+        height: 80%;
+        background: #FFFFFF;
+        position: relative;
+        overflow: hidden;
+
+        .tab-content {
+            height: 100%;
+
+            .SliderStage {
+                height: inherit;
+
+                .mbCanvas {
+                    height: inherit;
+                }
+            }
+        }
+
+        .tab-content .SliderStage .mbCanvas {
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            overflow: hidden; /* esconde conteudo que extrapola o canvas */
+        }
+    }
+
+    .addRemoveTabs {
+        position: absolute;
+        bottom: -1px;
+        right: -1px;
+        z-index: 1;
+        .btn-group .btn{
+            @include border-radius(0px);
+            padding: 0px 4px;
+        }
+    }
+}
+
+.onEdition2 .slider {
+    ul.tabs-nav{
+         .addRemoveTabs:last-child{
+            display: none;
+        }
+    }
+    .addRemoveTabs {
+        display: block;  
+    }
+}
+
+
+//************************************* AJUSTES DE LAYOUT PARA O EDITOR *************************************
+.mbCanvas{
+    .resource {
+
+        .slider {
+            .mb-stage {
+                .content-blocker {
+                    width: 100%;
+                    height: 100%;
+                    top: 0px;
+                    left: 0px;
+                    bottom: 0px;
+                    right: 0px;
+                    position: absolute;
+                    z-index: 1000;  
+                }
+            }
+
+            .anchor{
+                cursor: pointer;
+                .tab-thumb-cover{
+                    position: absolute;
+                    top: 0px;
+                    left: 0px;
+                    bottom: 0px;
+                    right: 0px;
+                }  
+            }
+
+            &:after{
+                content: "";
+                position: absolute;
+                height: 100%;
+                width: 100%;
+                top: 0;
+                z-index: 1000;
+            }
+        }
+
+        &.onEdition2 {
+            .slider {
+                &:after{
+                    content: none;
+                }
+            }
+
+            .slider.tabs-nav-can-scroll {
+                .tab-prev, .tab-next {
+                    display: block !important;
+                }
+            }
+        }
+
+    }
+}

@@ -1,0 +1,198 @@
+iframe{
+	width: 100%;
+	height: 102%;
+	border: none;
+}
+
+.barraInferiorCap{
+		width: 100%;
+		height: 10px;
+		background: #ececec;
+		position: absolute;
+		top: 98.8%;
+  		z-index: 999;
+
+}
+
+.barraLateralCap{
+		width: 3px;
+		height: 101.5%;
+		background: #ececec;
+		position: absolute;
+		left: 914px;
+ 		z-index: 999;
+}
+
+.imgCaptura{
+	width: 538px;
+	height: 480px;
+	position: absolute;
+	left: 361px;
+	top: 0px;
+}
+
+.tituloCaptura{
+	width: 40%;
+	margin-top: 99px;
+	font-family: $fontePadrao;
+	position: absolute;
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: $corPadrao;
+	margin-left: 30px;
+	padding-right: 65px;
+	line-height: 24px;
+
+}
+
+.textoCaptura{
+	width: 40%;
+	position: absolute;
+	top: 146px;
+	padding-left: 32px;
+	padding-right: 32px;
+	line-height: 24px;
+	font-size: 15px;
+	font-family: $fontePadrao;
+	font-weight: normal;
+	color: #333333;
+	margin-top: 19px;
+}
+
+.backgroundColor{
+	  background: rgba(111, 27, 15, 0.75);
+	height: 480px;
+	position: absolute;
+	width: 60%;
+	left: 360px;
+}
+
+.imagemBtnCaptura.desativarBg{
+		background: url(assets/images/icons/ISVOR01_icone_captura_hover_clicado.png) no-repeat !important;
+}
+
+.btnCaptura{
+	width: 180px;
+	height: 198px;
+	left: 180px;
+	position: absolute;
+	top: 142px;
+	cursor: pointer;
+
+	
+
+
+	&:hover{
+		
+		background: #b1b3b3;
+			
+		.textoBtnCaptura{
+			background: #ffffff;
+			color: #a13a2c;
+		}
+
+		.imagemBtnCaptura{
+		
+			background: url(assets/images/icons/ISVOR01_icone_captura_hover_clicado.png) no-repeat;
+		}
+
+
+	}
+
+
+	.textoBtnCaptura.capturaDesativado{
+			background: #ffffff;
+			color: #a13a2c;
+		}
+
+
+
+	.textoBtnCaptura{
+		height: 56px;
+		width: 100%;
+		position: relative;
+		top: 142px;
+		background: #ffffff;
+		color: $corPadrao;
+		font-family: helvetica, sans-serif;
+		text-transform: uppercase;
+		font-weight: bold;
+		padding-left: 3px;
+		padding-right: 3px;
+		text-align: center;
+		padding-top: 12px;
+		font-size: 14px;
+
+	
+
+	}
+
+	.imagemBtnCaptura{
+		position: absolute;
+		z-index: 9;
+		background-color: #ffffff;
+		background: url("assets/images/icons/ISVOR01_icone_captura_normal.png") no-repeat;
+		width: 181px;
+		height: 150px;
+
+	}
+
+	.checkBtn{
+		position: absolute;
+		width: 39px;
+		height: 34px;
+		z-index: 9;
+		top: 172px;
+		left: 164px;
+	}
+}
+
+// .fundocaptura{
+// 	display: none;
+// 	width: 100%;
+// 	height: 100%;
+// 	position: absolute !important;
+// 	background: rgba(14, 59, 116, 0.7);
+// 	z-index: 33;
+// }
+
+.capturaModal{
+	position: absolute;
+	width: 100%;
+	height: 483px;
+	z-index: 34;
+		height: 609px;
+		width: 933px;
+
+	.fecharCaptura{
+		background: #b1b3b3;
+		color: #4b4c4c;
+		position: absolute;
+		top: 95%;
+  		left: 89%;
+		padding: 4px;
+		text-transform: uppercase;
+		font-size: 11px;
+		font-weight: bold;
+		cursor: pointer;
+		width: 81px;
+		height: 22px;
+		text-align: center;
+		font-family: $fontePadrao;
+		padding: 5px;
+		z-index: 999;
+		
+		&:hover{
+		background: #a13a2c;
+		color: #ffffff;
+			
+		}
+
+		&:active{
+			background: #a13a2c;
+			color: #ffffff;
+		}
+	}
+}
+

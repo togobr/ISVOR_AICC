@@ -1,0 +1,37 @@
+.primeiroPlano{
+    min-height: 285px;
+    /*max-height: 470px;*/
+    h2{
+        margin: 0px;
+    }
+}
+
+.ppPequeno{
+    width: 500px;
+    height: 285px; 
+
+    #modalContent {
+      height: inherit;
+      width: inherit;
+    }
+}
+
+.ppMedio{
+    width: 580px;
+    height: 500px;
+    
+    #modalContent {
+      height: inherit;
+      width: inherit;
+    }
+}
+
+.ppGrande{
+    width: 880px;
+    height: 500px;
+
+    #modalContent {
+      height: inherit;
+      width: inherit;
+    }
+}

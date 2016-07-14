@@ -1,0 +1,48 @@
+{
+	"defaults": {
+		"template": "tabs",
+		"styleObj": {
+			"position": "absolute",
+			"top": "36px",
+			"left": "53px",
+			"width": "330px",
+			"height": "230px"
+		},
+		"horizontal": {
+			"active": true,
+			"position": "top"
+		},
+		"vertical": {
+			"active": false,
+			"position": "left"
+		},
+		"tabs": [{
+			"tab": "Aba #1",
+			"dynamicContent": {
+				"entity": "slide",
+				"_id": null
+			}
+		}, {
+			"tab": "Aba #2",
+			"dynamicContent": {
+				"entity": "slide",
+				"_id": null
+			}
+		}, {
+			"tab": "Aba #3",
+			"dynamicContent": {
+				"entity": "slide",
+				"_id": null
+			}
+		}]
+	},
+
+	"editor": {
+		"restrictions": {
+			"width": true,
+			"height": true,
+			"top": true,
+			"left": true
+		}
+	}
+}

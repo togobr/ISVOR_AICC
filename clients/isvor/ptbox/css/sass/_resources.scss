@@ -1,0 +1,36 @@
+@import "resources/texto/style";
+@import "resources/primeiroPlano/style";
+@import "resources/atividade/style";
+@import "resources/caixaDestaque/style";
+@import "resources/capaModulo/style";
+@import "resources/capa/style";
+@import "resources/captura/style";
+@import "resources/lista/style";
+@import "resources/capaIntroducao/style";
+@import "resources/destaque/style";
+@import "resources/telaFinal/style";
+@import "resources/indice/style";
+@import "resources/telaNavegacao/style";
+ 
+.texto, .atividade, .imagem, .respostaCerta, .respostaErrada{
+    font-family: $fontePadrao;
+}
+
+.texto ul, .caixaDestaque ul{
+	list-style-type: none;
+	li{
+		&:before{
+			content: "■";
+			color: $baseColor;
+			margin-right: 5px;
+		} 
+	}
+}
+
+.texto ol, .caixaDestaque ol{
+	li{
+		&:before{
+			color:$baseColor;
+		}
+	}
+}

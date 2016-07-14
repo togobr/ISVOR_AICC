@@ -1,0 +1,41 @@
+.resource .gaveta{
+  ul{
+    position: relative;
+    z-index: 1;
+    padding: 0;
+    margin-top: 0;
+    li{
+      min-height: 48px;
+      font:{
+        size: 16px;
+        weight: bold;
+      }
+      padding:{
+        right: 40px;
+        left: 40px;
+      }
+    }
+  }
+}
+
+.gavetaTexto{
+  // overflow-y:scroll;
+  h2{
+    font:{
+      weight: bold;
+      size: 20px;
+    }
+    padding-bottom: 30px;
+    padding-top: 20px;
+  }
+  .tagP{
+    font-size: 14px;
+  }
+}
+
+.gavetaTexto .texto{
+  padding:{
+    left: 30px;
+    right: 30px;
+  }
+}

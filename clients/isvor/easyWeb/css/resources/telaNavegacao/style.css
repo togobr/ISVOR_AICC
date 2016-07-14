@@ -1,0 +1,554 @@
+/* line 2, ../../sass/resources/telaNavegacao/style.scss */
+.topTelaNav {
+  position: relative;
+  width: 100%;
+  height: 285px;
+  border-top: 10px solid #4b4c4c;
+  background: url(assets/images/ISVOR01_CNHI_telaNavegacao_imagem.png);
+  background-position-y: -2px;
+}
+/* line 12, ../../sass/resources/telaNavegacao/style.scss */
+.topTelaNav .faixas {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+/* line 19, ../../sass/resources/telaNavegacao/style.scss */
+.topTelaNav ul {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+/* line 26, ../../sass/resources/telaNavegacao/style.scss */
+.topTelaNav ul li {
+  font-family: helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 30px;
+  display: inline-block;
+  width: 540px;
+  height: 35px;
+  text-align: center;
+  color: #fff;
+  background: #b22d12;
+}
+/* line 42, ../../sass/resources/telaNavegacao/style.scss */
+.topTelaNav ul li:first-child {
+  width: 364px;
+  margin-right: -4px;
+  float: left;
+  background: #802113;
+}
+
+/* line 55, ../../sass/resources/telaNavegacao/style.scss */
+.midTelaNav {
+  font-family: helvetica, sans-serif;
+  font-size: 14px;
+  position: relative;
+  height: 55px;
+  color: #fff;
+  background: #49160f;
+  box-shadow: -1px -5px 3px rgba(0, 0, 0, 0.2);
+}
+/* line 67, ../../sass/resources/telaNavegacao/style.scss */
+.midTelaNav ul {
+  display: table;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+/* line 79, ../../sass/resources/telaNavegacao/style.scss */
+.midTelaNav ul li {
+  display: table-cell;
+  width: 180px;
+  height: 52px;
+  cursor: pointer;
+  text-align: center;
+  vertical-align: middle;
+}
+/* line 93, ../../sass/resources/telaNavegacao/style.scss */
+.midTelaNav ul li:last-child span:after {
+  background: none;
+}
+/* line 102, ../../sass/resources/telaNavegacao/style.scss */
+.midTelaNav ul li span:after {
+  content: '';
+  background: url(assets/images/ISVOR01_img_linha_menu.png);
+  position: absolute;
+  width: 2px;
+  height: 52px;
+  top: 0;
+  right: -1px;
+  opacity: .5;
+}
+/* line 119, ../../sass/resources/telaNavegacao/style.scss */
+.midTelaNav .modOb {
+  position: relative;
+  background: #da3716;
+}
+/* line 124, ../../sass/resources/telaNavegacao/style.scss */
+.midTelaNav .modOb:after {
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  left: 50%;
+  display: block;
+  width: 0;
+  margin-left: -6px;
+  content: '';
+  border-width: 0 6px 6px;
+  border-style: solid;
+  border-color: #da3716 transparent;
+}
+/* line 143, ../../sass/resources/telaNavegacao/style.scss */
+.midTelaNav .modOp {
+  position: relative;
+  background: #b32e1b;
+}
+/* line 148, ../../sass/resources/telaNavegacao/style.scss */
+.midTelaNav .modOp:after {
+  position: absolute;
+  z-index: 1;
+  top: -7px;
+  left: 50%;
+  display: block;
+  width: 0;
+  margin-left: -8px;
+  content: '';
+  border-width: 0 8px 8px;
+  border-style: solid;
+  border-color: #b32e1b transparent;
+}
+/* line 169, ../../sass/resources/telaNavegacao/style.scss */
+.midTelaNav .modOp.modFinalizado, .midTelaNav .modOb.modFinalizado {
+  background: #5a160c;
+}
+/* line 172, ../../sass/resources/telaNavegacao/style.scss */
+.midTelaNav .modOp.modFinalizado:after, .midTelaNav .modOb.modFinalizado:after {
+  border-color: #5A160C transparent;
+}
+/* line 178, ../../sass/resources/telaNavegacao/style.scss */
+.midTelaNav .modOp.modAtual,
+.midTelaNav .modOb.modAtual {
+  background: #fc7100;
+}
+/* line 182, ../../sass/resources/telaNavegacao/style.scss */
+.midTelaNav .modOp.modAtual:before,
+.midTelaNav .modOb.modAtual:before {
+  position: absolute;
+  z-index: 1;
+  bottom: -10px;
+  left: 50%;
+  display: block;
+  top: initial;
+  width: 0;
+  margin-left: -8px;
+  content: '';
+  border-width: 8px 8px 0;
+  border-style: solid;
+  border-color: #49160F transparent;
+}
+/* line 200, ../../sass/resources/telaNavegacao/style.scss */
+.midTelaNav .modOp.modAtual:after,
+.midTelaNav .modOb.modAtual:after {
+  position: absolute;
+  z-index: 1;
+  top: 52px !important;
+  left: 50%;
+  display: block;
+  top: initial;
+  width: 0;
+  margin-left: -8px;
+  content: '';
+  border-width: 8px 8px 0;
+  border-style: solid;
+  border-color: #fc7100 transparent;
+}
+
+/* line 222, ../../sass/resources/telaNavegacao/style.scss */
+.modOp.modAtual.modFinalizado, .modOb.modAtual.modFinalizado {
+  background: #5a160c;
+}
+/* line 226, ../../sass/resources/telaNavegacao/style.scss */
+.modOp.modAtual.modFinalizado span:before, .modOb.modAtual.modFinalizado span:before {
+  content: '';
+  position: absolute;
+  height: 6px;
+  width: 100%;
+  bottom: 0;
+  right: 0px;
+  background-color: #fc7100;
+}
+
+/* line 238, ../../sass/resources/telaNavegacao/style.scss */
+.midTelaNav.midNavtutorial {
+  position: absolute;
+}
+/* line 242, ../../sass/resources/telaNavegacao/style.scss */
+.midTelaNav.midNavtutorial ul li {
+  cursor: default;
+}
+
+/* line 249, ../../sass/resources/telaNavegacao/style.scss */
+.bottomTelaNav {
+  background: #ccc;
+  font-family: helvetica, sans-serif;
+  height: 140px;
+}
+/* line 255, ../../sass/resources/telaNavegacao/style.scss */
+.bottomTelaNav .modulo {
+  position: absolute;
+  display: none;
+  width: 100%;
+  height: 140px;
+}
+/* line 263, ../../sass/resources/telaNavegacao/style.scss */
+.bottomTelaNav .modulo ul li {
+  font-size: 14px;
+}
+/* line 268, ../../sass/resources/telaNavegacao/style.scss */
+.bottomTelaNav .modulo h1 {
+  margin: 0;
+  color: #5a160c;
+  font-size: 17px;
+}
+/* line 280, ../../sass/resources/telaNavegacao/style.scss */
+.bottomTelaNav .modulo.d1 h1 {
+  margin: 0;
+  color: #5a160c;
+  font-size: 17px;
+  float: left;
+  margin-right: 63px;
+  margin-left: 32px;
+  margin-top: 50px;
+}
+/* line 290, ../../sass/resources/telaNavegacao/style.scss */
+.bottomTelaNav .modulo.d1 ul {
+  color: #333;
+  padding: 0;
+  margin: 0;
+  float: left;
+  margin-top: 30px;
+  list-style-type: square;
+}
+/* line 298, ../../sass/resources/telaNavegacao/style.scss */
+.bottomTelaNav .modulo.d1 ul li {
+  padding: 5px 0;
+}
+/* line 308, ../../sass/resources/telaNavegacao/style.scss */
+.bottomTelaNav .modulo.d2 h1 {
+  margin-top: 23px;
+  margin-left: 32px;
+}
+/* line 316, ../../sass/resources/telaNavegacao/style.scss */
+.bottomTelaNav .modulo.d2 ul {
+  color: #333;
+  padding: 0;
+  margin: 0;
+  float: left;
+  margin-top: 5px;
+  margin-left: 50px;
+  position: relative;
+  list-style-type: square;
+  width: 594px;
+}
+/* line 327, ../../sass/resources/telaNavegacao/style.scss */
+.bottomTelaNav .modulo.d2 ul li {
+  padding: 5px 0;
+}
+
+/* line 339, ../../sass/resources/telaNavegacao/style.scss */
+.btAcessoMod {
+  background-color: #fff;
+  position: absolute;
+  right: 47px;
+  bottom: 38%;
+  height: 32px;
+  line-height: 32px;
+  width: 205px;
+  text-align: center;
+  color: #942314;
+  font-weight: bold;
+  box-shadow: -1px 2px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+/* line 354, ../../sass/resources/telaNavegacao/style.scss */
+.btAcessoMod:after {
+  content: '';
+  position: absolute;
+  height: 32px;
+  width: 32px;
+  background-color: #942314;
+  right: -32px;
+}
+/* line 364, ../../sass/resources/telaNavegacao/style.scss */
+.btAcessoMod:before {
+  content: '';
+  position: absolute;
+  height: 22px;
+  width: 13px;
+  background: url(assets/images/icons/ISVOR01_icone_avancar_gde.png) no-repeat;
+  right: -24px;
+  top: 5px;
+  z-index: 1;
+  -webkit-animation: pulsate 1s ease-out;
+  -webkit-animation-iteration-count: infinite;
+}
+/* line 380, ../../sass/resources/telaNavegacao/style.scss */
+.btAcessoMod:hover:after {
+  background-color: #a13a2c;
+}
+
+/* line 387, ../../sass/resources/telaNavegacao/style.scss */
+.btAcessoMod.btModTut {
+  bottom: initial;
+  right: initial;
+  cursor: default;
+  font-family: helvetica, sans-serif;
+}
+/* line 392, ../../sass/resources/telaNavegacao/style.scss */
+.btAcessoMod.btModTut:before {
+  -webkit-animation: initial;
+  -webkit-animation-iteration-count: initial;
+}
+/* line 397, ../../sass/resources/telaNavegacao/style.scss */
+.btAcessoMod.btModTut:hover:after {
+  background-color: #942314;
+}
+
+/* line 404, ../../sass/resources/telaNavegacao/style.scss */
+.maskTut {
+  background: rgba(255, 255, 255, 0.75);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  display: none;
+}
+
+/* line 416, ../../sass/resources/telaNavegacao/style.scss */
+.telaTuto {
+  position: absolute;
+  background: #fff;
+  font-family: helvetica, sans-serif;
+  box-shadow: 0px 2px 18px rgba(100, 100, 100, 0.5);
+  color: #333;
+}
+/* line 425, ../../sass/resources/telaNavegacao/style.scss */
+.telaTuto .btFechar {
+  content: '';
+  position: absolute;
+  height: 35px;
+  width: 34px;
+  background-color: #942314;
+  right: 0px;
+  top: 0;
+  cursor: pointer;
+}
+/* line 438, ../../sass/resources/telaNavegacao/style.scss */
+.telaTuto .btFechar:hover {
+  background-color: #a13a2c;
+}
+/* line 442, ../../sass/resources/telaNavegacao/style.scss */
+.telaTuto .btFechar:before {
+  content: 'X';
+  position: absolute;
+  height: 22px;
+  width: 13px;
+  right: 13px;
+  top: 2px;
+  color: #fff;
+  z-index: 1;
+  font-weight: bold;
+  font-size: 28px;
+}
+/* line 459, ../../sass/resources/telaNavegacao/style.scss */
+.telaTuto .btVoltarTutorial {
+  position: absolute;
+  bottom: 0;
+  left: 60px;
+  height: 36px;
+  font-size: 14px;
+  cursor: pointer;
+}
+/* line 471, ../../sass/resources/telaNavegacao/style.scss */
+.telaTuto .btVoltarTutorial:before {
+  content: '';
+  position: absolute;
+  height: 22px;
+  width: 13px;
+  background: url(assets/images/btn_voltar_active.png) no-repeat;
+  left: -32px;
+  top: -3px;
+  z-index: 1;
+}
+/* line 486, ../../sass/resources/telaNavegacao/style.scss */
+.telaTuto .btVoltarTutorial:hover:before {
+  background: url(assets/images/btn_voltar_hover.png) no-repeat;
+}
+/* line 493, ../../sass/resources/telaNavegacao/style.scss */
+.telaTuto .btAvTutorial {
+  position: absolute;
+  bottom: 0;
+  width: 185px;
+  right: 0;
+  height: 36px;
+  font-size: 14px;
+  cursor: pointer;
+}
+/* line 504, ../../sass/resources/telaNavegacao/style.scss */
+.telaTuto .btAvTutorial:after {
+  content: '';
+  position: absolute;
+  height: 32px;
+  width: 32px;
+  background-color: #942314;
+  right: 18px;
+  bottom: 13px;
+}
+/* line 515, ../../sass/resources/telaNavegacao/style.scss */
+.telaTuto .btAvTutorial:before {
+  content: '';
+  position: absolute;
+  height: 22px;
+  width: 13px;
+  background: url(assets/images/icons/ISVOR01_icone_avancar_gde.png) no-repeat;
+  right: 26px;
+  top: -3px;
+  z-index: 1;
+}
+/* line 530, ../../sass/resources/telaNavegacao/style.scss */
+.telaTuto .btAvTutorial:hover:after {
+  background-color: #a13a2c;
+}
+
+/* line 539, ../../sass/resources/telaNavegacao/style.scss */
+.telaTuto.passo1 {
+  width: 458px;
+  height: 305px;
+}
+/* line 546, ../../sass/resources/telaNavegacao/style.scss */
+.telaTuto.passo1 p {
+  text-align: center;
+  line-height: 25px;
+  margin-top: 54px;
+}
+
+/* line 558, ../../sass/resources/telaNavegacao/style.scss */
+.telaTuto.passo2 {
+  width: 458px;
+  height: 175px;
+}
+/* line 560, ../../sass/resources/telaNavegacao/style.scss */
+.telaTuto.passo2:after {
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-width: 15px 15px 0;
+  border-color: #FFFFFF transparent;
+  display: block;
+  width: 0;
+  z-index: 1;
+  bottom: -15px;
+  left: 18px;
+}
+/* line 575, ../../sass/resources/telaNavegacao/style.scss */
+.telaTuto.passo2 p {
+  text-align: center;
+  line-height: 25px;
+  margin-top: 54px;
+}
+
+/* line 585, ../../sass/resources/telaNavegacao/style.scss */
+.telaTuto.passo3 {
+  width: 360px;
+  height: 215px;
+}
+/* line 592, ../../sass/resources/telaNavegacao/style.scss */
+.telaTuto.passo3 p {
+  text-align: center;
+  line-height: 25px;
+  margin-top: 54px;
+}
+
+/* line 602, ../../sass/resources/telaNavegacao/style.scss */
+.telaTuto.passo4 {
+  width: 290px;
+  height: 124px;
+}
+/* line 606, ../../sass/resources/telaNavegacao/style.scss */
+.telaTuto.passo4:after {
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-width: 15px 15px 0;
+  border-color: #FFFFFF transparent;
+  display: block;
+  width: 0;
+  z-index: 1;
+  bottom: -15px;
+  right: 25px;
+}
+/* line 621, ../../sass/resources/telaNavegacao/style.scss */
+.telaTuto.passo4 p {
+  text-align: center;
+  line-height: 25px;
+  margin-top: 36px;
+}
+
+/* line 631, ../../sass/resources/telaNavegacao/style.scss */
+.telaTuto.passo5, .telaTuto.passo6 {
+  width: 366px;
+  height: 258px;
+}
+/* line 638, ../../sass/resources/telaNavegacao/style.scss */
+.telaTuto.passo5 p, .telaTuto.passo6 p {
+  text-align: center;
+  line-height: 25px;
+  margin-top: 54px;
+}
+
+/* line 648, ../../sass/resources/telaNavegacao/style.scss */
+.telaTuto.passo7 {
+  width: 500px;
+  height: 383px;
+}
+/* line 653, ../../sass/resources/telaNavegacao/style.scss */
+.telaTuto.passo7 img {
+  margin-left: 190px;
+  margin-top: 28px;
+}
+/* line 659, ../../sass/resources/telaNavegacao/style.scss */
+.telaTuto.passo7 h3 {
+  text-align: center;
+  font-size: 20px;
+}
+/* line 665, ../../sass/resources/telaNavegacao/style.scss */
+.telaTuto.passo7 p {
+  text-align: center;
+  line-height: 25px;
+}
+
+/* line 675, ../../sass/resources/telaNavegacao/style.scss */
+.telaTuto.passo8 {
+  width: 500px;
+  height: 380px;
+}
+/* line 679, ../../sass/resources/telaNavegacao/style.scss */
+.telaTuto.passo8 img {
+  margin-left: 158px;
+  margin-top: 28px;
+}
+/* line 685, ../../sass/resources/telaNavegacao/style.scss */
+.telaTuto.passo8 h3 {
+  text-align: center;
+  font-size: 20px;
+}
+/* line 691, ../../sass/resources/telaNavegacao/style.scss */
+.telaTuto.passo8 p {
+  text-align: center;
+  line-height: 40px;
+}

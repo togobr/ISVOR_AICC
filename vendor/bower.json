@@ -1,0 +1,26 @@
+{
+  "name": "Comenius - Editor",
+  "version": "0.0.1",
+  "dependencies": {
+    "modernizr": "^2.6.2",
+    "jquery": "^1.9",
+    "underscore": "^1.4.4",
+    "backbone": "1.1.0",
+    "mustache": "^0.7.3",
+    "bootstrap": "^3.0.2",
+    "jquery.ui": "1.10.4",
+    "requirejs": "2.1.9",
+    "almond": "0.2.9",
+    "require-plugins": "https://github.com/millermedeiros/requirejs-plugins.git",
+    "requirejs-text": "^2.0.5",
+    "namespace": "https://github.com/diogoreus/requirejs-namespace-plugin.git",
+    "swipe": "https://github.com/diogoreus/Swipe.git",
+    "tooltipster": "https://github.com/iamceege/tooltipster.git",
+    "videojs": "https://github.com/videojs/video.js.git",
+    "videojs-youtube": "https://github.com/eXon/videojs-youtube.git",
+    "videojs-vimeo": "https://github.com/eXon/videojs-vimeo.git",
+    "jquery-zoom": "https://github.com/jackmoore/zoom.git",
+    "handlebars": "~2.0.0"
+  },
+  "devDependencies": {}
+}

@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('assets/fonts/glyphicon/glyphicons-halflings-regular.eot');
+  src: url('assets/fonts/glyphicon/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('assets/fonts/glyphicon/glyphicons-halflings-regular.woff') format('woff'), url('assets/fonts/glyphicon/glyphicons-halflings-regular.ttf') format('truetype'), url('assets/fonts/glyphicon/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+}
+
+.glyphicon {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  -webkit-font-smoothing: antialiased;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+}
+
+.glyphicon-picture:before {
+  content: "\e060";
+}
+
+.glyphicon-facetime-video:before {
+  content: "\e059";
+}
+
+.glyphicon-edit:before {
+  content: "\e065";
+}
+
+.glyphicon-music:before {
+  content: "\e002";
+}

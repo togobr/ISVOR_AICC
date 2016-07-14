@@ -1,0 +1,18 @@
+{
+	"name": "Applique_Vendor",
+	"title": "Vendor",
+	"version": "0.5.0",
+	"homepage": "http://www.mobiliza.com.br",
+	"author": {
+		"name": "Mobiliza"
+	},
+	"dependencies": {},
+	"devDependencies": {
+		"grunt": "~0.4.5",
+		"grunt-contrib-requirejs": "~0.4.4",
+		"grunt-contrib-watch": "~0.6.1"
+	},
+	"engines": {
+		"node": ">=0.8.0"
+	}
+}

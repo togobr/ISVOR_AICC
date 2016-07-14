@@ -1,0 +1,28 @@
+{
+	"defaults": {
+		"template": "caixaDestaque",
+		"type": "atencao",
+		"title": "Atenção",
+		"content": "Lorem ipsum Ut exercitation deserunt velit fugiat elit quis nostrud id irure ullamco Excepteur sint sit est consequat exercitation sit.",
+		"styleObj": {
+			"position": "absolute",
+			"width": "283px",
+			"top": "36px",
+			"left": "51px"
+		}
+	},
+
+	"validators": [
+		"_styleObj.height === undefined",
+		"_template === caixaDestaque"
+	],
+
+	"editor": {
+		"restrictions": {
+			"width": true,
+			"height": false,
+			"top": true,
+			"left": true
+		}
+	}
+}
