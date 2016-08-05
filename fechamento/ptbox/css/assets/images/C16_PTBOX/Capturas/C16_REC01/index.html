@@ -1,0 +1,53 @@
+<html><head> 
+<title></title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="expires" content="0">
+
+</head> 
+<body  style="background:transparent; border: none !important; margin:0;">
+
+<div style="width:900px;height:600px;position:relative;">
+<div style="position:absolute; z-index:1;">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="900" height="600">
+<param name="movie" value="C16_REC01.swf" />
+<param name="quality" value="high" />
+<param name="wmode" value="transparent">
+<param name="FlashVars" value="">
+<param name="allowScriptAccess" value="always" />
+<embed FlashVars="" src="./C16_REC01.swf" class="C16_REC01" quality="high" type="application/x-shockwave-flash" width="900" height="600" wmode="transparent" allowTransparency="true" allowScriptAccess="always" pluginspage="http://www.macromedia.com/go/getflashplayer" />
+</object>
+</div>
+<div style="position:relative; z-index:2;">
+</div>
+</div>
+
+<script>
+
+	var vistos_array ='';
+	function getFlashBts(vistos_array){
+
+		vistos_array = vistos_array;
+		 window.parent.$(window.parent.document).trigger('getBts',[vistos_array]);
+	}
+
+	function destravaSlide(){
+		 window.parent.$(window.parent.document).trigger('destravaSlide');
+	}
+
+	function getMyVar()
+    {
+
+        return vistos_array;
+    }
+
+    function bodyReady(){
+    	window.parent.$(window.parent.document).trigger('bodyFoi');
+    }
+
+    bodyReady();
+</script>
+
+ 
+</body></html>
+

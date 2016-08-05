@@ -1,0 +1,2218 @@
+{  
+
+   "_course_id":"546b6a16ad4130810c000007",
+   "hasContent":true,
+   "type":"Aula",
+   "name":"Introdução",
+   "_id":"546b6a2cad4130810c000009",
+   "updatedAt":"2014-11-18T15:47:58.164Z",
+   "courseName":"E.A.SY: Ferramenta de diagnóstico",
+   "credito":"Créditos",
+   "titleCredito":"",
+   "contentCredito": "<span style='color: rgb(150, 36, 20);'>Gerência</span><br><b>Alejandro Gonzales</b><br><br><span style='color: rgb(150, 36, 20);'>Supervisão do Currículo</span><br><b>Rogério Machado</b>",
+   "numeroModuloTop": "1.",
+   "tituloMenu": "Menu - Indice",
+   "mod1":"Instruções Básicas",
+   "mod2":"Configurações",
+   "mod3":"PT-Box HARDWARE",
+   "mod4":"Opções Offline e Online",
+   "mod5":"Principais funcionalidades On-line",
+   "travaSlides":true,
+   "slides":[  
+ 
+
+      {
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Bem-vindo ao curso!",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+             {
+              "template":"capa",
+              "order":1,
+              "logoCapa": "css/assets/images/ISVOR01_CNHi_logo_capa.png",
+              "imagemCapa" : "css/assets/images/C15_EasyWeb/C15_Capa.png",
+              "btnCapaTexto" : "Clique aqui para começar",
+              "tituloCapa": "Equipamento E.A.SY.",
+              "content": "Bem-vindo ao curso!",
+              "animado":true,
+              "srcAnima":"css/assets/capas/C16_capaPiloto.swf",
+              "tempoAnima":6
+           }
+
+       
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Equipamento E.A.SY.Acesso ao sistema E.A.SYAcesso ao sistema E.A.SYAcesso ao sistema E.A.SY",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+            {
+              "template":"capa",
+              "order":1,
+              "logoCapa": "css/assets/images/ISVOR01_CNHi_logo_capa.png",
+              "imagemCapa" : "css/assets/images/C15_EasyWeb/C15_Capa.png",
+              "btnCapaTexto" : "Clique aqui para avançar",
+              "tituloCapa": "Equipamento E.A.SY.",
+              "content": "Bem-vindo ao curso!",
+              "animado":true,
+              "srcAnima":"css/assets/capas/C16_introPiloto.swf",
+              "tempoAnima":4
+           }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+
+
+
+      {
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Equipamento E.A.SY.Acesso ao sistema E.A.SYAcesso ao sistema E.A.SYAcesso ao sistema E.A.SY",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+            {  
+              
+               "template":"telaNavegacao",
+               "order":1
+
+            }
+       
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {
+         "_id":"54b535e76e98656c0d000003",
+         "template":"slideIntro",
+         "name":"Equipamento ECI",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[
+
+
+            {  
+               "_id":"54b535ec6e98656c0d000006",
+               "template":"imagem",
+               "order":0,
+               "styleObj":{  
+                  "width":"899px",
+                  "height":"484px",
+                  "left":"0px",
+                  "top":"0px",
+                  "position":"absolute"
+               },
+               "baseImg":"",
+               "src":"css/assets/images/C16_PTBOX/C16_img01.png",
+               "imgHeight":185,
+               "legend":{  
+                  "active":false,
+                  "content":"Teste : Teste images"
+               },
+               "border":false,
+               "_course_id":"546b6a16ad4130810c000007",
+               "slide":0,
+               "index":3,
+               "id":"imagem1",
+               "class":"imagem",
+               "style":"width:283px;height:212px;left:51.65625px;top:245px;position:absolute;"
+            },
+
+             {
+               "_id":"54b535e86e98656c0d000004",
+               "template":"texto",
+               "order":1,
+               "styleObj":{  
+                  "left":"95px",
+                  "top":"85px",
+                  "width":"320px",
+                  "position":"absolute",
+                  "z-index":"10"
+               },
+               "content":"<span style='font-size:18px; color:#ffffff; '><b>Equipamento PT-Box</b></span>",
+               "normal":{  
+                  "active":true,
+                  "subType":"semFundo"
+               },
+               "balao":{  
+                  "active":false,
+                  "subType":"left"
+               },
+               "titulo":{  
+                  "active":false,
+                  "subType":"primario"
+               },
+               "_course_id":"546b6a16ad4130810c000007",
+               "slide":0,
+               "index":1,
+               "id":"texto1",
+               "class":"texto",
+               "style":"left:51px;top:36px;width:284px;position:absolute;"
+            },
+
+            {
+               "_id":"54b535e86e98656c0d000004",
+               "template":"texto",
+               "order":2,
+               "styleObj":{  
+                  "left":"95px",
+                  "top":"125px",
+                  "width":"270px",
+                  "position":"absolute",
+                  "z-index":"10"
+               },
+               "content":"<span style='color:#ffffff; '>O equipamento PT-Box é uma ferramenta de diagnose utilizada para análise dos sistemas de gerenciamento eletrônico de motores para grupos geradores.<br/><br/>Com esta ferramenta é possível analisar o comportamento dos sistemas de injeção eletrônica, verificar se existem ou existiram erros (falhas) durante o seu funcionamento, além da análise dinâmica em testes de funcionamento e geração e emissão de relatórios. </span> ",
+               "normal":{  
+                  "active":true,
+                  "subType":"semFundo"
+               },
+               "balao":{  
+                  "active":false,
+                  "subType":"left"
+               },
+               "titulo":{  
+                  "active":false,
+                  "subType":"primario"
+               },
+               "_course_id":"546b6a16ad4130810c000007",
+               "slide":0,
+               "index":1,
+               "id":"texto1",
+               "class":"texto",
+               "style":"left:51px;top:36px;width:284px;position:absolute;"
+            }
+
+           
+
+            
+
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {
+         "_id":"54b535e76e98656c0d000003",
+         "template":"",
+         "name":"Acesso ao PT-Box",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+             {  
+              
+               "template":"captura",
+               "order":1,
+               "captura": "css/assets/images/C16_PTBOX/Capturas/Captura01_acessoPTBOX/Captura01_acessoPTBOX.htm",
+               "title": "Acesso ao PT-Box",
+               "tituloCapturaStyle": "left:-1px; top:12px; position:absolute;",
+               "textoCapturaStyle": "left:-1px; top:139px; width:364px; position:absolute;",
+               "content": "Veja na simulação a seguir como é realizado o acesso ao programa PT-Box por meio de seu computador. ",
+               "imagem": "css/assets/images/C16_PTBOX/C16_captura01.png",
+               "contentBtn": "Clique aqui para iniciar a simulação"
+
+            }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Atualizador EAUS",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+             {  
+              
+               "template":"captura",
+               "order":1,
+               "captura": "css/assets/images/C16_PTBOX/Capturas/Captura03_EAUS_PTBOX/Captura03_EAUS_PTBOX.htm",
+               "title": "Atualizador EAUS",
+               "tituloCapturaStyle": "left:22px; top:-38px; position:absolute;",
+               "textoCapturaStyle": "left:20px; top:97px; width:332px; position:absolute;",
+               "content": "O atualizador EAUS deve ser instalado em seu computador para realizar as atualizações do equipamento PT-Box.<br/><br/>Para efetuar a atualização, é necessário que o computador esteja conectado à internet, preferencialmente via cabo, devido à estabilidade e velocidade desse tipo de conexão.<br/><br/>Na simulação a seguir, você verá como realizar a atualização do PT-Box através do atualizador EAUS.",
+               "imagem": "css/assets/images/C16_PTBOX/C16_captura02.png",
+               "contentBtn": "Clique aqui para iniciar a simulação"
+
+            }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Acesso ao manual do usuário",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+             {  
+              
+               "template":"captura",
+               "order":1,
+               "captura": "css/assets/images/C16_PTBOX/Capturas/Captura08_acesso_manual_usuario/Captura08_acesso_manual_usuario.htm",
+               "title": "Acesso ao manual do usuário",
+               "tituloCapturaStyle": "left:22px; top:26px; position:absolute;",
+               "textoCapturaStyle": "left:20px; top:161px; width:332px; position:absolute;",
+               "content": "O programa PT-Box apresenta um manual de instruções com todas as informações necessárias para operá-lo. Veja na simulação a seguir como acessar a esse manual. ",
+               "imagem": "css/assets/images/C16_PTBOX/C16_captura03.png",
+               "contentBtn": "Clique aqui para iniciar a simulação"
+
+            }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Atividade 01",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+              {
+                    "template": "atividade",
+                    "title": "Qual a função do ícone “chave de boca e martelo” no menu lateral esquerdo da tela inicial do PT-Box?",
+                    "parametros": {
+                        "gabarito": [2],
+                        "tentativas": "1"
+                    },
+                    "alternativas": [{
+                            "numberAlt": 0,
+                            "alt": "Sair do programa.",
+                            "checked": false
+                        },
+
+                        {
+                            "numberAlt": 1,
+                            "alt": "Acessar ao manual do usuário.",
+                            "checked": false
+                        },
+                        {
+                            "numberAlt": 2,
+                            "alt": "Acessar as configurações do programa.",
+                            "checked": false
+                        },{
+                            "numberAlt": 3,
+                            "alt": "Nenhuma das alternativas anteriores.",
+                            "checked": false
+                        }
+                    ],
+                    "feedbackCerto": {
+                        "type": "respostaCerta",
+                        "title": "Resposta correta!",
+                        "textoFeed":"Você selecionou a alternativa certa."
+                    },
+                    "feedbackErrado": {
+                        "type": "respostaErrada",
+                        "title": "Resposta errada!",
+                        "textoFeed":"Veja a seguir qual é a resposta correta."
+                    },
+
+                    "feedback": {
+                        "modal": true,
+                        "circundado": true,
+                        "subType": "comNota"
+                    },
+
+                    "tipo": {
+                        "active": true,
+                        "subType": "radio"
+                    },
+
+                    "nota": {
+                        "active": true,
+                        "subType": "comNota"
+                    },
+
+                    "styleObj": {
+                        "position": "absolute",
+                        "top": "36px",
+                        "left": "37px",
+                        "width": "820px"
+                    }
+                }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Atividade 02",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+              {
+                    "template": "atividade",
+                    "title": "Qual a função do EAUS?",
+                    "parametros": {
+                        "gabarito": [1],
+                        "tentativas": "1"
+                    },
+                    "alternativas": [{
+                            "numberAlt": 0,
+                            "alt": "É um programa que permite desinstalar o PT-Box.",
+                            "checked": false
+                        },
+
+                        {
+                            "numberAlt": 1,
+                            "alt": "É um programa que permite atualizar o software do PT-Box.",
+                            "checked": false
+                        },
+                        {
+                            "numberAlt": 2,
+                            "alt": "É um programa para auxiliar o usuário em caso de dúvidas.",
+                            "checked": false
+                        },{
+                            "numberAlt": 3,
+                            "alt": "Nenhuma das alternativas anteriores.",
+                            "checked": false
+                        }
+                    ],
+                    "feedbackCerto": {
+                        "type": "respostaCerta",
+                        "title": "Resposta correta!",
+                        "textoFeed":"Você selecionou a alternativa certa."
+                    },
+                    "feedbackErrado": {
+                        "type": "respostaErrada",
+                        "title": "Resposta errada!",
+                        "textoFeed":"Veja a seguir qual é a resposta correta."
+                    },
+
+                    "feedback": {
+                        "modal": true,
+                        "circundado": true,
+                        "subType": "comNota"
+                    },
+
+                    "tipo": {
+                        "active": true,
+                        "subType": "radio"
+                    },
+
+                    "nota": {
+                        "active": true,
+                        "subType": "comNota"
+                    },
+
+                    "styleObj": {
+                        "position": "absolute",
+                        "top": "36px",
+                        "left": "37px",
+                        "width": "820px"
+                    }
+                }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+  
+      {
+         "_id":"54b535e76e98656c0d000005",
+         "template":"blank",
+         "name":"Conclusão",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+            {  
+               "template":"telaFinal",
+              "style":"background:#fff",
+              "modulo":1,
+              "animado":true,
+              "srcAnima":"css/assets/capas/C16_fechamento_m1.swf"
+            }
+       
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+
+
+
+
+      {
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Equipamento E.A.SY.Acesso ao sistema E.A.SYAcesso ao sistema E.A.SYAcesso ao sistema E.A.SY",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+            {  
+              
+               "template":"telaNavegacao",
+               "order":1
+
+            }
+       
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+
+
+
+
+
+      {
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Equipamento E.A.SY.Acesso ao sistema E.A.SYAcesso ao sistema E.A.SYAcesso ao sistema E.A.SY",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+            {  
+              
+               "template":"telaNavegacao",
+               "order":1
+
+            }
+       
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {
+         "_id":"54b535e76e98656c0d000003",
+         "template":"slideIntro",
+         "name":"Aba de configurações",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+             {  
+              
+               "template":"captura",
+               "order":1,
+               "captura": "css/assets/images/C16_PTBOX/Capturas/Captura02_configuracoes_PTBOX/Captura02_configuracoes_PTBOX.htm",
+               "title": "Aba de configurações",
+               "tituloCapturaStyle": "left:10px; top:10px; position:absolute;",
+               "textoCapturaStyle": "left:10px; top:130px; width:335px; position:absolute;",
+               "content": "Através das configurações do PT-Box, você poderá configurar as diferentes funcionalidades do programa, como a seleção do idioma e da unidade de medição. Além disso, você pode administrar a licença do PT-Box.<br/><br/>Na demonstração a seguir, você conhecerá as diferentes opções da aba de configurações presente no sistema.",
+               "imagem": "css/assets/images/C16_PTBOX/C16_captura4.png",
+               "contentBtn": "Clique aqui para iniciar a simulação"
+
+            }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Administração de licença",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+             {  
+              
+               "template":"captura",
+               "order":1,
+               "captura": "css/assets/images/C16_PTBOX/Capturas/Captura06_licenca_PTBOX/Captura06_licenca_PTBOX.htm",
+               "title": "Administração de licença",
+               "tituloCapturaStyle": "left:10px; top:10px; position:absolute;",
+               "textoCapturaStyle": "left:10px; top:130px; width:348px; position:absolute;",
+               "content": "Acessando às configurações do PT-Box, você pode acompanhar o status da licença do software e a sua validação.<br/><br/>Na demonstração a seguir, você verá como administrar a licença do PT-Box.",
+               "imagem": "css/assets/images/C16_PTBOX/C16_captura05.png",
+               "contentBtn": "Clique aqui para iniciar a simulação"
+
+            }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Seleção de idioma",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+             {  
+              
+               "template":"captura",
+               "order":1,
+               "captura": "css/assets/images/C16_PTBOX/Capturas/Captura05_idioma_PTBOX/Captura05_idioma_PTBOX.htm",
+               "title": "Seleção de idioma",
+               "tituloCapturaStyle": "left:10px; top:10px; position:absolute;",
+               "textoCapturaStyle": "left:10px; top:130px; width:348px; position:absolute;",
+               "content": "Acessando às configurações do PT-Box, você pode escolher o idioma que será utilizado no sistema.<br/><br/>Na demonstração a seguir, você verá como alterar o idioma do sistema.",
+               "imagem": "css/assets/images/C16_PTBOX/C16_captura6.png",
+               "contentBtn": "Clique aqui para iniciar a simulação"
+
+            }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Gestão ECI",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+             {  
+              
+               "template":"captura",
+               "order":1,
+               "captura": "css/assets/images/C16_PTBOX/Capturas/Captura09_Gestao_ECI/Captura09_Gestao_ECI.htm",
+               "title": "Gestão ECI",
+               "tituloCapturaStyle": "left:10px; top:10px; position:absolute;",
+               "textoCapturaStyle": "left:10px; top:130px; width:348px; position:absolute;",
+               "content": "A ECI é o hardware do PT-Box, ela faz a ligação entre o software do rastreador e a central do grupo gerador. Veja, na simulação a seguir, os detalhes relacionados à Gestão da ECI.  ",
+               "imagem": "css/assets/images/C16_PTBOX/C16_captura7.png",
+               "contentBtn": "Clique aqui para iniciar a simulação"
+
+            }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Atividade 01",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+              {
+                    "template": "atividade",
+                    "title": "Qual(is) das opções a seguir podem ser acessadas através do menu Configurações?",
+                    "parametros": {
+                        "gabarito": [3],
+                        "tentativas": "1"
+                    },
+                    "alternativas": [{
+                            "numberAlt": 0,
+                            "alt": "Administração de licença.",
+                            "checked": false
+                        },
+
+                        {
+                            "numberAlt": 1,
+                            "alt": "Seleção de idioma. ",
+                            "checked": false
+                        },
+                        {
+                            "numberAlt": 2,
+                            "alt": "Gestão ECI.",
+                            "checked": false
+                        },{
+                            "numberAlt": 3,
+                            "alt": "Todas as alternativas anteriores.",
+                            "checked": false
+                        }
+                    ],
+                    "feedbackCerto": {
+                        "type": "respostaCerta",
+                        "title": "Resposta correta!",
+                        "textoFeed":"Você selecionou a alternativa certa."
+                    },
+                    "feedbackErrado": {
+                        "type": "respostaErrada",
+                        "title": "Resposta errada!",
+                        "textoFeed":"Veja a seguir qual é a resposta correta."
+                    },
+
+                    "feedback": {
+                        "modal": true,
+                        "circundado": true,
+                        "subType": "comNota"
+                    },
+
+                    "tipo": {
+                        "active": true,
+                        "subType": "radio"
+                    },
+
+                    "nota": {
+                        "active": true,
+                        "subType": "comNota"
+                    },
+
+                    "styleObj": {
+                        "position": "absolute",
+                        "top": "36px",
+                        "left": "37px",
+                        "width": "820px"
+                    }
+                }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {
+         "_id":"54b535e76e98656c0d000006",
+         "template":"blank",
+         "ultimoModulo": true,
+         "name":"Conclusão",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+            {  
+               "template":"telaFinal",
+              "style":"background:#fff",
+              "modulo":2,
+              "animado":true,
+              "srcAnima":"css/assets/capas/C16_fechamento_m2.swf"
+            }
+       
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+
+
+
+
+      {
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Equipamento E.A.SY.Acesso ao sistema E.A.SYAcesso ao sistema E.A.SYAcesso ao sistema E.A.SY",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+            {  
+              
+               "template":"telaNavegacao",
+               "order":1
+
+            }
+       
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {
+         "_id":"54b535e76e98656c0d000003",
+         "template":"slideIntro",
+         "name":"PT-Box Hardware",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[
+
+
+            {  
+               "_id":"54b535ec6e98656c0d000006",
+               "template":"imagem",
+               "order":0,
+               "styleObj":{  
+                  "width":"619px",
+                  "height":"300px",
+                  "left":"140px",
+                  "top":"15px",
+                  "position":"absolute"
+               },
+               "baseImg":"",
+               "src":"css/assets/images/C16_PTBOX/C16_img03.png",
+               "imgHeight":185,
+               "legend":{  
+                  "active":false,
+                  "content":"Teste : Teste images"
+               },
+               "border":false,
+               "_course_id":"546b6a16ad4130810c000007",
+               "slide":0,
+               "index":3,
+               "id":"imagem1",
+               "class":"imagem",
+               "style":"width:283px;height:212px;left:51.65625px;top:245px;position:absolute;"
+            },
+
+            {  
+               "_id":"54b535ec6e98656c0d000006",
+               "template":"imagem",
+               "order":1,
+               "styleObj":{  
+                  "width":"900px",
+                  "height":"140px",
+                  "left":"0px",
+                  "top":"325px",
+                  "position":"absolute",
+                  "z-index":"0"
+               },
+               "baseImg":"",
+               "src":"css/assets/images/C16_PTBOX/C16_img02.png",
+               "imgHeight":185,
+               "legend":{  
+                  "active":false,
+                  "content":"Teste : Teste images"
+               },
+               "border":false,
+               "_course_id":"546b6a16ad4130810c000007",
+               "slide":0,
+               "index":3,
+               "id":"imagem1",
+               "class":"imagem",
+               "style":"width:283px;height:212px;left:51.65625px;top:245px;position:absolute;"
+            },
+
+
+            {
+               "_id":"54b535e86e98656c0d000004",
+               "template":"texto",
+               "order":3,
+               "styleObj":{  
+                  "left":"260px",
+                  "top":"337px",
+                  "width":"610px",
+                  "position":"absolute",
+                  "z-index":"10"
+               },
+               "content":"<span style='color: #ffffff;'>O PT-Box é o equipamento que permite a interface entre o computador (software) e o grupo gerador (motor). Essa interface tem a função de “traduzir” o que os sistemas de gerenciamento dos motores dizem para o software (instalado no computador), e este por sua vez mostra ao usuário as informações na tela do computador.<br/><br/>Ela traz muitas informações úteis, como indicações visuais de estado do motor/grupo gerador e de seu estado interno.</span>",
+               "normal":{  
+                  "active":true,
+                  "subType":"semFundo"
+               },
+               "balao":{  
+                  "active":false,
+                  "subType":"left"
+               },
+               "titulo":{  
+                  "active":false,
+                  "subType":"primario"
+               },
+               "_course_id":"546b6a16ad4130810c000007",
+               "slide":0,
+               "index":1,
+               "id":"texto1",
+               "class":"texto",
+               "style":"left:51px;top:36px;width:284px;position:absolute;"
+            },
+
+            {  
+               "_id":"54b535e86e98656c0d000004",
+               "template":"texto",
+               "order":2,
+               "styleObj":{  
+                  "left":"-45px",
+                  "top":"370px",
+                  "width":"355px",
+                  "position":"absolute",
+                  "z-index":"10"
+               },
+               "content":"<span style='color: #ffffff;'><b>PT-BOX<br/>HARDWARE</b></span>",
+               "normal":{  
+                  "active":true,
+                  "subType":"semFundo"
+               },
+               "balao":{  
+                  "active":false,
+                  "subType":"left"
+               },
+               "titulo":{  
+                  "active":true,
+                  "subType":"secundario"
+               },
+               "_course_id":"546b6a16ad4130810c000007",
+               "slide":0,
+               "index":1,
+               "id":"texto1",
+               "class":"texto",
+               "style":"left:51px;top:36px;width:284px;position:absolute;"
+            }
+
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Comunicação entre o Hardware PT-Box e o Grupo Gerador (motor)",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+
+
+
+            {  
+               "_id":"54b535e86e98656c0d000004",
+               "template":"texto",
+               "order":1,
+               "styleObj":{  
+                  "left":"20px",
+                  "top":"80px",
+                  "width":"355px",
+                  "position":"absolute",
+                  "text-align":"left"
+               },
+               "content":"<p style='color: #ffffff; text-align:left;'><b>Comunicação entre o Hardware PT-Box<br/>e o Grupo Gerador (motor)</b></p>",
+               "normal":{  
+                  "active":true,
+                  "subType":"semFundo"
+               },
+               "balao":{  
+                  "active":false,
+                  "subType":"left"
+               },
+               "titulo":{  
+                  "active":true,
+                  "subType":"secundario"
+               },
+               "_course_id":"546b6a16ad4130810c000007",
+               "slide":0,
+               "index":1,
+               "id":"texto1",
+               "class":"texto",
+               "style":"left:51px;top:36px;width:284px;position:absolute;"
+            },
+
+
+
+         {  
+               "_id":"54b535e86e98656c0d000004",
+               "template":"texto",
+               "order":2,
+               "styleObj":{  
+                  "left":"22px",
+                  "top":"213px",
+                  "width":"310px",
+                  "position":"absolute",
+                  "font-size":"14px",
+                  "line-hieght":"18px"
+               },
+               "content":"<p style='color: #ffffff; text-align:left;'>Para que o equipamento PT-Box cumpra a sua função, ele precisa ser conectado ao grupo gerador, para extrair seus dados, e também ao computador, para fornecer essas informações ao programa PT-Box.<br/><br/>Veja nas imagens as portas de ligação.</p>",
+               "normal":{  
+                  "active":true,
+                  "subType":"semFundo"
+               },
+               "balao":{  
+                  "active":false,
+                  "subType":"left"
+               },
+               "titulo":{  
+                  "active":false,
+                  "subType":"primario"
+               },
+               "_course_id":"546b6a16ad4130810c000007",
+               "slide":0,
+               "index":1,
+               "id":"texto1",
+               "class":"texto",
+               "style":"left:51px;top:36px;width:284px;position:absolute;"
+            },
+                    
+              {  
+               "_id":"54b535ec6e98656c0d000006",
+               "template":"imagem",
+               "order":3,
+               "styleObj":{  
+                  "width":"645px",
+                  "height":"481px",
+                  "left":"255px",
+                  "top":"0px",
+                  "z-index":"1 !important",
+                  "position":"absolute"
+               },
+               "baseImg":"",
+               "src":"css/assets/images/C16_PTBOX/C15_img02.png",
+               "imgHeight":185,
+               "legend":{  
+                  "active":false,
+                  "content":"Teste : Teste images"
+               },
+               "border":false,
+               "_course_id":"546b6a16ad4130810c000007",
+               "slide":0,
+               "index":3,
+               "id":"imagem1",
+               "class":"imagem",
+               "style":"width:283px;height:212px;left:51.65625px;top:245px;position:absolute;"
+            },
+                    
+              {  
+               "_id":"54b535ec6e98656c0d000006",
+               "template":"imagem",
+               "order":0,
+               "styleObj":{  
+                  "width":"645px",
+                  "height":"481px",
+                  "left":"0px",
+                  "top":"0px",
+                  "z-index":"1 !important",
+                  "position":"absolute"
+               },
+               "baseImg":"",
+               "src":"css/assets/images/C16_PTBOX/C15_img04.png",
+               "imgHeight":185,
+               "legend":{  
+                  "active":false,
+                  "content":"Teste : Teste images"
+               },
+               "border":false,
+               "_course_id":"546b6a16ad4130810c000007",
+               "slide":0,
+               "index":3,
+               "id":"imagem1",
+               "class":"imagem",
+               "style":"width:283px;height:212px;left:51.65625px;top:245px;position:absolute;"
+            }
+
+
+            
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Conexão entre PT-Box Hardware e Grupo Gerador ",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+
+
+
+
+            {  
+               "_id":"54b535e86e98656c0d000004",
+               "template":"texto",
+               "order":0,
+               "styleObj":{  
+                  "left":"30px",
+                  "top":"0px",
+                  "width":"355px",
+                  "position":"absolute",
+                  "text-align":"left"
+               },
+               "content":"<p style='text-align:left;'><b>Conexão entre PT-Box Hardware e Grupo Gerador </b>",
+               "normal":{  
+                  "active":true,
+                  "subType":"semFundo"
+               },
+               "balao":{  
+                  "active":false,
+                  "subType":"left"
+               },
+               "titulo":{  
+                  "active":true,
+                  "subType":"secundario"
+               },
+               "_course_id":"546b6a16ad4130810c000007",
+               "slide":0,
+               "index":1,
+               "id":"texto1",
+               "class":"texto",
+               "style":"left:51px;top:36px;width:284px;position:absolute;"
+            },
+
+
+
+         {  
+               "_id":"54b535e86e98656c0d000004",
+               "template":"texto",
+               "order":1,
+               "styleObj":{  
+                  "left":"30px",
+                  "top":"90px",
+                  "width":"450px",
+                  "position":"absolute",
+                  "font-size":"14px",
+                  "line-hieght":"18px"
+               },
+               "content":"<p>Para efetuar o rastreamento através do PT-Box. é necessário mudar a posição do <i>“Jump JP2”</i> de <i>“WORKING POSITION”</i> para <i>“DIAGNOSTIC POSITION”</i>, conforme demonstrado na imagem.<br/><br/>Além disso, para utilizar as opções on-line do PT-Box, é necessário conectar o Hardware ao motor. <b>Clique nos botões a seguir para visualizar o passo a passo de como é realizada essa conexão.</b></p>",
+               "normal":{  
+                  "active":true,
+                  "subType":"semFundo"
+               },
+               "balao":{  
+                  "active":false,
+                  "subType":"left"
+               },
+               "titulo":{  
+                  "active":false,
+                  "subType":"primario"
+               },
+               "_course_id":"546b6a16ad4130810c000007",
+               "slide":0,
+               "index":1,
+               "id":"texto1",
+               "class":"texto",
+               "style":"left:51px;top:36px;width:284px;position:absolute;"
+            },
+                    
+              
+                    
+              {  
+               "_id":"54b535ec6e98656c0d000006",
+               "template":"imagem",
+               "order":2,
+               "styleObj":{  
+                  "width":"381px",
+                  "height":"504px",
+                  "right":"-6px",
+                  "top":"-4px",
+                  "z-index":"1 !important",
+                  "position":"absolute"
+               },
+               "baseImg":"",
+               "src":"css/assets/images/C16_PTBOX/C16_img04.png",
+               "imgHeight":185,
+               "legend":{  
+                  "active":false,
+                  "content":"Teste : Teste images"
+               },
+               "border":false,
+               "_course_id":"546b6a16ad4130810c000007",
+               "slide":0,
+               "index":3,
+               "id":"imagem1",
+               "class":"imagem",
+               "style":"width:283px;height:212px;left:51.65625px;top:245px;position:absolute;"
+            },
+            {  
+               "_id":"54b535ff6e98656c0d00000a",
+               "template":"multimedia",
+               "order":3,
+               "styleObj":{  
+                  "left":"0px",
+                  "top":"-49px",
+                  "height":"600px",
+                  "width":"900px",
+                  "position":"absolute"
+               },
+               "src":"css/assets/images/C16_PTBOX/Capturas/C16_REC01/index.html",
+               "_course_id":"546b6a16ad4130810c000007",
+               "slide":1,
+               "index":3,
+               "id":"multimedia1",
+               "class":"multimedia",
+               "style":"left:543px;top:225px;height:208px;width:283px;position:absolute;"
+            }
+
+
+
+
+            
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+
+      {
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Luzes Spias",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+             {  
+              
+               "template":"captura",
+               "order":1,
+               "captura": "css/assets/images/C16_PTBOX/Capturas/Captura04_HDW_PTBOX/Captura04_HDW_PTBOX.htm",
+               "title": "Luzes Spias",
+               "tituloCapturaStyle": "left:-1px; top:-13px; position:absolute;",
+               "textoCapturaStyle": "left:-1px; top:110px; width:357px; position:absolute;",
+               "content": "O equipamento PT-Box (Hardware) comunica informações relacionadas ao motor através das Luzes Spias. Para saber quais são essas luzes e o que cada uma delas indica, assista à simulação a seguir. ",
+               "imagem": "css/assets/images/C16_PTBOX/C16_captura8.png",
+               "contentBtn": "Clique aqui para iniciar a simulação"
+
+            }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Atividade 01",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+              {
+                    "template": "atividade",
+                    "title": "Quais as funções dos LEDs no PT-Box?",
+                    "parametros": {
+                        "gabarito": [0],
+                        "tentativas": "1"
+                    },
+                    "alternativas": [{
+                            "numberAlt": 0,
+                            "alt": "Indicam a forma de comunicação entre o PT-Box e o motor/grupo gerador e entre o PT-Box e o computador, além de indicar erro no próprio PT-Box e alimentação para ele.",
+                            "checked": false
+                        },
+
+                        {
+                            "numberAlt": 1,
+                            "alt": "Indicam se existem falhas “Intermitentes” na memória das centrais.",
+                            "checked": false
+                        },
+                        {
+                            "numberAlt": 2,
+                            "alt": "Os LEDs servem como aviso ao usuário para que o PT-Box não seja “esquecido” dentro do gerador.",
+                            "checked": false
+                        },{
+                            "numberAlt": 3,
+                            "alt": "Indicam a necessidade de atualização do PT-Box.",
+                            "checked": false
+                        }
+                    ],
+                    "feedbackCerto": {
+                        "type": "respostaCerta",
+                        "title": "Resposta correta!",
+                        "textoFeed":"Parabéns, você selecionou a alternativa certa."
+                    },
+                    "feedbackErrado": {
+                        "type": "respostaErrada",
+                        "title": "Resposta errada!",
+                        "textoFeed":"Veja a seguir qual é a resposta correta."
+                    },
+
+                    "feedback": {
+                        "modal": true,
+                        "circundado": true,
+                        "subType": "comNota"
+                    },
+
+                    "tipo": {
+                        "active": true,
+                        "subType": "radio"
+                    },
+
+                    "nota": {
+                        "active": true,
+                        "subType": "comNota"
+                    },
+
+                    "styleObj": {
+                        "position": "absolute",
+                        "top": "36px",
+                        "left": "37px",
+                        "width": "820px"
+                    }
+                }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Atividade 02",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+              {
+                    "template": "atividade",
+                    "title": "Quais tipos de comunicação com o computador podem ser usadas pela ECI?",
+                    "parametros": {
+                        "gabarito": [0],
+                        "tentativas": "1"
+                    },
+                    "alternativas": [{
+                            "numberAlt": 0,
+                            "alt": "Porta serial (Bluetooth) e Porta USB (Cabo).",
+                            "checked": false
+                        },
+
+                        {
+                            "numberAlt": 1,
+                            "alt": "Wi-fi.",
+                            "checked": false
+                        },
+                        {
+                            "numberAlt": 2,
+                            "alt": "Via rádio.",
+                            "checked": false
+                        },{
+                            "numberAlt": 3,
+                            "alt": "Wireless.",
+                            "checked": false
+                        }
+                    ],
+                    "feedbackCerto": {
+                        "type": "respostaCerta",
+                        "title": "Resposta correta!",
+                        "textoFeed":"Parabéns, você selecionou a alternativa certa."
+                    },
+                    "feedbackErrado": {
+                        "type": "respostaErrada",
+                        "title": "Resposta errada!",
+                        "textoFeed":"Veja a seguir qual é a resposta correta."
+                    },
+
+                    "feedback": {
+                        "modal": true,
+                        "circundado": true,
+                        "subType": "comNota"
+                    },
+
+                    "tipo": {
+                        "active": true,
+                        "subType": "radio"
+                    },
+
+                    "nota": {
+                        "active": true,
+                        "subType": "comNota"
+                    },
+
+                    "styleObj": {
+                        "position": "absolute",
+                        "top": "36px",
+                        "left": "37px",
+                        "width": "820px"
+                    }
+                }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {
+         "_id":"54b535e76e98656c0d000007",
+         "template":"blank",
+         "ultimoModulo": true,
+         "name":"Conclusão",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+            {  
+               "template":"telaFinal",
+              "style":"background:#fff",
+              "modulo":3,
+              "animado":true,
+              "srcAnima":"css/assets/capas/C16_fechamento_m3.swf"
+            }
+       
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+
+
+
+
+
+
+
+
+      {
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Equipamento E.A.SY.Acesso ao sistema E.A.SYAcesso ao sistema E.A.SYAcesso ao sistema E.A.SY",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+            {  
+              
+               "template":"telaNavegacao",
+               "order":1
+
+            }
+       
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {
+         "_id":"54b535e76e98656c0d000003",
+         "template":"slideIntro",
+         "name":"Opções Off-line",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+             {  
+              
+               "template":"captura",
+               "order":1,
+               "captura": "css/assets/images/C16_PTBOX/Capturas/Captura07_opcoes_offline_PTBOX/Captura07_opcoes_offline_PTBOX.htm",
+               "title": "Opções Off-line",
+               "tituloCapturaStyle": "left:-1px; top:40px; position:absolute;",
+               "textoCapturaStyle": "left:-1px; top:160px; width:339px; position:absolute;",
+               "content": "Caso você esteja utilizando o sistema em modo Off-line, não será possível rastrear um novo motor, mas você poderá usar a opção Arquivo para verificar rastreamentos já arquivados. Na demonstração a seguir, você verá como acessar e navegar pela opção <b>Arquivo.</b>",
+               "imagem": "css/assets/images/C16_PTBOX/C16_captura9.png",
+               "contentBtn": "Clique aqui para iniciar a simulação"
+
+            }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Opções On-line: manual ou automático",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+             {  
+              
+               "template":"captura",
+               "order":1,
+               "captura": "css/assets/images/C16_PTBOX/Capturas/Captura10_Opcoes_Online/Captura10_Opcoes_Online.htm",
+               "title": "Opções On-line: manual<br/>ou automático",
+               "tituloCapturaStyle": "left:-1px; top:-50px; position:absolute;",
+               "textoCapturaStyle": "left:-1px; top:100px; width:357px; position:absolute;",
+               "content": "A opção on-line é utilizada quando o PT-Box está em comunicação com o grupo gerador/motor.<br/><br/>Depois de conectar o PT-Box Hardware ao grupo gerador, você deverá abrir o programa PT-Box em seu computador e colocá-lo em modo on-line para que seja possível realizar o rastreamento.<br/><br/>O modo on-line pode ser acionado manual ou automaticamente, conforme você observará na simulação a seguir. <br/><br/>",
+               "imagem": "css/assets/images/C16_PTBOX/C16_captura10.png",
+               "contentBtn": "Clique aqui para iniciar a simulação"
+
+            }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Atividade 01",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+              {
+                    "template": "atividade",
+                    "title": "Caso seja necessário recuperar algum relatório de rastreamento em que o grupo gerador já não está disponível, é possível recuperá-lo através do PT-Box?",
+                    "parametros": {
+                        "gabarito": [0],
+                        "tentativas": "1"
+                    },
+                    "alternativas": [{
+                            "numberAlt": 0,
+                            "alt": "Sim, os relatórios ficam salvos na opção Arquivo, na tela inicial do PT-Box.",
+                            "checked": false
+                        },
+
+                        {
+                            "numberAlt": 1,
+                            "alt": "Não, neste caso é necessário chamar o cliente até o concessionário e executar o rastreamento novamente.",
+                            "checked": false
+                        },
+                        {
+                            "numberAlt": 2,
+                            "alt": "Sim, os relatórios ficam salvos na opção Configurações, Backup.",
+                            "checked": false
+                        },{
+                            "numberAlt": 3,
+                            "alt": "Sim, porém é necessário abrir um chamado junto a FPT para pedir o código de segurança do PT-Box.",
+                            "checked": false
+                        }
+                    ],
+                    "feedbackCerto": {
+                        "type": "respostaCerta",
+                        "title": "Resposta correta!",
+                        "textoFeed":"Você selecionou a alternativa certa."
+                    },
+                    "feedbackErrado": {
+                        "type": "respostaErrada",
+                        "title": "Resposta errada!",
+                        "textoFeed":"Veja a seguir qual é a resposta correta."
+                    },
+
+                    "feedback": {
+                        "modal": true,
+                        "circundado": true,
+                        "subType": "comNota"
+                    },
+
+                    "tipo": {
+                        "active": true,
+                        "subType": "radio"
+                    },
+
+                    "nota": {
+                        "active": true,
+                        "subType": "comNota"
+                    },
+
+                    "styleObj": {
+                        "position": "absolute",
+                        "top": "36px",
+                        "left": "37px",
+                        "width": "820px"
+                    }
+                }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Atividade 02",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+              {
+                    "template": "atividade",
+                    "title": "Ao clicar no botão “comutador de ignição”, o que significa a opção EM AUTOMATICO?",
+                    "parametros": {
+                        "gabarito": [0],
+                        "tentativas": "1"
+                    },
+                    "alternativas": [{
+                            "numberAlt": 0,
+                            "alt": "Significa que, quando for necessário ligar ou desligar a chave de ignição, o PT-Box o fará automaticamente. ",
+                            "checked": false
+                        },
+
+                        {
+                            "numberAlt": 1,
+                            "alt": "Significa que o gerador em que se está trabalhando possui um motor do tipo Cursor 13.",
+                            "checked": false
+                        },
+                        {
+                            "numberAlt": 2,
+                            "alt": "Esta opção significa que se está trabalhando em um gerador com injeção EDC7.",
+                            "checked": false
+                        },{
+                            "numberAlt": 3,
+                            "alt": "Significa que, todas as vezes que for necessário ligar ou desligar a chave, o usuário terá de fazer este processo manualmente.",
+                            "checked": false
+                        }
+                    ],
+                    "feedbackCerto": {
+                        "type": "respostaCerta",
+                        "title": "Resposta correta!",
+                        "textoFeed":"Você selecionou a alternativa certa."
+                    },
+                    "feedbackErrado": {
+                        "type": "respostaErrada",
+                        "title": "Resposta errada!",
+                        "textoFeed":"Veja a seguir qual é a resposta correta."
+                    },
+
+                    "feedback": {
+                        "modal": true,
+                        "circundado": true,
+                        "subType": "comNota"
+                    },
+
+                    "tipo": {
+                        "active": true,
+                        "subType": "radio"
+                    },
+
+                    "nota": {
+                        "active": true,
+                        "subType": "comNota"
+                    },
+
+                    "styleObj": {
+                        "position": "absolute",
+                        "top": "36px",
+                        "left": "37px",
+                        "width": "820px"
+                    }
+                }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {
+         "_id":"54b535e76e98656c0d000008",
+         "template":"blank",
+         "ultimoModulo": true,
+         "name":"Conclusão",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+            {  
+               "template":"telaFinal",
+              "style":"background:#fff",
+              "modulo":4,
+              "animado":true,
+              "srcAnima":"css/assets/capas/C16_fechamento_m4.swf"
+            }
+       
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+
+
+
+
+
+
+
+      {
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Equipamento E.A.SY.Acesso ao sistema E.A.SYAcesso ao sistema E.A.SYAcesso ao sistema E.A.SY",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+            {  
+              
+               "template":"telaNavegacao",
+               "order":1
+
+            }
+       
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {
+         "_id":"54b535e76e98656c0d000003",
+         "template":"slideIntro",
+         "name":"Leitura do código de identificação",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+             {  
+              
+               "template":"captura",
+               "order":1,
+               "captura": "css/assets/images/C16_PTBOX/Capturas/Captura11_Codigo_identificacao/Captura11_Codigo_identificacao.htm",
+               "title": "Leitura do código de identificação",
+               "tituloCapturaStyle": "left:-1px; top:-80px; position:absolute;",
+               "textoCapturaStyle": "left:-1px; top:58px; width:369px; position:absolute;",
+               "content": "Depois de selecionar o motor para rastreamento, você pode realizar a leitura de seu código de identificação. Essa leitura permite acessar as informações do grupo gerador. Essas informações são importantes para saber se a central realmente pertence ao motor que está montado ou se houve alteração no software original. Se houve alteração no software, conseguimos saber a data em que foi aplicado “novo software”, o número da estação que efetuou a programação (caso seja feita na Rede de Concessionários) e a versão do software aplicado. Na demonstração a seguir, você verá como verificar esses dados através do PT-Box.",
+               "imagem": "css/assets/images/C16_PTBOX/C16_captura11.png",
+               "contentBtn": "Clique aqui para iniciar a simulação"
+
+            }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Memória de erros",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+             {  
+              
+               "template":"captura",
+               "order":1,
+               "captura": "css/assets/images/C16_PTBOX/Capturas/Captura12_Memoria_de_erros/Captura12_Memoria_de_erros.htm",
+               "title": "Memória de erros",
+               "tituloCapturaStyle": "left:-1px; top:-10px; position:absolute;",
+               "textoCapturaStyle": "left:-1px; top:135px; width:327px; position:absolute;",
+               "content": "Na opção DIAGNÓSTICO, além de fazer a leitura do código de identificação, você também pode acessar às informações da memória de erros, na qual é possível verificar os erros gravados no grupo gerador em que se está trabalhando.<br/><br/>Na simulação a seguir, você verá como acessar a esses dados no PT-Box.",
+               "imagem": "css/assets/images/C16_PTBOX/C16_captura12.png",
+               "contentBtn": "Clique aqui para iniciar a simulação"
+
+            }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Leitura de Parâmetros, seleção de parâmetros e testes de funcionamento",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+             {  
+              
+               "template":"captura",
+               "order":1,
+               "captura": "css/assets/images/C16_PTBOX/Capturas/Captura13_Parametros/Captura13_Parametros.htm",
+               "title": "Leitura de Parâmetros, seleção de parâmetros e testes de funcionamento",
+               "tituloCapturaStyle": "left:12px; top:-25px; position:absolute;",
+               "textoCapturaStyle": "left:14px; top:145px; width:342px; position:absolute;",
+               "content": "Depois de selecionar o sistema a ser rastreado, além de realizar a leitura do código de identificação e da memória de erros, também é possível realizar a leitura dos parâmetros de análise. <br/><br/>Na demonstração a seguir, você verá como acessar aos parâmetros de análises e criar novos grupos de parâmetros para testes específicos que queira realizar no grupo gerador.",
+               "imagem": "css/assets/images/C16_PTBOX/C16_captura13.png",
+               "contentBtn": "Clique aqui para iniciar a simulação"
+
+            }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Acesso aos dados memorizados pela EDC",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+             {  
+              
+               "template":"captura",
+               "order":1,
+               "captura": "css/assets/images/C16_PTBOX/Capturas/Captura14_DadosEDC/Captura14_DadosEDC.htm",
+               "title": "Acesso aos dados<br/>memorizados pela EDC",
+               "tituloCapturaStyle": "left:-1px; top:34px; position:absolute;",
+               "textoCapturaStyle": "left:-1px; top:180px; width:357px; position:absolute;",
+               "content": "Veja na simulação a seguir como acessar e salvar os dados memorizados pela EDC.",
+               "imagem": "css/assets/images/C16_PTBOX/C16_captura14.png",
+               "contentBtn": "Clique aqui para iniciar a simulação"
+
+            }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Atividade 01",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+              {
+                    "template": "atividade",
+                    "title": "Em qual opção é possível verificar a versão de software aplicada a uma central?",
+                    "parametros": {
+                        "gabarito": [2],
+                        "tentativas": "1"
+                    },
+                    "alternativas": [{
+                            "numberAlt": 0,
+                            "alt": "Na opção “TESTE”.",
+                            "checked": false
+                        },
+
+                        {
+                            "numberAlt": 1,
+                            "alt": "Na opção “FUNÇÕES ESPECÍFICAS”.",
+                            "checked": false
+                        },
+                        {
+                            "numberAlt": 2,
+                            "alt": "Na opção “DIAGNÓSTICO; LEITURA CÓDIGO DE IDENTIFICAÇÃO”.",
+                            "checked": false
+                        },{
+                            "numberAlt": 3,
+                            "alt": "Na opção “PROGRAMAÇÃO”.",
+                            "checked": false
+                        }
+                    ],
+                    "feedbackCerto": {
+                        "type": "respostaCerta",
+                        "title": "Resposta correta!",
+                        "textoFeed":"Você selecionou a alternativa certa."
+                    },
+                    "feedbackErrado": {
+                        "type": "respostaErrada",
+                        "title": "Resposta errada!",
+                        "textoFeed":"Veja a seguir qual é a resposta correta."
+                    },
+
+                    "feedback": {
+                        "modal": true,
+                        "circundado": true,
+                        "subType": "comNota"
+                    },
+
+                    "tipo": {
+                        "active": true,
+                        "subType": "radio"
+                    },
+
+                    "nota": {
+                        "active": true,
+                        "subType": "comNota"
+                    },
+
+                    "styleObj": {
+                        "position": "absolute",
+                        "top": "36px",
+                        "left": "37px",
+                        "width": "820px"
+                    }
+                }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Atividade 02",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+              {
+                    "template": "atividade",
+                    "title": "Durante a criação de um Grupo de parâmetros, é possível criar um Grupo misturando Parâmetros de Estado com Parâmetros Medíveis?",
+                    "parametros": {
+                        "gabarito": [0],
+                        "tentativas": "1"
+                    },
+                    "alternativas": [{
+                            "numberAlt": 0,
+                            "alt": "Sim",
+                            "checked": false
+                        },
+
+                        {
+                            "numberAlt": 1,
+                            "alt": "Não",
+                            "checked": false
+                        },
+                       {
+                            "numberAlt": 2,
+                            "alt": "Depende da central em que se está trabalhando.",
+                            "checked": false
+                        }
+                    ],
+                    "feedbackCerto": {
+                        "type": "respostaCerta",
+                        "title": "Resposta correta!",
+                        "textoFeed":"Você selecionou a alternativa certa."
+                    },
+                    "feedbackErrado": {
+                        "type": "respostaErrada",
+                        "title": "Resposta errada!",
+                        "textoFeed":"Veja a seguir qual é a resposta correta."
+                    },
+
+                    "feedback": {
+                        "modal": true,
+                        "circundado": true,
+                        "subType": "comNota"
+                    },
+
+                    "tipo": {
+                        "active": true,
+                        "subType": "radio"
+                    },
+
+                    "nota": {
+                        "active": true,
+                        "subType": "comNota"
+                    },
+
+                    "styleObj": {
+                        "position": "absolute",
+                        "top": "36px",
+                        "left": "37px",
+                        "width": "820px"
+                    }
+                }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Atividade 03",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+              {
+                    "template": "atividade",
+                    "title": "Qual a função do botão “AQUISIÇÃO DE PARÂMETROS”?",
+                    "parametros": {
+                        "gabarito": [1],
+                        "tentativas": "1"
+                    },
+                    "alternativas": [{
+                            "numberAlt": 0,
+                            "alt": "Criar um Grupo de parâmetros.",
+                            "checked": false
+                        },
+
+                        {
+                            "numberAlt": 1,
+                            "alt": "Fazer a configuração do tempo de teste e tempo de resposta do gráfico para fazer a aquisição dos parâmetros selecionados em teste de funcionamento.",
+                            "checked": false
+                        },
+                        {
+                            "numberAlt": 2,
+                            "alt": "Fazer a comparação entre os parâmetros do gerador e os parâmetros originais.",
+                            "checked": false
+                        }
+                    ],
+                    "feedbackCerto": {
+                        "type": "respostaCerta",
+                        "title": "Resposta correta!",
+                        "textoFeed":"Você selecionou a alternativa certa."
+                    },
+                    "feedbackErrado": {
+                        "type": "respostaErrada",
+                        "title": "Resposta errada!",
+                        "textoFeed":"Veja a seguir qual é a resposta correta."
+                    },
+
+                    "feedback": {
+                        "modal": true,
+                        "circundado": true,
+                        "subType": "comNota"
+                    },
+
+                    "tipo": {
+                        "active": true,
+                        "subType": "radio"
+                    },
+
+                    "nota": {
+                        "active": true,
+                        "subType": "comNota"
+                    },
+
+                    "styleObj": {
+                        "position": "absolute",
+                        "top": "36px",
+                        "left": "37px",
+                        "width": "820px"
+                    }
+                }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Atividade 04",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+              {
+                    "template": "atividade",
+                    "title": "É possível imprimir os DADOS MEMORIZADOS da EDC?",
+                    "parametros": {
+                        "gabarito": [0],
+                        "tentativas": "1"
+                    },
+                    "alternativas": [{
+                            "numberAlt": 0,
+                            "alt": "Sim.",
+                            "checked": false
+                        },
+
+                        {
+                            "numberAlt": 1,
+                            "alt": "Não.",
+                            "checked": false
+                        },
+                        {
+                            "numberAlt": 2,
+                            "alt": "É possível somente nos geradores novos.",
+                            "checked": false
+                        }
+                    ],
+                    "feedbackCerto": {
+                        "type": "respostaCerta",
+                        "title": "Resposta correta!",
+                        "textoFeed":"Você selecionou a alternativa certa."
+                    },
+                    "feedbackErrado": {
+                        "type": "respostaErrada",
+                        "title": "Resposta errada!",
+                        "textoFeed":"Veja a seguir qual é a resposta correta."
+                    },
+
+                    "feedback": {
+                        "modal": true,
+                        "circundado": true,
+                        "subType": "comNota"
+                    },
+
+                    "tipo": {
+                        "active": true,
+                        "subType": "radio"
+                    },
+
+                    "nota": {
+                        "active": true,
+                        "subType": "comNota"
+                    },
+
+                    "styleObj": {
+                        "position": "absolute",
+                        "top": "36px",
+                        "left": "37px",
+                        "width": "820px"
+                    }
+                }
+
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+      {
+         "_id":"54b535e76e98656c0d000009",
+         "template":"blank",
+         "ultimoModulo": true,
+         "name":"Conclusão",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+            {  
+               "template":"telaFinal",
+              "style":"background:#fff",
+              "modulo":5,
+              "animado":true,
+              "srcAnima":"css/assets/capas/C16_fechamento_m5.swf"
+            }
+       
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      },
+
+
+      {
+         "_id":"54b535e76e98656c0d000003",
+         "template":"blank",
+         "name":"Equipamento E.A.SY.Acesso ao sistema E.A.SYAcesso ao sistema E.A.SYAcesso ao sistema E.A.SY",
+         "order":0,
+         "onUse":false,
+         "updatedAt":"2015-01-13T15:12:53.157Z",
+         "resources":[  
+         
+            {  
+              
+               "template":"telaNavegacao",
+               "order":1
+
+            }
+       
+         ],
+         "index":1,
+         "id":"blank1",
+         "class":"blank",
+         "styleObj":null
+      }
+
+   ],
+
+   "index":null,
+   "id":null,
+   "styleObj":null
+}

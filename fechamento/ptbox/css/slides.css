@@ -1,0 +1,594 @@
+/* line 5, sass/slide/atividade.scss */
+.atividade {
+  -webkit-box-shadow: 4px 4px 11px rgba(50, 50, 50, 0.2);
+  -moz-box-shadow: 4px 4px 11px rgba(50, 50, 50, 0.2);
+  box-shadow: 4px 4px 11px rgba(50, 50, 50, 0.2);
+  behavior: url(PIE.htc);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #b9b8b8;
+  behavior: url(PIE.htc);
+  position: absolute;
+  top: 12%;
+  left: 20%;
+  width: 581px;
+  background: #ffffff;
+}
+
+/* line 15, sass/slide/atividade.scss */
+.pergunta_atividade {
+  background: #f7f7f7;
+  border-radius: 5px 5px 0px 0px;
+  -moz-border-radius: 5px 5px 0px 0px;
+  -webkit-border-radius: 5px 5px 0px 0px;
+  border-bottom: 1px solid #dddddf;
+  color: #82b0d8;
+}
+
+/* line 25, sass/slide/atividade.scss */
+.alternativa_atividade li {
+  list-style-type: none;
+}
+/* line 27, sass/slide/atividade.scss */
+.alternativa_atividade li label {
+  cursor: pointer;
+  display: block;
+  height: 100%;
+  margin: 10px;
+}
+/* line 35, sass/slide/atividade.scss */
+.alternativa_atividade li label input {
+  width: 25px;
+  height: 20px;
+}
+/* line 42, sass/slide/atividade.scss */
+.alternativa_atividade li.certo {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #b9b8b8;
+  behavior: url(PIE.htc);
+  border: 1px solid #528042;
+  margin: 4px;
+}
+/* line 43, sass/slide/atividade.scss */
+.alternativa_atividade li.errado {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #b9b8b8;
+  behavior: url(PIE.htc);
+  border: 1px solid #ff0000;
+  margin: 4px;
+}
+
+/* line 46, sass/slide/atividade.scss */
+.enviaResposta {
+  background: #82b0d8;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #82b0d8 0%, #92badd 50%, #7aabd6 40%, #72a6d3 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(#82b0d8 0%), color-stop(#92badd 50%), color-stop(#7aabd6 40%), color-stop(#72a6d3 100%));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #82b0d8 0%, #92badd 50%, #7aabd6 40%, #72a6d3 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #82b0d8 0%, #92badd 50%, #7aabd6 40%, #72a6d3 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #82b0d8 0%, #92badd 50%, #7aabd6 40%, #72a6d3 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #82b0d8 0%, #92badd 50%, #7aabd6 40%, #72a6d3 100%);
+  /* W3C */
+  -pie-background: linear-gradient(#92badd, #82b0d8);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #b9b8b8;
+  behavior: url(PIE.htc);
+  -webkit-box-shadow: 4px 4px 11px rgba(50, 50, 50, 0.2);
+  -moz-box-shadow: 4px 4px 11px rgba(50, 50, 50, 0.2);
+  box-shadow: 4px 4px 11px rgba(50, 50, 50, 0.2);
+  behavior: url(PIE.htc);
+  border: none;
+  height: 44px;
+  float: right;
+  cursor: pointer;
+  color: #ffffff;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+/* line 59, sass/slide/atividade.scss */
+.enviaResposta:hover {
+  background: #72a6d3;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #82b0d8 0%, #7aabd6 50%, #92badd 30%, #82b0d8 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(#82b0d8 0%), color-stop(#7aabd6 50%), color-stop(#92badd 30%), color-stop(#82b0d8 100%));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #82b0d8 0%, #7aabd6 50%, #92badd 30%, #82b0d8 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #82b0d8 0%, #7aabd6 50%, #92badd 30%, #82b0d8 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #82b0d8 0%, #7aabd6 50%, #92badd 30%, #82b0d8 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #82b0d8 0%, #7aabd6 50%, #92badd 30%, #82b0d8 100%);
+  /* W3C */
+  -pie-background: linear-gradient(#7aabd6, #72a6d3);
+}
+/* line 62, sass/slide/atividade.scss */
+.enviaResposta:active {
+  -webkit-box-shadow: inset 4px 3px 4px rgba(50, 50, 50, 0.49);
+  -moz-box-shadow: inset 4px 3px 4px rgba(50, 50, 50, 0.49);
+  box-shadow: inset 4px 3px 4px rgba(50, 50, 50, 0.49);
+}
+
+/* line 67, sass/slide/atividade.scss */
+.enviaResposta.desativado {
+  background: #9b9a9a;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #9b9a9a 0%, #9b9a9a 48%, #9b9a9a 51%, #9b9a9a 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(#9b9a9a 0%), color-stop(#9b9a9a 48%), color-stop(#9b9a9a 51%), color-stop(#9b9a9a 100%));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #9b9a9a 0%, #9b9a9a 48%, #9b9a9a 51%, #9b9a9a 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #9b9a9a 0%, #9b9a9a 48%, #9b9a9a 51%, #9b9a9a 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #9b9a9a 0%, #9b9a9a 48%, #9b9a9a 51%, #9b9a9a 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #9b9a9a 0%, #9b9a9a 48%, #9b9a9a 51%, #9b9a9a 100%);
+  /* W3C */
+  -pie-background: linear-gradient(#9b9a9a, #9b9a9a);
+  cursor: auto;
+}
+/* line 70, sass/slide/atividade.scss */
+.enviaResposta.desativado:hover {
+  background: #9b9a9a;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #9b9a9a 0%, #9b9a9a 48%, #9b9a9a 51%, #9b9a9a 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(#9b9a9a 0%), color-stop(#9b9a9a 48%), color-stop(#9b9a9a 51%), color-stop(#9b9a9a 100%));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #9b9a9a 0%, #9b9a9a 48%, #9b9a9a 51%, #9b9a9a 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #9b9a9a 0%, #9b9a9a 48%, #9b9a9a 51%, #9b9a9a 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #9b9a9a 0%, #9b9a9a 48%, #9b9a9a 51%, #9b9a9a 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #9b9a9a 0%, #9b9a9a 48%, #9b9a9a 51%, #9b9a9a 100%);
+  /* W3C */
+  -pie-background: linear-gradient(#9b9a9a, #9b9a9a);
+}
+/* line 73, sass/slide/atividade.scss */
+.enviaResposta.desativado:active {
+  background: #9b9a9a;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #9b9a9a 0%, #9b9a9a 48%, #9b9a9a 51%, #9b9a9a 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(#9b9a9a 0%), color-stop(#9b9a9a 48%), color-stop(#9b9a9a 51%), color-stop(#9b9a9a 100%));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #9b9a9a 0%, #9b9a9a 48%, #9b9a9a 51%, #9b9a9a 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #9b9a9a 0%, #9b9a9a 48%, #9b9a9a 51%, #9b9a9a 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #9b9a9a 0%, #9b9a9a 48%, #9b9a9a 51%, #9b9a9a 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #9b9a9a 0%, #9b9a9a 48%, #9b9a9a 51%, #9b9a9a 100%);
+  /* W3C */
+  -pie-background: linear-gradient(#9b9a9a, #9b9a9a);
+  box-shadow: none;
+}
+
+/* line 85, sass/slide/atividade.scss */
+.caixaResposta {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #b9b8b8;
+  behavior: url(PIE.htc);
+  background: #ffffff;
+  z-index: 10000;
+  border: solid 1px #c9cbcc;
+}
+
+/* line 93, sass/slide/atividade.scss */
+.respostaCerta h2 {
+  color: #39b454;
+}
+/* line 96, sass/slide/atividade.scss */
+.respostaCerta:after {
+  content: "";
+  position: absolute;
+  top: -39px;
+  left: -26px;
+  height: 87px;
+  width: 91px;
+  background: url("assets/images/icons-s590e5db6d4.png") no-repeat 0 -92px;
+  z-index: 10;
+}
+
+/* line 109, sass/slide/atividade.scss */
+.respostaErrada h2 {
+  color: #f14950;
+}
+/* line 112, sass/slide/atividade.scss */
+.respostaErrada:after {
+  content: "";
+  position: absolute;
+  top: -44px;
+  left: -23px;
+  height: 87px;
+  width: 91px;
+  background: url("assets/images/icons-s590e5db6d4.png") no-repeat 0 0;
+  z-index: 10;
+}
+
+/* line 124, sass/slide/atividade.scss */
+.serverMsg {
+  font-size: 10px;
+  bottom: 10px;
+  left: 10px;
+  display: none;
+  padding: 10px;
+}
+
+/* line 135, sass/slide/atividade.scss */
+.caixaFinalAtividade {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #b9b8b8;
+  behavior: url(PIE.htc);
+  -webkit-box-shadow: 4px 4px 11px rgba(50, 50, 50, 0.2);
+  -moz-box-shadow: 4px 4px 11px rgba(50, 50, 50, 0.2);
+  box-shadow: 4px 4px 11px rgba(50, 50, 50, 0.2);
+  behavior: url(PIE.htc);
+  width: 450px;
+  position: absolute;
+  background: #ffffff;
+}
+/* line 141, sass/slide/atividade.scss */
+.caixaFinalAtividade .tituloFinalAtividade {
+  font-family: Open Sans, sans-serif;
+  background: #f7f7f7;
+  border-radius: 5px 5px 0px 0px;
+  -moz-border-radius: 5px 5px 0px 0px;
+  -webkit-border-radius: 5px 5px 0px 0px;
+  border-bottom: 1px solid #dddddf;
+  color: #82b0d8;
+}
+/* line 149, sass/slide/atividade.scss */
+.caixaFinalAtividade .tituloFinalAtividade h2 {
+  margin: 0px;
+  padding: 15px 20px;
+}
+/* line 155, sass/slide/atividade.scss */
+.caixaFinalAtividade .textoFinalAtividade {
+  font-family: Open Sans, sans-serif;
+  padding: 30px;
+  font-size: 14px;
+}
+
+/* line 164, sass/slide/atividade.scss */
+.atividade.mobile {
+  -webkit-box-shadow: 4px 4px 11px rgba(0, 0, 0, 0);
+  -moz-box-shadow: 4px 4px 11px rgba(0, 0, 0, 0);
+  box-shadow: 4px 4px 11px rgba(0, 0, 0, 0);
+  behavior: url(PIE.htc);
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  border: 1px solid #b9b8b8;
+  behavior: url(PIE.htc);
+  position: relative;
+  width: 100%;
+  font-size: 12px;
+  border: 0px;
+  top: auto;
+  left: auto;
+  background: #f7f7f7;
+}
+/* line 175, sass/slide/atividade.scss */
+.atividade.mobile .pergunta_atividade {
+  border-bottom: 0px;
+  padding: 1px 15px;
+}
+/* line 178, sass/slide/atividade.scss */
+.atividade.mobile .pergunta_atividade h2 {
+  font-size: 14px;
+}
+/* line 185, sass/slide/atividade.scss */
+.atividade.mobile .alternativa_atividade li {
+  border: 1px solid #b9b8b8;
+  margin: 3px;
+}
+/* line 189, sass/slide/atividade.scss */
+.atividade.mobile .alternativa_atividade li label span {
+  font-size: 12px;
+  width: 230px;
+}
+/* line 193, sass/slide/atividade.scss */
+.atividade.mobile .alternativa_atividade li label input {
+  width: 15px;
+  height: 15px;
+}
+/* line 200, sass/slide/atividade.scss */
+.atividade.mobile .alternativa_atividade li.certo {
+  background: #83cd8d;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  border: 1px solid #b9b8b8;
+  behavior: url(PIE.htc);
+}
+/* line 201, sass/slide/atividade.scss */
+.atividade.mobile .alternativa_atividade li.errado {
+  background: #f18c90;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  border: 1px solid #b9b8b8;
+  behavior: url(PIE.htc);
+}
+/* line 205, sass/slide/atividade.scss */
+.atividade.mobile .enviaResposta {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  border: 1px solid #b9b8b8;
+  behavior: url(PIE.htc);
+  width: 185px;
+  height: 40px;
+  float: none;
+  position: relative;
+  margin: 0 auto;
+  bottom: 10px;
+  background: #82b0d8;
+}
+/* line 214, sass/slide/atividade.scss */
+.atividade.mobile .enviaResposta strong {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  padding: 9px;
+}
+
+/* line 221, sass/slide/atividade.scss */
+.caixaFinalAtividade.mobile {
+  width: 95%;
+  margin: 10px auto;
+}
+
+/* line 226, sass/slide/atividade.scss */
+.serverMsg.mobile {
+  bottom: -5px;
+}
+
+/* line 3, sass/slide/indice.scss */
+.indice {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  behavior: url(PIE.htc);
+  border: none;
+  background: #ffffff;
+}
+/* line 11, sass/slide/indice.scss */
+.indice .indiceButton {
+  position: absolute;
+  cursor: pointer;
+  top: 50%;
+  margin-top: -14px;
+}
+/* line 18, sass/slide/indice.scss */
+.indice .indiceButton.avancar {
+  border-style: solid;
+  border-width: 14px 0px 14px 16px;
+  border-color: transparent transparent transparent #82b0d8;
+  right: -10px;
+}
+/* line 23, sass/slide/indice.scss */
+.indice .indiceButton.avancar:hover {
+  border-width: 13px 0px 13px 15px;
+  border-color: transparent transparent transparent #9dc1e0;
+}
+/* line 29, sass/slide/indice.scss */
+.indice .indiceButton.voltar {
+  border-style: solid;
+  border-width: 14px 16px 14px 0;
+  border-color: transparent #82b0d8 transparent transparent;
+  left: -10px;
+}
+/* line 34, sass/slide/indice.scss */
+.indice .indiceButton.voltar:hover {
+  border-width: 13px 15px 13px 0px;
+  border-color: transparent #9dc1e0 transparent transparent;
+}
+/* line 48, sass/slide/indice.scss */
+.indice ol {
+  padding-left: 84px;
+  padding-top: 5px;
+  padding-bottom: 40px;
+  padding-right: 40px;
+  counter-reset: li;
+  /* Initiate a counter */
+  list-style: none;
+  /* Remove default numbering */
+  *list-style: decimal;
+  /* Keep using default numbering for IE6/7 */
+}
+/* line 59, sass/slide/indice.scss */
+.indice ol li {
+  line-height: 1.2em;
+  margin: 0;
+  padding: 0;
+}
+/* line 65, sass/slide/indice.scss */
+.indice ol .column1 {
+  margin-left: 0;
+}
+/* line 66, sass/slide/indice.scss */
+.indice ol .column2 {
+  margin-left: 260px;
+}
+/* line 67, sass/slide/indice.scss */
+.indice ol .column3 {
+  margin-left: 520px;
+}
+/* line 70, sass/slide/indice.scss */
+.indice ol .reset {
+  margin-top: -18.4em;
+}
+/* line 74, sass/slide/indice.scss */
+.indice ol .topicoFinalizado {
+  text-decoration: line-through;
+}
+/* line 78, sass/slide/indice.scss */
+.indice ol .topicoDesativado {
+  color: #9a9a9a;
+  pointer-events: none;
+  cursor: auto;
+}
+/* line 82, sass/slide/indice.scss */
+.indice ol .topicoDesativado:before {
+  background: darkgrey;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, darkgrey 0%, #c7c7c7 50%, #afafaf 40%, #9f9f9f 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(darkgrey 0%), color-stop(#c7c7c7 50%), color-stop(#afafaf 40%), color-stop(#9f9f9f 100%));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, darkgrey 0%, #c7c7c7 50%, #afafaf 40%, #9f9f9f 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, darkgrey 0%, #c7c7c7 50%, #afafaf 40%, #9f9f9f 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, darkgrey 0%, #c7c7c7 50%, #afafaf 40%, #9f9f9f 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #a9a9a9 0%, #c7c7c7 50%, #afafaf 40%, #9f9f9f 100%);
+  /* W3C */
+  -pie-background: linear-gradient(#c7c7c7, #a9a9a9);
+}
+/* line 86, sass/slide/indice.scss */
+.indice ol .topicoDesativado:hover:before {
+  background: darkgrey;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, darkgrey 0%, #c7c7c7 50%, #afafaf 40%, #9f9f9f 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(darkgrey 0%), color-stop(#c7c7c7 50%), color-stop(#afafaf 40%), color-stop(#9f9f9f 100%));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, darkgrey 0%, #c7c7c7 50%, #afafaf 40%, #9f9f9f 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, darkgrey 0%, #c7c7c7 50%, #afafaf 40%, #9f9f9f 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, darkgrey 0%, #c7c7c7 50%, #afafaf 40%, #9f9f9f 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #a9a9a9 0%, #c7c7c7 50%, #afafaf 40%, #9f9f9f 100%);
+  /* W3C */
+  -pie-background: linear-gradient(#c7c7c7, #a9a9a9);
+}
+/* line 91, sass/slide/indice.scss */
+.indice ol .topicoDesativado:active:before {
+  background: darkgrey;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, darkgrey 0%, #c7c7c7 50%, #afafaf 40%, #9f9f9f 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(darkgrey 0%), color-stop(#c7c7c7 50%), color-stop(#afafaf 40%), color-stop(#9f9f9f 100%));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, darkgrey 0%, #c7c7c7 50%, #afafaf 40%, #9f9f9f 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, darkgrey 0%, #c7c7c7 50%, #afafaf 40%, #9f9f9f 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, darkgrey 0%, #c7c7c7 50%, #afafaf 40%, #9f9f9f 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #a9a9a9 0%, #c7c7c7 50%, #afafaf 40%, #9f9f9f 100%);
+  /* W3C */
+  -pie-background: linear-gradient(#c7c7c7, #a9a9a9);
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+/* line 100, sass/slide/indice.scss */
+.indice ol a {
+  position: relative;
+  display: block;
+  width: 185px;
+  margin: 23px 0;
+  text-decoration: none;
+  color: #000000;
+}
+/* line 108, sass/slide/indice.scss */
+.indice ol a:before {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #b9b8b8;
+  behavior: url(PIE.htc);
+  background: #82b0d8;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #82b0d8 0%, #92badd 50%, #7aabd6 40%, #72a6d3 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(#82b0d8 0%), color-stop(#92badd 50%), color-stop(#7aabd6 40%), color-stop(#72a6d3 100%));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #82b0d8 0%, #92badd 50%, #7aabd6 40%, #72a6d3 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #82b0d8 0%, #92badd 50%, #7aabd6 40%, #72a6d3 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #82b0d8 0%, #92badd 50%, #7aabd6 40%, #72a6d3 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #82b0d8 0%, #92badd 50%, #7aabd6 40%, #72a6d3 100%);
+  /* W3C */
+  -pie-background: linear-gradient(#92badd, #82b0d8);
+  position: absolute;
+  left: -35px;
+  top: 73%;
+  border: none;
+  content: counter(li);
+  counter-increment: li;
+  margin-top: -18px;
+  height: 21px;
+  width: 21px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+  font-weight: bold;
+}
+/* line 128, sass/slide/indice.scss */
+.indice ol a:hover:before {
+  background: #72a6d3;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #72a6d3 0%, #7aabd6 50%, #92badd 40%, #82b0d8 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(#72a6d3 0%), color-stop(#7aabd6 50%), color-stop(#92badd 40%), color-stop(#82b0d8 100%));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #72a6d3 0%, #7aabd6 50%, #92badd 40%, #82b0d8 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #72a6d3 0%, #7aabd6 50%, #92badd 40%, #82b0d8 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #72a6d3 0%, #7aabd6 50%, #92badd 40%, #82b0d8 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #72a6d3 0%, #7aabd6 50%, #92badd 40%, #82b0d8 100%);
+  /* W3C */
+  -pie-background: linear-gradient(#7aabd6, #72a6d3);
+}
+/* line 133, sass/slide/indice.scss */
+.indice ol a:active:before {
+  background: #72a6d3;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #72a6d3 0%, #7aabd6 50%, #92badd 40%, #82b0d8 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(#72a6d3 0%), color-stop(#7aabd6 50%), color-stop(#92badd 40%), color-stop(#82b0d8 100%));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #72a6d3 0%, #7aabd6 50%, #92badd 40%, #82b0d8 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #72a6d3 0%, #7aabd6 50%, #92badd 40%, #82b0d8 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #72a6d3 0%, #7aabd6 50%, #92badd 40%, #82b0d8 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #72a6d3 0%, #7aabd6 50%, #92badd 40%, #82b0d8 100%);
+  /* W3C */
+  -pie-background: linear-gradient(#7aabd6, #72a6d3);
+  -webkit-box-shadow: inset 4px 3px 4px rgba(50, 50, 50, 0.49);
+  -moz-box-shadow: inset 4px 3px 4px rgba(50, 50, 50, 0.49);
+  box-shadow: inset 4px 3px 4px rgba(50, 50, 50, 0.49);
+}
